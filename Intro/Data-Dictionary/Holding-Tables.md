@@ -55,6 +55,13 @@ These table are *NOT* standard user visible, they are for administrative use onl
 | Notes	| nvarchar	| Yes	|
 | Total	| float	| Yes	|
 
+## All_MMI_Rankings$
+
+*ALL* of these columns must be present in the spreadsheet otherwise the import will fail
+
+| Attribute | DataType | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|
+
 ## BMAT_Scores$
 
 XLSX import table for BMAT Scores

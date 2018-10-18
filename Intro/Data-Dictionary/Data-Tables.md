@@ -316,3 +316,26 @@ Data for reject with feedback emails.
 | Motivation_And_Insight	| varchar	| 	| 	| 	|  |
 | Reflective_Skills	| varchar	| 	| 	| 	|  |
 | Interests_And_Achievements	| varchar	| 	| 	| 	|  |
+
+## t_Dntl_Results_Sheet
+
+Results sheet data after being imported and matched with an applicant's decision record.
+
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|
+| pidm	| int	| 	| Yes	| Yes	| t_Dntl_Decisions |
+| choice_type_no	| varchar	| 	| Yes	| Yes	| t_Dntl_Decisions |
+| prop_entry_yr	| smallint	| 	| Yes	| Yes	| t_Dntl_Decisions |
+| Full_Offer_Text	| varchar	| 	| 	| 	|  |
+| Condition_Code	| varchar	| 	| 	| 	|  |
+| Late_App	| bit	| 	| 	| 	|  |
+| IELTS	| bit	| 	| 	| 	|  |
+| RoP	| bit	| 	| 	| 	|  |
+| Full_Results	| varchar	| 	| 	| 	|  |
+| Decision	| varchar	| 	| 	| 	|  |
+| Result_Position	| varchar	| 	| 	| 	|  |
+| Quality	| varchar	| 	| 	| 	|  |
+| Notes	| varchar	| 	| 	| 	|  |
+| Received_as_CCO	| varchar	| 	| 	| 	|  |
+| Received_from	| varchar	| 	| 	| 	|  |
+| Old_Course_Code	| varchar	| 	| 	| 	|  |

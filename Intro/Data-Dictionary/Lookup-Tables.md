@@ -103,8 +103,8 @@ List Disability by Banner code
 
 List Ethnicity by Banner code
 
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
+|-----------|----------|--------------|-------|-------|
 | stvethn_code| varchar	|  | Yes | Banner code |
 | stvethn_desc| varchar	|  |  | Ethnicity|
 

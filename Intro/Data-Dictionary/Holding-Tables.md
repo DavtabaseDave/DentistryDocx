@@ -76,7 +76,8 @@ XLSX import table for DHDT_RejFdbkLetter$
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-|_.Attribute |_.DataType |_.Allow Nulls? |
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
 | PERSONAL_ID	| nvarchar	| Yes	|
 | STUDENT_ID	| nvarchar	| Yes	|
 | STUDENT_FIRST_NAME	| nvarchar	| Yes	|

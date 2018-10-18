@@ -188,6 +188,16 @@ XLSX import table for IFY applicants
 | BEEN_IN_CARE	| nvarchar	| Yes	|
 | PARENTAL_EDUCATION	| nvarchar	| Yes	|
 
+## MMI_Decisions$
+| Attribute | DataType | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|
+| ID	| float	| Yes	| 	| 
+| Student ID	| nvarchar	| Yes	| 	
+| Applicant Name	| nvarchar	| Yes	| 	| 
+| MMI Decision	| nvarchar	| Yes	| 	| 
+| CourseFor	| nvarchar	| Yes	| 	| 
+| pidm	| int	| Yes	| set by importing script	| 
+
 ## MMI_Schedule$
 
 | Attribute | DataType | Allow Nulls? |
@@ -199,6 +209,10 @@ XLSX import table for IFY applicants
 | Time	| datetime	| Yes	|
 | Colour	| nvarchar	| Yes	|
 | Number	| float	| Yes	|
+
+## Practique_finalscores$
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
 
 ## Reject_post_MMI$
 

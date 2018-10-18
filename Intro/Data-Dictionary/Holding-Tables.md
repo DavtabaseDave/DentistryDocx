@@ -4,14 +4,32 @@
 
 These table are *NOT* standard user visible, they are for administrative use only. They are intended for importing data from XLSX files before being transformed into user visible tables. Unlike normal tables they don't have Primary Keys as the data is not guaranteed to be in any "normal" form. Also, as the importer program may include the odd blank row all the fields must be null-able :(
 
-## Academic_Scores$
-
+## A2L_Passlist$
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| PIDM	| float	| Yes	|
+| Attribute | DataType | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|
+| First Name	| nvarchar	| Yes	|
+| Surname	| nvarchar	| Yes	|
+| UCAS ID	| float	| Yes	|
+| Banner ID	| nvarchar	| Yes	|
+| Route	| float	| Yes	|
+| Course Code	| nvarchar	| Yes	|
+| Programme	| nvarchar	| Yes	|
+| Offer status	| nvarchar	| Yes	|
+| Study Skills Pass	| nvarchar	| Yes	|
+| Subject Mark	| nvarchar	| Yes	|
+| A2L Pass	| nvarchar	| Yes	|
+| pidm	| int	| Yes	| set by import routine |
+
+## Academic_Scores$
+
+*ALL* of these columns must be present in the spreadsheet otherwise the import will fail
+
+| Attribute | DataType | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|
+| PIDM	| float	| Yes	| set by import routine |
 | Scorer initials	| nvarchar	| Yes	|
 | Standard entry - GCSE English	| nvarchar	| Yes	|
 | Standard entry - GCSE Maths	| nvarchar	| Yes	|

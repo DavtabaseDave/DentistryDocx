@@ -291,6 +291,24 @@ MMI Schedule after being imported and matched with an applicant record.
 | Colour	| varchar	| 	| 	| 	|  |
 | Number	| tinyint	| Yes	| 	| 	|  |
 
+## Practique_finalscores
+
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|
+| pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
+| LS_1stScorer	| tinyint	| 	| 	| 	|  |
+| LS_2ndScorer	| tinyint	| 	| 	| 	|  |
+| LS_Final	| tinyint	| 	| 	| 	|  |
+| MI_1stScore	| tinyint	| 	| 	| 	|  |
+| MI_2ndScorer	| tinyint	| 	| 	| 	|  |
+| MI_Final	| tinyint	| 	| 	| 	|  |
+| Ref_1stScorer	| tinyint	| 	| 	| 	|  |
+| Ref_2ndScorer	| tinyint	| 	| 	| 	|  |
+| Ref_Final	| tinyint	| 	| 	| 	|  |
+| IA_1stScorer	| tinyint	| 	| 	| 	|  |
+| IA_2ndScorer	| tinyint	| 	| 	| 	|  |
+| IA_Final	| tinyint	| 	| 	| 	|  |
+
 ## Reject_post_MMI
 
 Rejecttion post MMI after being imported and matched with an applicant record.

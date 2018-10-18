@@ -268,6 +268,40 @@ XLSX import table for IFY applicants
 
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
+| Selector Centre	| nvarchar	| Yes	| 	| 	|  |
+| Faculty	| nvarchar	| Yes	| 		| 	|  |
+| School	| nvarchar	| Yes	| 	| 	|  |
+| Year	| nvarchar	| Yes	| 	| 	|  |
+| Level	| nvarchar	| Yes	| 	| 	|  |
+| Fee Code	| nvarchar	| Yes	| 	| 	|  |
+| Surname	| nvarchar	| Yes	| 	| 	|  |
+| First Name	| nvarchar	| Yes	| 	| 	|  |
+| DoB	| datetime	| Yes	| 	| 	|  |
+| Student ID	| nvarchar	| Yes	| 	| 	|  |
+| UCAS ID	| nvarchar	| Yes	| 	| 	|  |
+| App Number	| nvarchar	| Yes	| 	| 	|  |
+| Course	| nvarchar	| Yes	| 	| 	|  |
+| Course Desc	| nvarchar	| Yes	| 	| 	|  |
+| Dec Code	| nvarchar	| Yes	| 	| 	|  |
+| App Reply	| nvarchar	| Yes	| 	| 	|  |
+| Conf Dec	| nvarchar	| Yes	| 	| 	|  |
+| Conf Rep	| nvarchar	| Yes	| 	| 	|  |
+| Full Offer Text	| nvarchar	| Yes	| 	| 	|  |
+| Condition Code	| nvarchar	| Yes	| 	| 	|  |
+| App date	| datetime	| Yes	| 	| 	|  |
+| Age Yesst Oct	| nvarchar	| Yes	| 	| 	|  |
+| Late App	| nvarchar	| Yes	| 	| 	|  |
+| IELTS	| nvarchar	| Yes	| 	| 	|  |
+| A2L	| nvarchar	| Yes	| 	| 	|  |
+| RoP	| nvarchar	| Yes	| 	| 	|  |
+| Full Results	| nvarchar	| Yes	| 	| 	|  |
+| Decision	| nvarchar	| Yes	| 	| 	|  |
+| Result Position	| nvarchar	| Yes	| 	| 	|  |
+| Quality	| nvarchar	| Yes	| 	| 	|  |
+| Notes	| nvarchar	| Yes	| 	| 	|  |
+| Received as CCO	| nvarchar	| Yes	| 	| 	|  |
+| Received from	| nvarchar	| Yes	| 	| 	|  |
+| Old Course Code	| nvarchar	| Yes	| 	| 	|  |
 
 ## UCAS_Scores$
 

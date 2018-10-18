@@ -121,7 +121,7 @@ List nations by Banner code
 
 Lists Banner codes for the different schools
 
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
+|-----------|----------|--------------|-------|-------|
 | stvsbgi_code	| int	|  | Yes | Banner Code |
 | stvsbgi_desc	| varchar	| Yes |  | School name |

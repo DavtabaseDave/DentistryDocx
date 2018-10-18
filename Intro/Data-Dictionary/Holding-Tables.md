@@ -4,7 +4,7 @@
 
 These table are *NOT* standard user visible, they are for administrative use only. They are intended for importing data from XLSX files before being transformed into user visible tables. Unlike normal tables they don't have Primary Keys as the data is not guaranteed to be in any "normal" form. Also, as the importer program may include the odd blank row all the fields must be null-able :(
 
-# Academic_Scores$
+## Academic_Scores$
 
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
@@ -37,7 +37,7 @@ These table are *NOT* standard user visible, they are for administrative use onl
 | Notes	| nvarchar	| Yes	|
 | Total	| float	| Yes	|
 
-# BMAT_Scores$
+## BMAT_Scores$
 
 XLSX import table for BMAT Scores
 
@@ -70,7 +70,7 @@ XLSX import table for BMAT Scores
 | Time Zone	| float	| Yes	|
 | OptionalID	| nvarchar	| Yes	|
 
-# DHDT_RejFdbkLetter$
+## DHDT_RejFdbkLetter$
 
 XLSX import table for DHDT_RejFdbkLetter$
 
@@ -94,7 +94,7 @@ XLSX import table for DHDT_RejFdbkLetter$
 | Reflective Skills	| nvarchar	| Yes	|
 | Interests and Achievements	| nvarchar	| Yes	|
 
-# IFY$
+## IFY$
 
 XLSX import table for IFY applicants
 
@@ -136,7 +136,7 @@ XLSX import table for IFY applicants
 | BEEN_IN_CARE	| nvarchar	| Yes	|
 | PARENTAL_EDUCATION	| nvarchar	| Yes	|
 
-# MMI_Schedule$
+## MMI_Schedule$
 
 |_.Attribute |_.DataType |_.Allow Nulls? |_.PKey? |_.Notes |
 | Student ID	| nvarchar	| Yes	| 	| 	|
@@ -147,7 +147,7 @@ XLSX import table for IFY applicants
 | Colour	| nvarchar	| Yes	| 	| 	|
 | Number	| float	| Yes	| 	| 	|
 
-# Reject_post_MMI$
+## Reject_post_MMI$
 
 |_.Attribute |_.DataType |_.Allow Nulls? |_.PKey? |_.Notes |
 | Candidate number	| nvarchar	| Yes	| 	| 	|
@@ -171,7 +171,7 @@ XLSX import table for IFY applicants
 | Station 8 Mean Percentile Rank	| float	| Yes	| 	| 	|
 | KAT Mean Percentile Rank	| float	| yes| | |
 
-# UCAS_Scores$
+## UCAS_Scores$
 
 |_.Attribute |_.DataType |_.Allow Nulls? |_.PKey? |_.Notes |
 | STUDENT_LAST_NAME	| nvarchar	| Yes	| 	| 	|

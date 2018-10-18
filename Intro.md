@@ -5,7 +5,7 @@
 The main applicants table containing Banner derived data and mutable
 local data
 
-|Attribute |DataType |Allow Nulls? |PKey? |FKey? |Notes |
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
 | spriden_pidm	| int	| 	| Yes	| 	|  |
 | skrsain_applicant_no	| varchar	| 	| 	| 	|  |
@@ -65,3 +65,11 @@ local data
 | VS	| timestamp	| 	| 	| 	|  |
 | CreatedDate	| smalldatetime	| 	| 	| 	|  |
 | LastUser	| varchar	| 	| 	| 	|  |
+
+
+## Decisions
+
+Contains mostly Banner derived decision data plus some local management data
+
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|

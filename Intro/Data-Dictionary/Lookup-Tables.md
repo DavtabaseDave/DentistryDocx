@@ -112,8 +112,8 @@ List Ethnicity by Banner code
 
 List nations by Banner code
 
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
+|-----------|----------|--------------|-------|-------|
 | skvssdt_sdat_code_opt_1	| varchar	|  | Yes | Banner code |
 | skvssdt_short_title	| varchar	|  |  | Nation |
 

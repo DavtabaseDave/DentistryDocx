@@ -66,7 +66,7 @@ local data
 | CreatedDate	| smalldatetime	| 	| 	| 	|  |
 | LastUser	| varchar	| 	| 	| 	|  |
 
-## Decisions
+## t\_Dent\_Decisions
 
 Contains mostly Banner derived decision data plus some local management data
 
@@ -115,3 +115,40 @@ The only other Banner derived data - Access to Leeds Running Record
 | A2L_Route	| varchar	| 	| 	| 	|  |
 | A2L_Application_Received	| datetime	| Yes	| 	| 	|  |
 | A2L_Decision_Date	| datetime	| Yes	| 	| 	|  |
+
+## t_Dntl_Academic_Scores
+
+Data imported for the different GCSE scores
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|
+| PIDM	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
+| Scorer initials	| varchar	| 		| 	| 	|  |
+| Std_entry_GCSE_English	| char	| 	| 	| 	|  |
+| Std_entry_GCSE_Maths	| char	| 	| 	| 	|  |
+| Std_entry_GCSE_Biology_or_Science	| char	| 	| 	| 	|  |
+| Std_entry_GCSE_Chemistry_or_Science	| char	| 	| 	| 	|  |
+| Std_entry_GCSE_other_1	| char	| 	| 	| 	|  |
+| Std_entry_GCSE_other_2	| char	| 	| 	| 	|  |
+| Std_entry_GCSE_other_3	| char	| 	| 	| 	|  |
+| Std_entry_GCSE_other_4	| char	| 	| 	| 	|  |
+| Std_entry_GCSE_other_5	| char	| 	| 	| 	|  |
+| Std_entry_A2	| tinyint	| 	| 	| 	|  |
+| Grad_English_GCSE	| char	| 	| 	| 	|  |
+| Grad_Maths_GCSE	| char	| 	| 	| 	|  |
+| Grad_Biology_GCSE	| char	| 	| 	| 	|  |
+| Grad_Chemistry_GCSE	| char	| 	| 	| 	|  |
+| Grad_GCSE_any_1	| char	| 	| 	| 	|  |
+| Grad_GCSE_Any_2	| char	| 	| 	| 	|  |
+| Grad_GCSE_total	| varchar	| 	| 	| 	|  |
+| Grad_Degree_name	| char	| 	| 	| 	|  |
+| Grad_Degree_classification_Degree	| char	| 	| 	| 	|  |
+| total_GCSE	| tinyint	| 	| 	| 	|  |
+| Reference_statement?	| varchar	| 	| 	| 	|  |
+| Notes	| varchar	| 	| 	| 	|  |
+| Total	| tinyint	| 	| 	| 	|  |
+
+## t_Dntl_All_MMI_Rankings
+
+Data imported for the different MMI rankings
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|

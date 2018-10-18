@@ -286,3 +286,33 @@ MMI Schedule after being imported and matched with an applicant record.
 | Time	| datetime	| 	| 	| 	|  |
 | Colour	| varchar	| 	| 	| 	|  |
 | Number	| tinyint	| Yes	| 	| 	|  |
+
+## t_Dntl_Reject_post_MMI
+
+Rejecttion post MMI after being imported and matched with an applicant record.
+
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|
+| pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
+| StudentID	| varchar	| 	| 	| 	|  |
+| Station 1 Mean Percentile Rank	| float	| 	| 	| 	|  |
+| Station 2 Mean Percentile Rank	| float	| 	| 	| 	|  |
+| Station 3 Mean Percentile Rank	| float	| 	| 	| 	|  |
+| Station 4 Mean Percentile Rank	| float	| 	| 	| 	|  |
+| Station 5 Mean Percentile Rank	| float	| 	| 	| 	|  |
+| Station 6 Mean Percentile Rank	| float	| 	| 	| 	|  |
+| Station 7 Mean Percentile Rank	| float	| 	| 	| 	|  |
+| Station 8 Mean Percentile Rank	| float	| 	| 	| 	|  |
+| Overall_Rank	| float	| 	| 	| 	|  |
+
+## t_Dntl_RejFdbkLetter
+
+Data for reject with feedback emails.
+
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|
+| pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
+| Life_And_Social	| varchar	| 	| 	| 	|  |
+| Motivation_And_Insight	| varchar	| 	| 	| 	|  |
+| Reflective_Skills	| varchar	| 	| 	| 	|  |
+| Interests_And_Achievements	| varchar	| 	| 	| 	|  |

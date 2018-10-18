@@ -83,7 +83,7 @@ Populates the "Predicted Grade" menu on the Decisions tab
 
 ## l_Quartile_Rank_Grade
 
-Populates 
+Holds common text for repeating fields in MMI common rankings
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|

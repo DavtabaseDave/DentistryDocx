@@ -100,7 +100,8 @@ XLSX import table for IFY applicants
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-|_.Attribute |_.DataType |_.Allow Nulls? |
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
 | PIDM_KEY	| float	| Yes	|
 | TERM_CODE_KEY	| float	| Yes	|
 | SELECTOR_CENTRE_CODE	| nvarchar	| Yes	|

@@ -43,7 +43,8 @@ XLSX import table for BMAT Scores
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-|_.Attribute |_.DataType |_.Allow Nulls? |
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
 | Centre Number	| nvarchar	| Yes	|
 | Centre Name	| nvarchar	| Yes	|
 | CandidateID	| float	| Yes	|

@@ -12,7 +12,7 @@ _L_Ap__: A lookup table for applications
 _L_Stv_: A lookup table that has been extracted from Banner – always followed by a four letter code, e.g. “APDC” that is shorthand (here: APplication DeCision).
 _RPT__: This denotes a stored procedure for report generation table – admissions specific ones are denoted by “RPT_Ad_”.
 _T__: Prefixes a data table– there are a few different sub-types of these dependent upon what follows the underscore.
-_T_Dntl__: This denotes *Dentistry* specific admissions tables.
+_T_Dntl__: This denotes **Dentistry** specific admissions tables.
 _V__: This denotes a View – there are a few different sub-types of these dependent upon what follows the underscore. These are frequently used to simplify the programming of the GUI by hiding joins to lookup/linking tables.
 _V_AD__: This denotes admissions specific views.
 _V_RPT__: This denotes a report view.
@@ -20,7 +20,7 @@ _X__: denotes a static table used for holding MS Word documents, PDFs, and other
 
 ## Suffixes
 
-____Prev_: This denotes the PREVious year's version of the table. This contains the data for Completed or Withdrawn Students.
+\_Prev: This denotes the PREVious year's version of the table. This contains the data for Completed or Withdrawn Students.
 $: this denotes that the table is a holding table for data imported from an XLS(X) file. The corresponding "user" table will have the usual "t_" prefix and lack the trailing dollar sign.
 
 ## Infixes, others

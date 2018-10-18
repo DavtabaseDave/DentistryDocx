@@ -278,3 +278,11 @@ As the t_Dntl_All_MMI_Rankings table may contain multiple entries for an applica
 ## t_Dntl_MMI_Schedule
 
 MMI Schedule after being imported and matched with an applicant record.
+
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|
+| pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
+| Date	| datetime	| 	| 	| 	|  |
+| Time	| datetime	| 	| 	| 	|  |
+| Colour	| varchar	| 	| 	| 	|  |
+| Number	| tinyint	| Yes	| 	| 	|  |

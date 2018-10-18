@@ -55,12 +55,38 @@ These table are *NOT* standard user visible, they are for administrative use onl
 | Notes	| nvarchar	| Yes	|
 | Total	| float	| Yes	|
 
-## All_MMI_Rankings$
+## All MMI Rankings$
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-| Attribute | DataType | Allow Nulls? | Notes |
-|-----------|----------|--------------|--------------|
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
+| Candidate_number	| nvarchar	| Yes	|
+| Candidate_Name	| nvarchar	| Yes	|
+| Course	| nvarchar	| Yes	|
+| Cohort_Ranked_In	| nvarchar	| Yes	|
+| Mean_Task	| float	| Yes	|
+| Mean_Rank_Task	| float	| Yes	|
+| Offer_Cutoff	| float	| Yes	|
+| Mean_Task_Low_score_removed	| float	| Yes	|
+| Rank_Task_low_score_removed	| float	| Yes	|
+| Rank_Difference	| float	| Yes	|
+| Station_Yes_Mean_Percentile_Rank	| float	| Yes	|
+| Station_Yes_Quartile_Rank	| nvarchar	| Yes	|
+| Station_2_Mean_Percentile_Rank	| float	| Yes	|
+| Station_2_Quartile_Rank	| nvarchar	| Yes	|
+| Station_3_Mean_Percentile_Rank	| float	| Yes	|
+| Station_3_Quartile_Rank	| nvarchar	| Yes	|
+| Station_4_Mean_Percentile_Rank	| float	| Yes	|
+| Station_4_Quartile_Rank	| nvarchar	| Yes	|
+| Station_5_Mean_Percentile_Rank	| float	| Yes	|
+| Station_5_Quartile_Rank	| nvarchar	| Yes	|
+| Station_6_Mean_Percentile_Rank	| float	| Yes	|
+| Station_6_Quartile_Rank	| nvarchar	| Yes	|
+| Station_7_Mean_Percentile_Rank	| float	| Yes	|
+| Station_7_Quartile_Rank	| nvarchar	| Yes	|
+| Station_8_Mean_Percentile_Rank	| float	| Yes	|
+| Station_8_Quartile_Rank	| nvarchar	| Yes	|
 
 ## BMAT_Scores$
 

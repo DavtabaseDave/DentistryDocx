@@ -151,7 +151,8 @@ XLSX import table for IFY applicants
 
 ## Reject_post_MMI$
 
-|_.Attribute |_.DataType |_.Allow Nulls? |_.PKey? |_.Notes |
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
 | Candidate number	| nvarchar	| Yes	| 	| 	|
 | Candidate Name	| nvarchar	| Yes	| 	| 	|
 | Course	| nvarchar	| Yes	| 	| 	|
@@ -175,7 +176,8 @@ XLSX import table for IFY applicants
 
 ## UCAS_Scores$
 
-|_.Attribute |_.DataType |_.Allow Nulls? |_.PKey? |_.Notes |
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
 | STUDENT_LAST_NAME	| nvarchar	| Yes	| 	| 	|
 | STUDENT_FIRST_NAME	| nvarchar	| Yes	| 	| 	|
 | PERSONAL_ID	| float	| Yes	| 	| 	|

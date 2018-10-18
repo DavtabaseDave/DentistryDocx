@@ -172,3 +172,19 @@ Data imported for the different MMI rankings
 | Station_7_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
 | Station_8_Mean_Percentile_Rank	| tinyint	| 	| 	| 	|  |
 | Station_8_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
+
+## t_Dntl_BMAT_Scores
+
+BMAT scores after being imported and matched with an applicant record
+
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|
+| pidm	| int	| 	| Yes	| 	Yes	| t_Dntl_Applicants |
+| Section Yes Score	| float	| 	| 	| 	|  |
+| Section 2 Score	| float	| 	| 	| 	|  |
+| Essay Answered	| varchar	| 	| 	| 	|  |
+| Section 3 Content	| float	| 	| 	| 	|  |
+| Section 3 English	| varchar	| 	| 	| 	|  |
+| Section 3 English Score	| float	| 	| 	| 	|  |
+| Overall Rank	| float	| 	| 	| 	|  |
+

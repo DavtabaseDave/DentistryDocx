@@ -1,8 +1,6 @@
-Data Tables
-===========
+# Data Tables
 
-t\_Dntl\_Applicants
--------------------
+## t\_Dntl\_Applicants
 
 The main applicants table containing Banner derived data and mutable
 local data

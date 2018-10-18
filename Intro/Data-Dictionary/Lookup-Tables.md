@@ -53,7 +53,6 @@ Denotes where the applicant data was derived from
 | data_source	| tinyint	| 	| Yes	| 	|
 | data_desc	| varchar	| 	| 	| 	|
 
-
 ## l_International_Agent
 
 Populates the "International Agent" menu in the status area 
@@ -62,6 +61,15 @@ Populates the "International Agent" menu in the status area
 |-----------|----------|--------------|-------|
 | agent_code	| tinyint	|  | Yes |  |
 | agent_desc	| varchar	|  |  |  |
+
+## l_MMI_Decision
+
+Populates the "International Agent" menu in the status area 
+
+| Attribute | DataType | Allow Nulls? | PKey? |
+|-----------|----------|--------------|-------|
+| MMI_dec_code	| tinyint	| 	| Yes	|
+| MMI_dec_desc	| varchar	| 	| 	| 
 
 ## l_Predicted_Grade
 

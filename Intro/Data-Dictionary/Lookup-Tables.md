@@ -64,7 +64,7 @@ Populates the "International Agent" menu in the status area
 
 ## l_MMI_Decision
 
-Populates  
+Populates the MMI Decision menu against the applicant's decision
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|

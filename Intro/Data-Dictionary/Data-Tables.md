@@ -339,3 +339,17 @@ Results sheet data after being imported and matched with an applicant's decision
 | Received_as_CCO	| varchar	| 	| 	| 	|  |
 | Received_from	| varchar	| 	| 	| 	|  |
 | Old_Course_Code	| varchar	| 	| 	| 	|  |
+
+## t_Dntl_UCAS_Scores
+
+UCAS Score data after being imported and matched with an applicant record.
+
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|
+| pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
+| Life_And_Social	| varchar	| 	| 	| 	|  |
+| Motivation_And_Insight	| varchar	| 	| 	| 	|  |
+| Reflective_Skills	| varchar	| 	| 	| 	|  |
+| Interests_And_Achievements	| varchar	| 	| 	| 	|  |
+| GLOBAL	| varchar	| 	| 	| 	|  |
+| Overall_Score	| varchar	| 	| 	| 	|  |

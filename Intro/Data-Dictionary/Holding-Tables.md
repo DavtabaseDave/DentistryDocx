@@ -213,6 +213,31 @@ XLSX import table for IFY applicants
 ## Practique_finalscores$
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
+| ID	| float	| Yes	|
+| Student_ID	| nvarchar	| Yes	|
+| Name	| nvarchar	| Yes	|
+| LS_1stScorer	| float	| Yes	|
+| LS_2ndScorer	| nvarchar	| Yes	|
+| LS_Final	| float	| Yes	|
+| MI_1stScore	| float	| Yes	|
+| MI_2ndScorer	| nvarchar	| Yes	|
+| MI_Final	| float	| Yes	|
+| Ref_YesstScorer	| float	| Yes	|
+| Ref_2ndScorer	| nvarchar	| Yes	|
+| Ref_Final	| float	| Yes	|
+| IA_1stScorer	| float	| Yes	|
+| IA_2ndScorer	| nvarchar	| Yes	|
+| IA_Final	| float	| Yes	|
+| Admissions team total	| float	| Yes	|
+| MMI_Decision	| nvarchar	| Yes	|
+| Academic staff total	| float	| Yes	|
+| Accept final total for personal statement or rescreen?	| nvarchar	| Yes	|
+| Staff	| nvarchar	| Yes	|
+| Second scorer	| nvarchar	| Yes	|
+| Final checker	| nvarchar	| Yes	|
+| Checked against UCAS list	| nvarchar	| Yes	|
+| BMAT Overall score	| nvarchar	| Yes	|
+| BMAT Overall Rank	| nvarchar	| Yes	|
 
 ## Reject_post_MMI$
 

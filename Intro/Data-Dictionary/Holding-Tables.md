@@ -9,7 +9,8 @@ These table are *NOT* standard user visible, they are for administrative use onl
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-|_.Attribute |_.DataType |_.Allow Nulls? |
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
 | PIDM	| float	| Yes	|
 | Scorer initials	| nvarchar	| Yes	|
 | Standard entry - GCSE English	| nvarchar	| Yes	|

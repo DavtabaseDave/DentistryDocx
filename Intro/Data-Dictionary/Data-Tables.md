@@ -188,3 +188,93 @@ BMAT scores after being imported and matched with an applicant record
 | Section 3 English Score	| float	| 	| 	| 	|  |
 | Overall Rank	| float	| 	| 	| 	|  |
 
+## t_Dntl_Definitive_List_Prev
+
+Instead of keeping separate tables for each of the previous year's applicant data that has been uploaded a single table has been put together to store all this data in one location. This aggregates the different scores etc and as a consequence many of the fields are null-able.
+
+As the t_Dntl_All_MMI_Rankings table may contain multiple entries for an applicant that has applied for both courses a compromise had to be implemented that took only the "minimum" course code. This is to enable the t_Dntl_Definitive_List_Prev to be directly linked to the Previous Applicant and thus be able to be displayed properly in the .NET client application.
+
+
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|-------|-------|-------|
+| spriden_pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants_Prev |
+| A2L_Eligibility_Decision	| varchar	| 	| 	| 	|  |
+| A2L_Mark	| varchar	| 	| 	| 	|  |
+| A2L_Pass	| varchar	| 	| 	| 	|  |
+| hasBMAT	| varchar	| 	| 	| 	|  |
+| LS_1stScorer	| tinyint	| Yes	| 	| 	|  |
+| LS_2ndScorer	| tinyint	| Yes	| 	| 	|  |
+| LS_Final	| tinyint	| Yes	| 	| 	|  |
+| MI_1stScore	| tinyint	| Yes	| 	| 	|  |
+| MI_2ndScorer	| tinyint	| Yes	| 	| 	|  |
+| MI_Final	| tinyint	| Yes	| 	| 	|  |
+| Ref_1stScorer	| tinyint	| Yes	| 	| 	|  |
+| Ref_2ndScorer	| tinyint	| Yes	| 	| 	|  |
+| Ref_Final	| tinyint	| Yes	| 	| 	|  |
+| IA_1stScorer	| tinyint	| Yes	| 	| 	|  |
+| IA_2ndScorer	| tinyint	| Yes	| 	| 	|  |
+| IA_Final	| tinyint	| Yes	| 	| 	|  |
+| Section 1 Score	| float	| Yes	| 	| 	|  |
+| Section 2 Score	| float	| Yes	| 	| 	|  |
+| Essay Answered	| varchar	| 	| 	| 	|  |
+| Section 3 Content	| float	| Yes	| 	| 	|  |
+| Section 3 English	| varchar	| 	| 	| 	|  |
+| Section 3 English Score	| float	| Yes	| 	| 	|  |
+| Overall Rank	| float	| Yes	| 	| 	|  |
+| Mean_Rank_Task	| float	| Yes	| 	| 	|  |
+| Offer_Cutoff	| float	| Yes	| 	| 	|  |
+| Station_1_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_1_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_2_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_2_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_3_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_3_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_4_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_4_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_5_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_5_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_6_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_6_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_7_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_7_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_8_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
+| Station_8_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
+| MMI_Date	| datetime	| Yes	| 	| 	|  |
+| MMI_Time	| time	| Yes	| 	| 	|  |
+| MMI_Colour	| varchar	| Yes	| 	| 	|  |
+| MMI_Number	| tinyint	| Yes	| 	| 	|  |
+| Life_And_Social	| varchar	| Yes	| 	| 	|  |
+| Motivation_And_Insight	| varchar	| Yes	| 	| 	|  |
+| Reflective_Skills	| varchar	| Yes	| 	| 	|  |
+| Interests_And_Achievements	| varchar	| Yes	| 	| 	|  |
+| GLOBAL	| varchar	| Yes	| 	| 	|  |
+| Overall_Score	| varchar	| Yes	| 	| 	|  |
+| Leeds_Code	| char	| Yes	| 	| 	|  |
+| Scorer_initials	| varchar	| Yes	| 	| 	|  |
+| Std_entry_GCSE_English	| char	| Yes	| 	| 	|  |
+| Std_entry_GCSE_Maths	| char	| Yes	| 	| 	|  |
+| Std_entry_GCSE_Biology_or_Science	| char	| Yes	| 	| 	|  |
+| Std_entry_GCSE_Chemistry_or_Science	| char	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_1	| char	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_2	| char	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_3	| char	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_4	| char	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_5	| char	| Yes	| 	| 	|  |
+| Std_entry_A2	| tinyint	| Yes	| 	| 	|  |
+| Grad_English_GCSE	| char	| Yes	| 	| 	|  |
+| Grad_Maths_GCSE	| char	| Yes	| 	| 	|  |
+| Grad_Biology_GCSE	| char	| Yes	| 	| 	|  |
+| Grad_Chemistry_GCSE	| char	| Yes	| 	| 	|  |
+| Grad_GCSE_any_1	| char	| Yes	| 	| 	|  |
+| Grad_GCSE_Any_2	| char	| Yes	| 	| 	|  |
+| Grad_GCSE_total	| varchar	| Yes	| 	| 	|  |
+| Grad_Degree_name	| char	| Yes	| 	| 	|  |
+| Grad_Degree_classification_Degree	| char	| Yes	| 	| 	|  |
+| total_GCSE	| tinyint	| Yes	| 	| 	|  |
+| Reference_statement?	| varchar	| Yes	| 	| 	|  |
+| Notes	| varchar	| Yes	| 	| 	|  |
+| Total	| tinyint	| Yes	| 	| 	|  |
+
+## t_Dntl_MMI_Schedule
+
+MMI Schedule after being imported and matched with an applicant record.

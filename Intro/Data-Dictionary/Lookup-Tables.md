@@ -64,7 +64,7 @@ Populates the "International Agent" menu in the status area
 
 ## l_MMI_Decision
 
-Populates the "International Agent" menu in the status area 
+Populates  
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|
@@ -80,6 +80,16 @@ Populates the "Predicted Grade" menu on the Decisions tab
 | predicted_code	| tinyint	|  | Yes |  |
 | predicted_desc	| varchar	| Yes |  |  |
 
+
+## l_Quartile_Rank_Grade
+
+Populates 
+
+| Attribute | DataType | Allow Nulls? | PKey? |
+|-----------|----------|--------------|-------|
+| rank_code	| tinyint	| 	| Yes	| 	|  |
+| rank_desc	| varchar	| 	| 	| 	|  |
+
 ## l_Reason_Rej
 
 Populates the "Reason for Rejection" menu on the Decisions tab
@@ -87,7 +97,7 @@ Populates the "Reason for Rejection" menu on the Decisions tab
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|
 | rej_code	| tinyint	|  | Yes |  |
-| Reason	| varchar	| Yes |  |  |
+| Reason	| varchar	| |  |  |
 
 ## l_smrprle
 

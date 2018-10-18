@@ -98,7 +98,7 @@ Contains mostly Banner derived decision data plus some local management data
 
 ## t_Dntl_A2L_RR
 
-Only other Banner derived data - Access to Leeds Running Record
+The only other Banner derived data - Access to Leeds Running Record
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|

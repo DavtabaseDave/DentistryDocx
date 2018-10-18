@@ -264,6 +264,11 @@ XLSX import table for IFY applicants
 | Station 8 Mean Percentile Rank	| float	| Yes	| 	| 	|
 | KAT Mean Percentile Rank	| float	| yes| | |
 
+## ResultsSheet$
+
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
+
 ## UCAS_Scores$
 
 | Attribute | DataType | Allow Nulls? |

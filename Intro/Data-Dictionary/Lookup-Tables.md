@@ -25,8 +25,8 @@ This holds the actual documents that can either be customized by the client prog
 
 This controls the generation of different acknowledgement emails 
 
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Ref Table |
+|-----------|----------|--------------|-------|-------|-------|
 | skvcrse_code	| char	| 	| Yes	| 	|  |
 | skvcrse_desc	| varchar	| 	| 	| 	|  |
 | fileID	| smallint	| 	| 	| Yes	| x_Documents |
@@ -85,8 +85,8 @@ Populates the "Reason for Rejection" menu on the Decisions tab
 
 Lists programme descriptions by Banner codes, e.g. "BA-ECON"
 
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
+|-----------|----------|--------------|-------|-------|
 | smrprle_program	| varchar	|  | Yes | Prog Code |
 | smrprle_program_desc	| varchar	|  |  | Programme |
 
@@ -94,8 +94,8 @@ Lists programme descriptions by Banner codes, e.g. "BA-ECON"
 
 List Disability by Banner code
 
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
+| Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
+|-----------|----------|--------------|-------|-------|
 | stvdisa_code| varchar	|  | Yes | Banner code |
 | stvdisa_desc| varchar	|  |  | Disability |
 

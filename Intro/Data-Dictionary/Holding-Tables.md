@@ -139,14 +139,15 @@ XLSX import table for IFY applicants
 
 ## MMI_Schedule$
 
-|_.Attribute |_.DataType |_.Allow Nulls? |_.PKey? |_.Notes |
-| Student ID	| nvarchar	| Yes	| 	| 	|
-| Firstname	| nvarchar	| Yes	| 	| 	|
-| Surname	| nvarchar	| Yes	| 	| 	|
-| Date	| datetime	| Yes	| 	| 	|
-| Time	| datetime	| Yes	| 	| 	|
-| Colour	| nvarchar	| Yes	| 	| 	|
-| Number	| float	| Yes	| 	| 	|
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
+| Student ID	| nvarchar	| Yes	|
+| Firstname	| nvarchar	| Yes	|
+| Surname	| nvarchar	| Yes	|
+| Date	| datetime	| Yes	|
+| Time	| datetime	| Yes	|
+| Colour	| nvarchar	| Yes	|
+| Number	| float	| Yes	|
 
 ## Reject_post_MMI$
 

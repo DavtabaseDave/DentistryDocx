@@ -87,8 +87,8 @@ Populates
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|
-| rank_code	| tinyint	| 	| Yes	| 	|  |
-| rank_desc	| varchar	| 	| 	| 	|  |
+| rank_code	| tinyint	| 	| Yes	|
+| rank_desc	| varchar	| 	| 	|
 
 ## l_Reason_Rej
 

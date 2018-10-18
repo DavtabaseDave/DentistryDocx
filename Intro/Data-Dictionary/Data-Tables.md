@@ -1,6 +1,10 @@
 # Data Tables
 
-## t\_Dntl\_Applicants
+[[_TOC_]]
+
+**NB: all tables have the prefix t\_Dent\_, this has been removed from the heading as otherwise the ToC doesn't render properly**
+
+## Applicants
 
 The main applicants table containing Banner derived data and mutable
 local data
@@ -66,7 +70,7 @@ local data
 | CreatedDate	| smalldatetime	| 	| 	| 	|  |
 | LastUser	| varchar	| 	| 	| 	|  |
 
-## t\_Dent\_Decisions
+## Decisions
 
 Contains mostly Banner derived decision data plus some local management data
 
@@ -96,7 +100,7 @@ Contains mostly Banner derived decision data plus some local management data
 | CreatedDate	| smalldatetime	| 	| 	| 	|  |
 | LastUser	| varchar	| 	| 	| 	|  |
 
-## t_Dntl_A2L_RR
+## A2L_RR
 
 The only other Banner derived data - Access to Leeds Running Record
 
@@ -116,7 +120,7 @@ The only other Banner derived data - Access to Leeds Running Record
 | A2L_Application_Received	| datetime	| Yes	| 	| 	|  |
 | A2L_Decision_Date	| datetime	| Yes	| 	| 	|  |
 
-## t_Dntl_Academic_Scores
+## Academic_Scores
 
 Data imported for the different GCSE scores
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
@@ -147,7 +151,7 @@ Data imported for the different GCSE scores
 | Notes	| varchar	| 	| 	| 	|  |
 | Total	| tinyint	| 	| 	| 	|  |
 
-## t_Dntl_All_MMI_Rankings
+## All_MMI_Rankings
 
 Data imported for the different MMI rankings
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
@@ -173,7 +177,7 @@ Data imported for the different MMI rankings
 | Station_8_Mean_Percentile_Rank	| tinyint	| 	| 	| 	|  |
 | Station_8_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
 
-## t_Dntl_BMAT_Scores
+## BMAT_Scores
 
 BMAT scores after being imported and matched with an applicant record
 
@@ -188,7 +192,7 @@ BMAT scores after being imported and matched with an applicant record
 | Section 3 English Score	| float	| 	| 	| 	|  |
 | Overall Rank	| float	| 	| 	| 	|  |
 
-## t_Dntl_Definitive_List_Prev
+## Definitive_List_Prev
 
 Instead of keeping separate tables for each of the previous year's applicant data that has been uploaded a single table has been put together to store all this data in one location. This aggregates the different scores etc and as a consequence many of the fields are null-able.
 
@@ -275,7 +279,7 @@ As the t_Dntl_All_MMI_Rankings table may contain multiple entries for an applica
 | Notes	| varchar	| Yes	| 	| 	|  |
 | Total	| tinyint	| Yes	| 	| 	|  |
 
-## t_Dntl_MMI_Schedule
+## MMI_Schedule
 
 MMI Schedule after being imported and matched with an applicant record.
 
@@ -287,7 +291,7 @@ MMI Schedule after being imported and matched with an applicant record.
 | Colour	| varchar	| 	| 	| 	|  |
 | Number	| tinyint	| Yes	| 	| 	|  |
 
-## t_Dntl_Reject_post_MMI
+## Reject_post_MMI
 
 Rejecttion post MMI after being imported and matched with an applicant record.
 
@@ -305,7 +309,7 @@ Rejecttion post MMI after being imported and matched with an applicant record.
 | Station 8 Mean Percentile Rank	| float	| 	| 	| 	|  |
 | Overall_Rank	| float	| 	| 	| 	|  |
 
-## t_Dntl_RejFdbkLetter
+## RejFdbkLetter
 
 Data for reject with feedback emails.
 
@@ -317,7 +321,7 @@ Data for reject with feedback emails.
 | Reflective_Skills	| varchar	| 	| 	| 	|  |
 | Interests_And_Achievements	| varchar	| 	| 	| 	|  |
 
-## t_Dntl_Results_Sheet
+## Results_Sheet
 
 Results sheet data after being imported and matched with an applicant's decision record.
 
@@ -340,7 +344,7 @@ Results sheet data after being imported and matched with an applicant's decision
 | Received_from	| varchar	| 	| 	| 	|  |
 | Old_Course_Code	| varchar	| 	| 	| 	|  |
 
-## t_Dntl_UCAS_Scores
+## UCAS_Scores
 
 UCAS Score data after being imported and matched with an applicant record.
 

@@ -127,7 +127,7 @@ XLSX import table for BMAT Scores. Full source [here](https://universityofleeds.
 
 ## DHDT_RejFdbkLetter$
 
-XLSX import table for DHDT_RejFdbkLetter$
+XLSX import table for DHDT_RejFdbkLetter$. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FDHDT_RejFdbkLetter_.sql&version=GBmaster)
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
@@ -151,7 +151,7 @@ XLSX import table for DHDT_RejFdbkLetter$
 
 ## IFY$
 
-XLSX import table for IFY applicants
+XLSX import table for IFY applicants. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FIFY_.sql&version=GBmaster)
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 

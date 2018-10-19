@@ -98,7 +98,8 @@ Holds common text for repeating fields in MMI common rankings. Full source [here
 
 ## l_Reason_Rej
 
-Populates the "Reason for Rejection" menu on the Decisions tab
+Populates the "Reason for Rejection" menu on the Decisions tab. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Reason_Rej.sql&version=GBmaster)
+
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|
@@ -107,7 +108,7 @@ Populates the "Reason for Rejection" menu on the Decisions tab
 
 ## l_smrprle
 
-Lists programme descriptions by Banner codes, e.g. "BA-ECON"
+Lists programme descriptions by Banner codes, e.g. "BA-ECON". Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_smrprle.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
 |-----------|----------|--------------|-------|-------|
@@ -116,7 +117,7 @@ Lists programme descriptions by Banner codes, e.g. "BA-ECON"
 
 ## l_stvdisa
 
-List Disability by Banner code
+List Disability by Banner code. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_stvdisa.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
 |-----------|----------|--------------|-------|-------|
@@ -125,7 +126,7 @@ List Disability by Banner code
 
 ## l_stvethn
 
-List Ethnicity by Banner code
+List Ethnicity by Banner code. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_stvethn.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
 |-----------|----------|--------------|-------|-------|
@@ -134,7 +135,7 @@ List Ethnicity by Banner code
 
 ## l_stvnatn
 
-List nations by Banner code
+List nations by Banner code. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_stvnatn.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
 |-----------|----------|--------------|-------|-------|
@@ -143,7 +144,7 @@ List nations by Banner code
 
 ## l_Ad_stvsbgi
 
-Lists Banner codes for the different schools
+Lists Banner codes for the different schools. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Ad_stvsbgi.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
 |-----------|----------|--------------|-------|-------|

@@ -26,6 +26,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## Academic_Scores$
 
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FAcademic_Scores_.sql&version=GBmaster)
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
 | Attribute | DataType | Allow Nulls? | Notes |

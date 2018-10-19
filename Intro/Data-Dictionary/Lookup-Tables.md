@@ -142,9 +142,9 @@ List nations by Banner code. Full source [here](https://universityofleeds.visual
 | skvssdt_sdat_code_opt_1	| varchar	|  | Yes | Banner code |
 | skvssdt_short_title	| varchar	|  |  | Nation |
 
-## l_Ad_stvsbgi
+## l_stvsbgi
 
-Lists Banner codes for the different schools. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Ad_stvsbgi.sql&version=GBmaster)
+Lists Banner codes for the different schools. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_stvsbgi.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
 |-----------|----------|--------------|-------|-------|

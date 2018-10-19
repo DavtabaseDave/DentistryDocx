@@ -154,7 +154,8 @@ Data imported for the different GCSE scores. Full source [here](https://universi
 
 ## All_MMI_Rankings
 
-Data imported for the different MMI rankings
+Data imported for the different MMI rankings. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_All_MMI_Rankings.sql&version=GBmaster)
+
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
 | pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |

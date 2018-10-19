@@ -37,7 +37,7 @@ This controls the generation of different acknowledgement emails. Full source [h
 
 ## l_Current_Year_Dates
 
-Holds the *current* termcode and term dates (*NOT* the term of entry). The former is used by the function fnGetCurTermCode to weed out previous year's decisions when extracting data from Banner
+Holds the *current* termcode and term dates (*NOT* the term of entry). The former is used by the function fnGetCurTermCode to weed out previous year's decisions when extracting data from Banner. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Current_Year_Dates.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|
@@ -48,7 +48,7 @@ Holds the *current* termcode and term dates (*NOT* the term of entry). The forme
 
 ## l_data_source
 
-Denotes where the applicant data was derived from
+Denotes where the applicant data was derived from. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_data_source.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|
@@ -57,7 +57,8 @@ Denotes where the applicant data was derived from
 
 ## l_International_Agent
 
-Populates the "International Agent" menu in the status area 
+Populates the "International Agent" menu in the status area. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_International_Agent.sql&version=GBmaster)
+
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|
@@ -66,7 +67,8 @@ Populates the "International Agent" menu in the status area
 
 ## l_MMI_Decision
 
-Populates the MMI Decision menu against the applicant's decision
+Populates the MMI Decision menu against the applicant's decision. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_MMI_Decision.sql&version=GBmaster)
+
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|
@@ -75,7 +77,8 @@ Populates the MMI Decision menu against the applicant's decision
 
 ## l_Predicted_Grade
 
-Populates the "Predicted Grade" menu on the Decisions tab
+Populates the "Predicted Grade" menu on the Decisions tab. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Predicted_Grade.sql&version=GBmaster)
+
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|
@@ -83,9 +86,10 @@ Populates the "Predicted Grade" menu on the Decisions tab
 | predicted_desc	| varchar	| Yes |  |  |
 
 
-## l_Quartile_Rank_Grade
+## l_Quartile_Rank
 
-Holds common text for repeating fields in MMI common rankings
+Holds common text for repeating fields in MMI common rankings. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Quartile_Rank.sql&version=GBmaster)
+
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|

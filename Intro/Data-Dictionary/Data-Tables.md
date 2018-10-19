@@ -181,7 +181,7 @@ Data imported for the different MMI rankings. Full source [here](https://univers
 
 ## BMAT_Scores
 
-BMAT scores after being imported and matched with an applicant record
+BMAT scores after being imported and matched with an applicant record. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_BMAT_Scores.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|

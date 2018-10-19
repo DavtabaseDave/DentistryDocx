@@ -6,7 +6,7 @@ When using the lookup tables in a query, they should be joined by the PK field t
 
 ## l_Achieved_Grade
 
-Populates the "Achieved Grade" menu on the Decisions tab
+Populates the "Achieved Grade" menu on the Decisions tab. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Achieved_Grade.sql&version=GBmaster)
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|
 | achieved_code	| tinyint	|  | Yes |
@@ -14,7 +14,7 @@ Populates the "Achieved Grade" menu on the Decisions tab
 
 ## x_Documents
 
-This holds the actual documents that can either be customized by the client program or used "as is"
+This holds the actual documents that can either be customized by the client program or used "as is". Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fx_Documents.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|

@@ -204,7 +204,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | pidm	| int	| Yes	| set by importing script	| 
 
 ## MMI_Schedule$
-
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FMMI_Schedule_.sql&version=GBmaster)
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | Student ID	| nvarchar	| Yes	|
@@ -216,6 +216,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Number	| float	| Yes	|
 
 ## Practique_finalscores$
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FPractique_finalscores_.sql&version=GBmaster)
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | ID	| float	| Yes	|
@@ -245,7 +246,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | BMAT Overall Rank	| nvarchar	| Yes	|
 
 ## Reject_post_MMI$
-
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FReject_post_MMI_.sql&version=GBmaster)
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | Candidate number	| nvarchar	| Yes	| 	| 	|
@@ -270,7 +271,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | KAT Mean Percentile Rank	| float	| yes| | |
 
 ## ResultsSheet$
-
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FResultsSheet_.sql&version=GBmaster)
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | Selector Centre	| nvarchar	| Yes	| 	| 	|  |
@@ -309,7 +310,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Old Course Code	| nvarchar	| Yes	| 	| 	|  |
 
 ## UCAS_Scores$
-
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FUCAS_Scores_.sql&version=GBmaster)
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | STUDENT_LAST_NAME	| nvarchar	| Yes	| 	| 	|

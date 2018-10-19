@@ -295,6 +295,8 @@ MMI Schedule after being imported and matched with an applicant record. Full sou
 
 ## Practique_finalscores
 
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Practique_finalscores.sql&version=GBmaster)
+
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
 | pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
@@ -313,7 +315,7 @@ MMI Schedule after being imported and matched with an applicant record. Full sou
 
 ## Reject_post_MMI
 
-Rejecttion post MMI after being imported and matched with an applicant record.
+Rejecttion post MMI after being imported and matched with an applicant record. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Reject_post_MMI.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
@@ -331,7 +333,7 @@ Rejecttion post MMI after being imported and matched with an applicant record.
 
 ## RejFdbkLetter
 
-Data for reject with feedback emails.
+Data for reject with feedback emails. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_RejFdbkLetter.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
@@ -343,7 +345,7 @@ Data for reject with feedback emails.
 
 ## Results_Sheet
 
-Results sheet data after being imported and matched with an applicant's decision record.
+Results sheet data after being imported and matched with an applicant's decision record. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Results_Sheet.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
@@ -366,7 +368,7 @@ Results sheet data after being imported and matched with an applicant's decision
 
 ## UCAS_Scores
 
-UCAS Score data after being imported and matched with an applicant record.
+UCAS Score data after being imported and matched with an applicant record. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_UCAS_Scores.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|

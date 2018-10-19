@@ -151,7 +151,7 @@ XLSX import table for DHDT_RejFdbkLetter$. Full source [here](https://university
 
 ## IFY$
 
-XLSX import table for IFY applicants. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FIFY_.sql&version=GBmaster)
+XLSX import table for IFY applicants..  Also used for importing ISFY and PHE applicants Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FIFY_.sql&version=GBmaster)
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 

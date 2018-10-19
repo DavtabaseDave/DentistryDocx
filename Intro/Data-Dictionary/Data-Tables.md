@@ -7,7 +7,7 @@
 ## Applicants
 
 The main applicants table containing Banner derived data and mutable
-local data
+local data. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Applicants.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
@@ -72,7 +72,7 @@ local data
 
 ## Decisions
 
-Contains mostly Banner derived decision data plus some local management data
+Contains mostly Banner derived decision data plus some local management data. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Decisions.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|

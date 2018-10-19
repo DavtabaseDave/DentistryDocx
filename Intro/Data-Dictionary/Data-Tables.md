@@ -102,7 +102,7 @@ Contains mostly Banner derived decision data plus some local management data. Fu
 
 ## A2L_RR
 
-The only other Banner derived data - Access to Leeds Running Record
+The only other Banner derived data - Access to Leeds Running Record. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_A2L_RR.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
@@ -122,7 +122,8 @@ The only other Banner derived data - Access to Leeds Running Record
 
 ## Academic_Scores
 
-Data imported for the different GCSE scores
+Data imported for the different GCSE scores. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Academic_Scores.sql&version=GBmaster)
+
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
 | PIDM	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |

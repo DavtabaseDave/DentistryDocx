@@ -193,6 +193,7 @@ XLSX import table for IFY applicants. Full source [here](https://universityoflee
 | PARENTAL_EDUCATION	| nvarchar	| Yes	|
 
 ## MMI_Decisions$
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FMMI_Decisions_.sql&version=GBmaster)
 | Attribute | DataType | Allow Nulls? | Notes |
 |-----------|----------|--------------|--------------|
 | ID	| float	| Yes	| 	| 

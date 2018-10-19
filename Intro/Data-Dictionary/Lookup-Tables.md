@@ -25,7 +25,7 @@ This holds the actual documents that can either be customized by the client prog
 
 ## l_course_email
 
-This controls the generation of different acknowledgement emails 
+This controls the generation of different acknowledgement emails. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%l_course_email.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Ref Table |
 |-----------|----------|--------------|-------|-------|-------|

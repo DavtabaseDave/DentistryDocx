@@ -8,4 +8,6 @@ There are three main security groups defined for assigning role based security. 
 
 Briefly, USERs are creates as [DS\\<USERNAME>] for DB server level LOGINs of the same name (which are sourced from DS). Then ROLEs are created for [<USERNAME>] and then USER [DS\\<USERNAME>] is added to role [<USERNAME>].
 
-Permissions are then assigned to the ROLE **NOT** the USER.
+Permissions are then assigned to the ROLE **NOT** the USER. 
+
+DS users are assigned to the appropriate GROUP in DS using the "Active Directory Users and Computers" administrative tool. They can have membership of more than one group

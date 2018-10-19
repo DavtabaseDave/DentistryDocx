@@ -6,6 +6,7 @@ These table are *NOT* standard user visible, they are for administrative use onl
 
 ## A2L_Passlist$
 
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FA2L_Passlist_.sql&version=GBmaster)
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
 | Attribute | DataType | Allow Nulls? | Notes |

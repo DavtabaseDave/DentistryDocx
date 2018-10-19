@@ -200,7 +200,7 @@ Instead of keeping separate tables for each of the previous year's applicant dat
 
 As the t_Dntl_All_MMI_Rankings table may contain multiple entries for an applicant that has applied for both courses a compromise had to be implemented that took only the "minimum" course code. This is to enable the t_Dntl_Definitive_List_Prev to be directly linked to the Previous Applicant and thus be able to be displayed properly in the .NET client application.
 
-
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Definitive_List_Prev.sql&version=GBmaster)
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
 | spriden_pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants_Prev |
@@ -283,7 +283,7 @@ As the t_Dntl_All_MMI_Rankings table may contain multiple entries for an applica
 
 ## MMI_Schedule
 
-MMI Schedule after being imported and matched with an applicant record.
+MMI Schedule after being imported and matched with an applicant record. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_MMI_Schedule.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|

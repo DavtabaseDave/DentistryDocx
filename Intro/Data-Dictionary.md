@@ -9,3 +9,5 @@ i.e. tables that hold data imported from XLSX files before being transformed to 
 ## [Data Tables](/Intro/Data-Dictionary/Data-Tables)
 
 ## [Security Groups](/Intro/Data-Dictionary/Security-Groups)
+
+## {Views](/Intro/Data-Dictionary/Views)

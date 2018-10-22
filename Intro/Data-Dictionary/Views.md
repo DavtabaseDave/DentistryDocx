@@ -28,7 +28,9 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 This is used to provide the data when sending out emails for a particular courses' applicants. It uses identical criteria to the one that populated the combo box except it also requires that they have an email address of at least 7 characters in length
 
-Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FViews%2Fv_Dntl_Email_Ack_To_Go.sql&version=GBmaster
-)
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FViews%2Fv_Dntl_Email_Ack_To_Go.sql&version=GBmaster)
 
+## Reporting Views
+
+The remainder of the views in the DB are used for reporting. These are listed [here](https://universityofleeds.visualstudio.com/FAD/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FViews&version=GBmaster)
 

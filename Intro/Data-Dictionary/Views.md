@@ -24,7 +24,7 @@ This populates the Combo box for sending out acknowledgement emails to new appli
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FViews%2Fv_Dntl_Email_Ack_Combo.sql&version=GBmaster
 )
 
-## v_Dntl_Email_Ack_To_Go
+### v_Dntl_Email_Ack_To_Go
 
 This is used to provide the data when sending out emails for a particular courses' applicants. It uses identical criteria to the one that populated the combo box except it also requires that they have an email address of at least 7 characters in length
 

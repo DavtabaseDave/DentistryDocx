@@ -18,5 +18,13 @@ The SProcs: pr_Dntl_Clear_Prev, pr_Dntl_Archive_Applicants, and pr_Clear_Current
 
 The other two housekeeping SProcs are used by the daily ETL from Banner by the SQL Server Integration Services (SSIS) package, Dntl_Ad_INB_Extractions.dtsx (which is run daily by SQL Agent).
 
-### SSIS 
-pr_Dntl_INB_Extraction_Merges
+### Merge Banner data from holding tables
+The SProc pr_Dntl_INB_Extraction_Merges is called as part of its penultimate step to merge the raw data it has acquired from Banner in the holding tables (**NOT** the ones used for importing XSLX data) into the standard user tables.
+
+#### pr_Dntl_Remove_Exceptions
+
+An SProc that removes a variety of unwanted data such as the previous year's non-UF applicants and their decisions and generally corrects any faulty data that would otherwise cause the merges to fail
+
+#### pr_Dntl_INB_Extraction_Merges
+
+This as its first step calls pr_Dntl_Remove_Exceptions 

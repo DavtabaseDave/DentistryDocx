@@ -53,6 +53,11 @@ There are no Insert or Delete SProcs,
 
 Two reporting SProcs are provided that return data to be displayed in the UI (which the user can then copy en masse for further manipulation in Excel).
 
+### rpt_Dntl_Confirmed_Students
+
+This returns a list of Confirmed students by JACS Course Code. Source code can be found [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FStored%20Procedures%2Frpt_Dntl_Confirmed_Students.sql&version=GBmaster)
+
+
 ### rpt_Dntl_Offer_responses_by_CourseCode
 
 This returns offer responses by JACS Course Code. Source code can be found [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FStored%20Procedures%2Frpt_Dntl_Offer_responses_by_CourseCode.sql&version=GBmaster)

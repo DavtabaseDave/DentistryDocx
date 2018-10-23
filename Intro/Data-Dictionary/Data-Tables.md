@@ -57,7 +57,7 @@ local data. Full source [here](https://universityofleeds.visualstudio.com/FAD/FA
 | Form_Received	| bit	| 	| 	| 	|  |
 | Email_Ack	| bit	| 	| 	| 	|  |
 | Entry_Req	| bit	| 	| 	| 	|  |
-| A2L	| bit	| 	| 	| 	|  |
+| A2L	| bit	| 	| 	| 	| Computed column, see [here](/Intro/Data-Dictionary/Functions)  |
 | International_agent	| tinyint	| 	| 	| Yes	| l_International_Agent |
 | isSports	| bit	| 	| 	| 	|  |
 | isDisability	| bit	| 	| 	| 	|  |

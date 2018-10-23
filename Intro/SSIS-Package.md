@@ -4,4 +4,4 @@ There is currently only a single DTSX package - Dntl_Ad_INB_Extractions.dtsx. Th
 
 ## Functional requirements
 
-Can be found [here]()
+Can be found [here](/Intro/SSIS-Packages/Functional-Requirements)

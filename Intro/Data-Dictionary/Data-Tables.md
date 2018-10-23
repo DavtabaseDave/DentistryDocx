@@ -63,8 +63,8 @@ local data. Full source [here](https://universityofleeds.visualstudio.com/FAD/FA
 | isDisability	| bit	| 	| 	| 	|  |
 | isFeesAssess	| bit	| 	| 	| 	|  |
 | isMature	| bit	| 	| 	| 	|  |
-| underYes8	| bit	| 	| 	| 	|  |
-| hasDeferred	| bit	| 	| 	| 	|  |
+| under18	| bit	| 	| 	| 	|  |
+| hasDeferred	| bit	| 	| 	| 	| updated by the Banner merge SProc |
 | data_source	| tinyint	| 	| 	| Yes	| l_data_source, defaults to 0 (UCAS) |
 | VS	| timestamp	| 	| 	| 	|  |
 | CreatedDate	| smalldatetime	| 	| 	| 	|  |

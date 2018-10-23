@@ -21,5 +21,4 @@ being tied to a particular year.
 - Data Flows can only contain **NO MORE THAN 10** Data Flow Components as only ten expressions
 are permitted per data flow. In practice this is not too problematic as the Oracle queries are run in
 parallel.
-- Meaningful names **MUST** be ascribed to all data sources and destinations (to avoid
-confusion)
+- Meaningful names **MUST** be ascribed to all data sources and destinations (to avoid confusion)

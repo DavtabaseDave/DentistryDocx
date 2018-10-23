@@ -34,3 +34,5 @@ This as its first step calls pr_Dntl_Remove_Exceptions. It then runs a number of
 0. re-activate any applicants who've reappeared (UCAS ONLY)
 0. regardless of inactivity or not merge the applicants details
 0. update or insert new decisions (but only where applicant is known)
+0. update the flag in applicant to show whether they have a deferred application. Do non-deferrers 1st in case they have multiples with one for a subsequent year so that flag is raised whatever
+0. Update A2L data

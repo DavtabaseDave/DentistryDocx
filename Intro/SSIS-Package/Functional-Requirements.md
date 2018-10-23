@@ -22,4 +22,5 @@ being tied to a particular year.
 are permitted per data flow. In practice this is not too problematic as the Oracle queries are run in
 parallel.
 - Meaningful names **MUST** be ascribed to all data sources and destinations (to avoid confusion)
-- Where applicable raw SQL should be avoided in SQL tasks in the main control flow steps except to call SProcs in the DB
+- Where applicable raw SQL should be avoided in SQL tasks in the main control flow steps except to
+call SProcs in the DB

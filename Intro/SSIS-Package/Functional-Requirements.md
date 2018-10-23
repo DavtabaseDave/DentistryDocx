@@ -18,6 +18,6 @@ flow ADO .NET Data sources so that data flows and OLE DB Destinations (SQL Serve
 setup. These will be replaced at runtime using the "Expressions" property of the data flow
 containing them. These will make reference to the Package Parameters to prevent the package
 being tied to a particular year.
-- Data Flows can only contain at most 10 Data Flow Components as only ten expressions are
+- Data Flows can only contain **NO MORE THAN 10** Data Flow Components as only ten expressions are
 permitted per data flow. In practice this is not too problematic as the Oracle queries are run in
 parallel.

@@ -11,3 +11,5 @@ i.e. tables that hold data imported from XLSX files before being transformed to 
 ## [Security Groups](/Intro/Data-Dictionary/Security-Groups)
 
 ## [Views](/Intro/Data-Dictionary/Views)
+
+## [Functions](/Intro/Data-Dictionary/Functions)

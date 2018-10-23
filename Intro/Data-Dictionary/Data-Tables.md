@@ -67,7 +67,7 @@ local data. Full source [here](https://universityofleeds.visualstudio.com/FAD/FA
 | hasDeferred	| bit	| 	| 	| 	| updated by the Banner merge SProc |
 | data_source	| tinyint	| 	| 	| Yes	| l_data_source, defaults to 0 (UCAS) |
 | VS	| timestamp	| 	| 	| 	|  |
-| CreatedDate	| smalldatetime	| 	| 	| 	|  |
+| CreatedDate	| smalldatetime	| 	| 	| 	| defaults to `getdate()` |
 | LastUser	| varchar	| 	| 	| 	|  |
 
 ## Decisions

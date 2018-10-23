@@ -7,4 +7,4 @@ names object should clearly indicate by a prefix (*"Dent"*) that they are Facult
 - At the same time should prefer Project parameters to Package variables as these can sometimes
  be ineffective due to accidental name collisions etc..
 - Data being imported from Banner should not "lose" any local data that is part of the same record. Consequently "holding" table (with a prefix of "h_") should be used as a temporary store for incoming data before it is merged with that actual user tables.
-- These holding tables shoudl be 
+- To prevent and duplication/confusion, these holding tables should be cleared both before and after the import of data from Banner 

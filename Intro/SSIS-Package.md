@@ -9,3 +9,7 @@ Can be found [here](/Intro/SSIS-Package/Functional-Requirements)
 ## Logical Data Maps
 
 Can be found [here](/Intro/SSIS-Package/Logical-Data-Map)
+
+## Package Settings
+
+Can be found [here](/Intro/SSIS-Package/Package-Settings)

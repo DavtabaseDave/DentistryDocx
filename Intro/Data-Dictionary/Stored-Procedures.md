@@ -27,4 +27,5 @@ An SProc that removes a variety of unwanted data such as the previous year's non
 
 #### pr_Dntl_INB_Extraction_Merges
 
-This as its first step calls pr_Dntl_Remove_Exceptions 
+This as its first step calls pr_Dntl_Remove_Exceptions. It then runs a number of steps:
+1. update/add lookup data codes from Banner that may have changed or been added. Such as ethnicity codes, programme codes, schools, and disability codes, etc..

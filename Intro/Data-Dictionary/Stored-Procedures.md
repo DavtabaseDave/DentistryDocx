@@ -30,7 +30,8 @@ An SProc that removes a variety of unwanted data such as the previous year's non
 This as its first step calls pr_Dntl_Remove_Exceptions. It then runs a number of steps:
 1. update/add lookup data codes from Banner that may have changed or been added. Such as:
  ethnicity codes, programme codes, schools, and disability codes, etc..
-0. Mark any applicants who've mysteriously disappeared as Inactive as they may reappear and  we don't want to lose their local data (UCAS ONLY)
+0. Mark any applicants who've mysteriously disappeared as Inactive as they may reappear and 
+we don't want to lose their local data (UCAS ONLY)
 0. re-activate any applicants who've reappeared (UCAS ONLY)
 0. regardless of inactivity or not merge the applicants details
 0. update or insert new decisions (but only where applicant is known)

@@ -48,3 +48,7 @@ The updates are wrapped in transactions and try/catch blocks. Source can be foun
 NB: rowversion columns are used as part of optimistic concurrency to prevent lost updates etc. They are always entitled "VS" in the data tables. The update SProcs always check that the VS that was passed in as an argument match the current row in the DB
 
 There are no Insert or Delete SProcs,
+
+## Reporting SProcs
+
+Two reporting SProcs are provided that return data to be displayed in the UI (which the user can then copy en masse for further manipulation in Excel)

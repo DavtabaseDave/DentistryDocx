@@ -65,7 +65,7 @@ local data. Full source [here](https://universityofleeds.visualstudio.com/FAD/FA
 | isMature	| bit	| 	| 	| 	|  |
 | underYes8	| bit	| 	| 	| 	|  |
 | hasDeferred	| bit	| 	| 	| 	|  |
-| data_source	| tinyint	| 	| 	| Yes	| l_data_source |
+| data_source	| tinyint	| 	| 	| Yes	| l_data_source, defaults to 0 (UCAS) |
 | VS	| timestamp	| 	| 	| 	|  |
 | CreatedDate	| smalldatetime	| 	| 	| 	|  |
 | LastUser	| varchar	| 	| 	| 	|  |

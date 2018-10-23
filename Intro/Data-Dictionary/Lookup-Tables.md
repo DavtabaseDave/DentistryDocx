@@ -40,7 +40,7 @@ removing the corresponding one here first.
 
 ## l_Current_Year_Dates
 
-Holds the *current* termcode and term dates (*NOT* the term of entry). The former is used by the function fnGetCurTermCode to weed out previous year's decisions when extracting data from Banner. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Current_Year_Dates.sql&version=GBmaster)
+Holds the *current* termcode and term dates (*NOT* the term of entry). The former is used by the function fnGetCurTermCode to weed out previous year's decisions when extracting data from Banner. May contain only two rows, only one of which can be "active". Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Current_Year_Dates.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? | PKey? |
 |-----------|----------|--------------|-------|

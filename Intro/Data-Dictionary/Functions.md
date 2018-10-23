@@ -15,4 +15,4 @@ This, based on the user's membership of role groups, returns an Integer that enc
 
 ## fnIsA2L()
 
-For use in a computed column in the Applicants table, this returns 1 where the applicant has an A2L record, 0 otherwise. Source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FFunctions%2FfnGetCurTermCode.sql&version=GBmaster)
+For use in a computed column in the Applicants table, this returns 1 where the applicant has an A2L record, 0 otherwise. Source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FFunctions%2FfnIsA2L.sql&version=GBmaster)

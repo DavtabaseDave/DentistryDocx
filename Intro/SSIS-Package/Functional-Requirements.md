@@ -23,4 +23,4 @@ are permitted per data flow. In practice this is not too problematic as the Orac
 parallel.
 - Meaningful names **MUST** be ascribed to all data sources and destinations (to avoid confusion)
 - Where applicable raw SQL should be avoided in SQL tasks in the main control flow steps except to
-call SProcs in the DB
+call SProcs in the DB (with or without an enclosing transaction). This facilitates better error detection as the DB model is held in an SSDT model 

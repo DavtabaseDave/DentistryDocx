@@ -15,4 +15,4 @@ the import of data from Banner.
 as codes where the description resides in a lookup table. This applies to such tuples as programme
 codes/descriptions, ethnicity code and description. The code that merges the extracted raw data
 should first append any missing lookup codes/descriptions so that the merge of the applicant
-data will not fail due to missing foreign keys.
+data will not fail due to missing foreign keys values.

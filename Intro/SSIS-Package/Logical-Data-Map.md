@@ -11,7 +11,8 @@ NB: Green arrows represent a data source and blue arrows a data destination
 
 ## Source queries
 
-Double clicking on the source queries brings up an editor where the connection, Data access mode, and the SQL command text can be set. This appears thus:
+Double clicking on the source queries brings up an editor where the connection, Data access mode, and the SQL command
+text can be set. This appears thus:
  ![Source _queries.PNG](/.attachments/Source%20_queries-6f663bf7-9c8e-4859-ab29-4daf43fb04f8.PNG)
 
 When building a data flow source the procedure is to:

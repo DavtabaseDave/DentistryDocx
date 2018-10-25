@@ -13,18 +13,6 @@ This is pictorially represented by:
  ![INB_Extractions_Data_Flow_Task.PNG](/.attachments/INB_Extractions_Data_Flow_Task-56d4fbc1-6872-4ace-8969-0e445b8ea330.PNG)
 NB: Green arrows represent a data source and blue arrows a data destination
 
-## **Vital Note**
-
-Although static text queries are used to build the data flows they are parameterized using the 
-Data Flow's "Expressions" property. Briefly this allows the developer to introduce any number of parameters into the SQL string
-before it is sent to the source DB.
-
-It will always overwrite **ANY** alterations to the SQL text in the data source editor. To update the query the SqlCommand expression must
-be altered. This can be found by selecting the background of the Data Flow and scrolling down the "Properties" to "Expressions"
-as shown here:
-![Expressions.PNG](/.attachments/Expressions-b20b031c-8cf3-4d82-8598-972dc9f5d40f.PNG)
-Click on the RHS most part of the value that lists the query string to bring up the editor
-
 ## Source queries
 
 Double clicking on the source queries brings up an editor where the connection, Data access mode, and the SQL command

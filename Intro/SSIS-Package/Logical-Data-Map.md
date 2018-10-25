@@ -31,5 +31,10 @@ Double clicking on the data destination brings up an editor where the connection
 This appears thus (for h_Applicants destination table):
  ![Data_destination.PNG](/.attachments/Data_destination-c2d5aa3a-bd10-4e16-9d9a-507dfa9eda09.PNG)
 
+When building a data flow destination the procedure is to:
+1. create the data destination by dragging from the toolbox - give it a meaningful name. and set the connection, access
+mode, and query.
+
+
 ## Set column mappings
 

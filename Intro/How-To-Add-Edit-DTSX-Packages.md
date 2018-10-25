@@ -74,7 +74,8 @@ Great care must be taken when using this editor as:
 1. The font used for the actual query is tiny and
 0. The Query text control (indicated in red) is not expandable - the separate controls grow in 
 proportion to the editor window.
-0. The query must be surrounded by double quotes and any double quotes therein must be escaped
+0. The query must be surrounded by double quotes and any double quotes within the SQL string
+must be escaped
 0. It doesn't deal with newlines properly
 0. when dragging parameters from the top left tree view into the query text it doesn't insert them
 properly. Instead inserting the following into the query string:

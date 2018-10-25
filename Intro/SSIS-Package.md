@@ -10,6 +10,10 @@ Can be found [here](/Intro/SSIS-Package/Design-Mandate)
 
 Can be found [here](/Intro/SSIS-Package/Functional-Requirements)
 
+## Control Flow
+
+Can be found [here](/Intro/SSIS-Package/Control-Flow)
+
 ## Logical Data Maps
 
 Can be found [here](/Intro/SSIS-Package/Logical-Data-Map)

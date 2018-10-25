@@ -31,13 +31,6 @@ Double clicking on the source queries brings up an editor where the connection, 
 text can be set. This appears thus:
  ![Source _queries.PNG](/.attachments/Source%20_queries-6f663bf7-9c8e-4859-ab29-4daf43fb04f8.PNG)
 
-When building a data flow source the procedure is to:
-1. create the data source by dragging from the toolbox - give it a meaningful name. and set the connection, access
-mode, and query.
-**NB**: when building Oracle queries the best tool for this is Oracle's SQL Developer. Use
-this until the queries run efficiently and the data produced is verifiably correct
-0. create a data destination - in this case an OLEDB destination (see below)
-0. link the source and the destination and then set column mappings
 
 This is repeated for all the source -> destination mappings as required to fulfil the data requirements
 
@@ -47,17 +40,9 @@ Double clicking on the data destination brings up an editor where the connection
 This appears thus (for h_Applicants destination table):
  ![Data_destination.PNG](/.attachments/Data_destination-c2d5aa3a-bd10-4e16-9d9a-507dfa9eda09.PNG)
 
-When building a data flow destination the procedure is to:
-1. create the data destination by dragging from the toolbox - give it a meaningful name. and set the
-connection, access mode, and select the table from the drop down.
 0. link the source and the destination and then set column mappings (see below)
 **NB**: when creating holding tables the best way is in SSMS using openquery() against a 
 linked server to create the new table structure based on the Oracle columns.
-
-## Link data source and destination 
-
-This is made by dragging the blue arrow (attached to the data source) and connecting it manually
-to the data destination. To break a connection, select the blue arrow and press the "DEL" key
 
 ## Set column mappings
 

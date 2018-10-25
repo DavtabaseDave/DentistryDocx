@@ -35,6 +35,8 @@ When building a data flow destination the procedure is to:
 1. create the data destination by dragging from the toolbox - give it a meaningful name. and set the
 connection, access mode, and select the table from the drop down.
 0. link the source and the destination and then set column mappings (see below)
+**NB**: when creating holding tables the best way is in SSMS using openquery() against a 
+linked server to create the new table structure based on the Oracle columns.
 
 ## Link data source and destination 
 
@@ -42,4 +44,6 @@ This is made by dragging the blue arrow (attached to the data source) and connec
 to the data destination. To break a connection, select the blue arrow and press the "DEL" key
 
 ## Set column mappings
+
+To set/alter the column mappings, click on the "Mappings" item in the list box.  ![source_dest_mappings.PNG](/.attachments/source_dest_mappings-29410702-bc68-4fcd-82e6-389f4b467760.PNG)
 

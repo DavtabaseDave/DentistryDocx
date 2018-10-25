@@ -24,7 +24,6 @@ this until the queries run efficiently and the data produced is verifiably corre
 
 ## 2. Setup Data Destination
 
-
 When building a data flow destination the procedure is to:
 Create the data destination by dragging from the toolbox - give it a meaningful name. and set the
 connection, access mode, and select the table from the drop down.

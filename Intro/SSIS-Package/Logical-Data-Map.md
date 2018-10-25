@@ -38,8 +38,8 @@ connection, access mode, and select the table from the drop down.
 
 ## Link data source and destination 
 
-This is made by dragging the green arrow (attached to the data source) and connecting it manually
-to the data destination
+This is made by dragging the blue arrow (attached to the data source) and connecting it manually
+to the data destination. To break a connection, select the blue arrow and press the "DEL" key
 
 ## Set column mappings
 

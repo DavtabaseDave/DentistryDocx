@@ -27,5 +27,8 @@ This is repeated for all the source -> destination mappings as required to fulfi
 
 ## Data Destination
 
+Double clicking on the data destination brings up an editor where the connection, access mode, target table can be set
+ ![Data_destination.PNG](/.attachments/Data_destination-c2d5aa3a-bd10-4e16-9d9a-507dfa9eda09.PNG)
+
 ## Set column mappings
 

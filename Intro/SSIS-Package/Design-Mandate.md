@@ -11,7 +11,7 @@ Integration Services DB.
 - Queries sent to the Oracle DB will have a plain text, non-variable containing, version in the data
 flow ADO .NET Data sources so that data flows and OLE DB Destinations (SQL Server) can be
 setup. These will be replaced at runtime using the "Expressions" property of the data flow
-containing them. These will make reference to the Package Parameters to prevent the package
+containing them. These will make reference to the Project Parameters to prevent the package
 being tied to a particular academic year.
 - Data Flows can only contain **NO MORE THAN 10** Data Flow Components as only ten expressions
 are permitted per data flow. In practice this is not too problematic as the Oracle queries are run in

@@ -33,8 +33,8 @@ This appears thus (for h_Applicants destination table):
 
 When building a data flow destination the procedure is to:
 1. create the data destination by dragging from the toolbox - give it a meaningful name. and set the
-connection, access mode, and query.
-
+connection, access mode, and select the table from the drop down.
+0. link the source and the destination and then set column mappings (see below)
 
 ## Set column mappings
 

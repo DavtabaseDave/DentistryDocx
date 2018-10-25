@@ -28,7 +28,10 @@ When building a data flow destination the procedure is to:
 Create the data destination by dragging from the toolbox - give it a meaningful name. and set the
 connection, access mode, and select the table from the drop down.
 
+## 3. Link data source and destination 
 
+This is made by dragging the blue arrow (attached to the data source) and connecting it manually
+to the data destination. To break a connection, select the blue arrow and press the "DEL" key
 
 
 0. create a data destination - in this case an OLEDB destination

@@ -28,6 +28,7 @@ Banner to append new/update existing data in the table t_Dent_A2L_RR (shown [her
   - GURMAIL offer codes - these are extracted as the possibility exists that in future Banner
 codes will be written to GURMAIL when offer letters are sent out. This is used to update 
 columns `date_off_let_sent` and `gurmail_code` in the Decisions table.
-  - Applicant's Results - correctly extract applicant's Results Banner data to update existing column `ACTUAL_RESULTS` in the table t_Dent_Applicants  
+  - Applicant's Results - correctly extract applicant's Results Banner data to update existing
+column `ACTUAL_RESULTS` in the table t_Dent_Applicants  
   - Nationalities list- extract the full list of nationality codes and descriptions from Banner table `Skvssdt`
   - Ethnicity list - extract all ethnicity codes and descriptions from Banner table `stvethn`

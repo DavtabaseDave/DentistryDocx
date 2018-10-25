@@ -11,7 +11,9 @@ This is pictorially represented by:
  ![INB_Extractions_Data_Flow_Task.PNG](/.attachments/INB_Extractions_Data_Flow_Task-56d4fbc1-6872-4ace-8969-0e445b8ea330.PNG)
 NB: Green arrows represent a data source and blue arrows a data destination
 
-## Vital Note
+## **Vital Note**
+
+Although static text queries are used to build the data flows
 
 ## Source queries
 

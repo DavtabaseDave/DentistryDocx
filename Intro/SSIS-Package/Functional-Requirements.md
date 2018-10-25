@@ -18,9 +18,10 @@ should first append any missing lookup codes/descriptions so that the merge of t
 data will not fail due to missing foreign keys values.
 - The Data Flow tasks should extract data for the following DB tables:
   - Applicants - correctly extract applicant's Banner data to append new/update existing data in
-the table t_Dent_Applicants (shown [here](https://universityofleeds.visualstudio.com/FAD/_wiki/wikis/FAD.wiki?wikiVersion=GBwikiMaster&pagePath=%2FIntro%2FData%20Dictionary%2FData%20Tables)). Columns are included to insert missing rows into the lookup tables for disability and school codes (l_stvdisa and l_stvsbgi)
+the table t_Dent_Applicants (shown [here](https://universityofleeds.visualstudio.com/FAD/_wiki/wikis/FAD.wiki?wikiVersion=GBwikiMaster&pagePath=%2FIntro%2FData%20Dictionary%2FData%20Tables)). Columns are included to insert missing rows into
+the lookup tables for disability and school codes (l_stvdisa and l_stvsbgi)
   - Applicant's Decisions - correctly extract applicant's Decisions Banner data to append new/update existing data in the table t_Dent_Decisions (shown [here](https://universityofleeds.visualstudio.com/FAD/_wiki/wikis/FAD.wiki?wikiVersion=GBwikiMaster&pagePath=%2FIntro%2FData%20Dictionary%2FData%20Tables&anchor=decisions)). A column is included to insert missing rows into the lookup table for programme codes (l_smrprle)
-  - Access to Leeds Running Record (A2L_RR) - correctly extract applicant's A2L_RR data from Banner o append new/update existing data in the table t_Dent_A2L_RR (shown [here](https://universityofleeds.visualstudio.com/FAD/_wiki/wikis/FAD.wiki?wikiVersion=GBwikiMaster&pagePath=%2FIntro%2FData%20Dictionary%2FData%20Tables&anchor=a2l_rr)). 
+  - Access to Leeds Running Record (A2L_RR) - correctly extract applicant's A2L_RR data from Banner to append new/update existing data in the table t_Dent_A2L_RR (shown [here](https://universityofleeds.visualstudio.com/FAD/_wiki/wikis/FAD.wiki?wikiVersion=GBwikiMaster&pagePath=%2FIntro%2FData%20Dictionary%2FData%20Tables&anchor=a2l_rr)). 
   - GURMAIL offer codes - these are extracted as the possibility exists that in future Banner codes will be written to GURMAIL when offer letters are sent out. This is used to update a column in the Decisions table.
   - Applicant's Results - correctly extract applicant's Results Banner data to update existing column `ACTUAL_RESULTS` in the table t_Dent_Applicants  
   - Nationalities list- extract the full list of nationality codes and descriptions from Banner table `Skvssdt`

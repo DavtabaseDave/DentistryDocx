@@ -25,7 +25,8 @@ and/or update existing data in the table t_Dent_Decisions (shown [here](https://
 to insert missing rows into the lookup table for programme codes (l_smrprle)
   - Access to Leeds Running Record (A2L_RR) - correctly extract applicant's A2L_RR data from
 Banner to append new/update existing data in the table t_Dent_A2L_RR (shown [here](https://universityofleeds.visualstudio.com/FAD/_wiki/wikis/FAD.wiki?wikiVersion=GBwikiMaster&pagePath=%2FIntro%2FData%20Dictionary%2FData%20Tables&anchor=a2l_rr)). 
-  - GURMAIL offer codes - these are extracted as the possibility exists that in future Banner codes will be written to GURMAIL when offer letters are sent out. This is used to update a column in the Decisions table.
+  - GURMAIL offer codes - these are extracted as the possibility exists that in future Banner
+codes will be written to GURMAIL when offer letters are sent out. This is used to update a column in the Decisions table.
   - Applicant's Results - correctly extract applicant's Results Banner data to update existing column `ACTUAL_RESULTS` in the table t_Dent_Applicants  
   - Nationalities list- extract the full list of nationality codes and descriptions from Banner table `Skvssdt`
   - Ethnicity list - extract all ethnicity codes and descriptions from Banner table `stvethn`

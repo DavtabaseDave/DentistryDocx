@@ -45,5 +45,6 @@ to the data destination. To break a connection, select the blue arrow and press 
 
 ## Set column mappings
 
-To set/alter the column mappings, click on the "Mappings" item in the list box.  ![source_dest_mappings.PNG](/.attachments/source_dest_mappings-29410702-bc68-4fcd-82e6-389f4b467760.PNG)
+To set/alter the column mappings, click on the "Mappings" item in the list box. This appears thus:
+![source_dest_mappings.PNG](/.attachments/source_dest_mappings-29410702-bc68-4fcd-82e6-389f4b467760.PNG)
 

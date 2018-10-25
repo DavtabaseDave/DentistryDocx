@@ -40,4 +40,16 @@ To set/alter the column mappings, click on the "Mappings" item in the list box. 
 Mappings can be altered as desired by dragging and dropping, selecting and deleting, etc..
 
 ## Iteration
-This is repeated for all the source -> destination mappings as required to fulfill the data requirements
+This steps are repeated for all the source -> destination mappings as required to fulfill the data requirements of the application
+
+## Identify parameters
+
+The queries are inspected to identify suitable parameters for the package. These include restrictions such as:
+- Faculty Code
+- School Code
+- Selector Centre
+- Entry Year
+- Term Code of Entry
+
+These should be added as Project Parameters. Sensible naming scheme should be employed and
+ the most suiteable data type for the parameters is String

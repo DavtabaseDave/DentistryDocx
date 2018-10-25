@@ -36,5 +36,10 @@ When building a data flow destination the procedure is to:
 connection, access mode, and select the table from the drop down.
 0. link the source and the destination and then set column mappings (see below)
 
+## Link data source and destination 
+
+This is made by dragging the green arrow (attached to the data source) and connecting it manually
+to the data destination
+
 ## Set column mappings
 

@@ -4,6 +4,8 @@
 
 Can best be depicted pictorially:
  ![Control_Flow.png](/.attachments/Control_Flow-58d77829-9354-4d02-b523-37a460f9f0af.png)
+The green arrows represent order of execution flow on success of a previous step. Any
+failures terminate the process
 
 NB: all OLEDB targets use the connection manager `Target FAD.conmgr` and Banner sources `INB_PROD.LUBSTXFR.conmgr`
 

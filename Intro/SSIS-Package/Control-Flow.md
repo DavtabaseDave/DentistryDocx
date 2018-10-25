@@ -7,4 +7,5 @@ Can best be depicted pictorially:
 
 ## Truncate Holding Tables, before & after
 
-Both Execute SQL Tasks `EXECUTE` the DB niladic SProc `pr_Dntl_Truncate_HoldingTables` 
+Both Execute SQL Tasks `EXECUTE` the DB niladic SProc `pr_Dntl_Truncate_HoldingTables` using the following settings:
+ ![Dentatl_admish_trunc_H_Table.PNG](/.attachments/Dentatl_admish_trunc_H_Table-648b7c5b-56a3-42a5-8806-2ad305fa1e42.PNG)

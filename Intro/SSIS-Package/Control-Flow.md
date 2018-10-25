@@ -31,3 +31,6 @@ EXECUTE dbo.pr_Dntl_INB_Extraction_Merges
 -- finally, commit it
 commit transaction Dental_Admish_DailyUpdate;
 ```
+
+As is self-evident this simply wraps a call to `dbo.pr_Dntl_INB_Extraction_Merges
+` in a transaction. Source [here](https://universityofleeds.visualstudio.com/FAD/_wiki/wikis/FAD.wiki?wikiVersion=GBwikiMaster&pagePath=%2FIntro%2FData%20Dictionary%2FStored%20Procedures&anchor=pr_dntl_inb_extraction_merges)

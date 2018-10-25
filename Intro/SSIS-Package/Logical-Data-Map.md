@@ -11,6 +11,8 @@ This is pictorially represented by:
  ![INB_Extractions_Data_Flow_Task.PNG](/.attachments/INB_Extractions_Data_Flow_Task-56d4fbc1-6872-4ace-8969-0e445b8ea330.PNG)
 NB: Green arrows represent a data source and blue arrows a data destination
 
+## Vital Note
+
 ## Source queries
 
 Double clicking on the source queries brings up an editor where the connection, Data access mode, and the SQL command

@@ -7,4 +7,4 @@ Can best be depicted pictorially:
 
 ## Truncate Holding Tables, before & after
 
-Both 
+Both Execute SQL Tasks `EXECUTE` the DB niladic SProc `pr_Dntl_Truncate_HoldingTables` 

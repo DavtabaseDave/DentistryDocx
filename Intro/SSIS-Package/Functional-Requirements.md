@@ -34,3 +34,5 @@ column `ACTUAL_RESULTS` in the table t_Dent_Applicants
 table `Skvssdt`
   - Ethnicity list - extract all ethnicity codes and descriptions from Banner table `stvethn`
 - Merge the extracted Banner with the actual user tables 
+- To prevent and duplication/confusion, these holding tables should be cleared after the import 
+of data from Banner.

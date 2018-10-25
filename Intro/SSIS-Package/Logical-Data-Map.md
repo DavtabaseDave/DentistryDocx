@@ -13,7 +13,9 @@ NB: Green arrows represent a data source and blue arrows a data destination
 
 ## **Vital Note**
 
-Although static text queries are used to build the data flows
+Although static text queries are used to build the data flows they are parameterized using the 
+Data Flow's "Expressions" property. Briefly this allows the developer to introduce any number of
+
 
 ## Source queries
 

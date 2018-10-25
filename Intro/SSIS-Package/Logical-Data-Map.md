@@ -13,9 +13,11 @@ NB: Green arrows represent a data source and blue arrows a data destination
 
 Double clicking on the source queries brings up an editor where the connection, Data access mode, and the SQL command text can be set. This appears thus:
  ![Source _queries.PNG](/.attachments/Source%20_queries-6f663bf7-9c8e-4859-ab29-4daf43fb04f8.PNG)
+
 When building a data flow source the procedure is to:
-1. create the data source and set the query.
-**NB**: when building Oracle queries the best tool for this is Oracle's SQL Develeoper. Use
+1. create the data source by dragging from the toolbox and set the connection, access
+mode, and query.
+**NB**: when building Oracle queries the best tool for this is Oracle's SQL Developer. Use
 this until the queries run efficiently and the data produced is verifiably correct
 0. create a data destination - in this case an OLEDB destination (see below)
 0. link the source and the destination and then set column mappings

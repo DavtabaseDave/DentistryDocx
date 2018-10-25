@@ -19,7 +19,7 @@ Although static text queries are used to build the data flows they are parameter
 Data Flow's "Expressions" property. Briefly this allows the developer to introduce any number of parameters into the SQL string
 before it is sent to the source DB.
 
-It will always overwrite **ANY** alterations to the SQL text in the data source editor. To update the query the expression must
+It will always overwrite **ANY** alterations to the SQL text in the data source editor. To update the query the SqlCommand expression must
 be altered. This can be found by selecting the background of the Data Flow and scrolling down the "Properties" to "Expressions"
 as shown here:
 ![Expressions.PNG](/.attachments/Expressions-b20b031c-8cf3-4d82-8598-972dc9f5d40f.PNG)

@@ -15,3 +15,19 @@ Both Execute SQL Tasks `EXECUTE` the DB niladic SProc `pr_Dntl_Truncate_HoldingT
 ## Banner Extractions
 
 This will be described in greater detail [here](/Intro/SSIS-Package/Logical-Data-Map)
+
+## Merges
+
+This Execute SQL Task runs the following SQL (other settings as above):
+``` sql
+-- begin TX
+begin transaction Dental_Admish_DailyUpdate with MARK N'Daily update of Dental Admissions data';
+
+------------------------------------------------------------
+-- MERGE the data from the holding tables into the actual tables
+------------------------------------------------------------
+EXECUTE dbo.pr_Dntl_INB_Extraction_Merges
+
+-- finally, commit it
+commit transaction Dental_Admish_DailyUpdate;
+```

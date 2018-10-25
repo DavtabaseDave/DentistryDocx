@@ -17,7 +17,7 @@ in the Control Flow):
 ## 1. Setup Source data
 
 When building a data flow source the procedure is to:
-1. create the data source by dragging from the toolbox - give it a meaningful name. and set the connection, access
+Create the data source by dragging from the toolbox - give it a meaningful name. and set the connection, access
 mode, and SQL query.
 **NB**: when building Oracle queries the best tool for this is Oracle's SQL Developer. Use
 this until the queries run efficiently and the data produced is verifiably correct
@@ -26,7 +26,11 @@ this until the queries run efficiently and the data produced is verifiably corre
 
 
 When building a data flow destination the procedure is to:
-1. create the data destination by dragging from the toolbox - give it a meaningful name. and set the
+Create the data destination by dragging from the toolbox - give it a meaningful name. and set the
 connection, access mode, and select the table from the drop down.
-0. create a data destination - in this case an OLEDB destination (see below)
+
+
+
+
+0. create a data destination - in this case an OLEDB destination
 0. link the source and the destination and then set column mappings

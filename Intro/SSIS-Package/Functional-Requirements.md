@@ -30,5 +30,6 @@ codes will be written to GURMAIL when offer letters are sent out. This is used t
 columns `date_off_let_sent` and `gurmail_code` in the Decisions table.
   - Applicant's Results - correctly extract applicant's Results Banner data to update existing
 column `ACTUAL_RESULTS` in the table t_Dent_Applicants  
-  - Nationalities list- extract the full list of nationality codes and descriptions from Banner table `Skvssdt`
+  - Nationalities list- extract the full list of nationality codes and descriptions from Banner
+table `Skvssdt`
   - Ethnicity list - extract all ethnicity codes and descriptions from Banner table `stvethn`

@@ -33,6 +33,8 @@ connection, access mode, and select the table from the drop down.
 This is made by dragging the blue arrow (attached to the data source) and connecting it manually
 to the data destination. To break a connection, select the blue arrow and press the "DEL" key
 
+## 4. Set column mappings
 
-0. create a data destination - in this case an OLEDB destination
-0. link the source and the destination and then set column mappings
+To set/alter the column mappings, click on the "Mappings" item in the list box. This appears thus:
+![source_dest_mappings.PNG](/.attachments/source_dest_mappings-29410702-bc68-4fcd-82e6-389f4b467760.PNG)
+Mappings can be altered as desired by dragging and dropping, selecting and deleting, etc..

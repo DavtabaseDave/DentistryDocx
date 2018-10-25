@@ -9,8 +9,8 @@ names object should clearly indicate by a prefix (*"Dent"*) that they are Facult
 - Data being imported from Banner should not "lose" any local data that is part of the same record.
 Consequently "holding" table (with a prefix of "h_") should be used as a temporary store for incoming
 data before it is merged with that actual user tables.
-- To prevent and duplication/confusion, these holding tables should be cleared both before and after
-the import of data from Banner.
+- To prevent and duplication/confusion, these holding tables should be cleared before the
+import of data from Banner.
 - To prevent problems at the merging stage, the Banner queries should include descriptions as well
 as codes where the description resides in a lookup table. This applies to such tuples as programme
 codes/descriptions, ethnicity code and description. The code that merges the extracted raw data
@@ -33,3 +33,4 @@ column `ACTUAL_RESULTS` in the table t_Dent_Applicants
   - Nationalities list- extract the full list of nationality codes and descriptions from Banner
 table `Skvssdt`
   - Ethnicity list - extract all ethnicity codes and descriptions from Banner table `stvethn`
+- Merge the extracted Banner with the actual user tables 

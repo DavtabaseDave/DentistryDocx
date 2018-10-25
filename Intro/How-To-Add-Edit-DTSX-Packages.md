@@ -72,9 +72,18 @@ This badly designed editor appears thus:
  ![Expression Builder.PNG](/.attachments/Expression%20Builder-cd9316e5-a093-43dc-8d27-54a6ac231fa7.PNG).
 Great care must be taken when using this editor as:
 1. The font used for the actual query is tiny and
-0. The Query text control (indicated in red) is not expandable
+0. The Query text control (indicated in red) is not expandable - the separate controls grow in 
+proportion to the editor window.
 0. The query must be surrounded by double quotes and any double quotes therein must be escaped
 0. It doesn't deal with newlines properly
+0. when dragging parameters from the top left tree view into the query text it doesn't insert them
+properly. Instead inserting the following into the query string:
+`"' +@[$Project::AdApplNoMask] + '"` (the substitution has to be performed by a parser)
+it merely inserts 
+`@[$Project::AdApplNoMask]`
+leaving the inexperienced user to puzzle over why it doesn't work.
+
+When making changes to these always click the "Evaluate Expression" button before saving it.
 
 
 

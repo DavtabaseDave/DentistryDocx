@@ -2,6 +2,8 @@
 
 [[_TOC_]]
 
+**Ignore the Vital Note below at your peril**
+
 This runs several queries in parallel against the Banner Oracle DB via ADO .NET source connections.
 The data is temporarily stored in SQL Server holding tables via OLEDB connections. As there
 is a 1:1 correspondence between the source queries and the target tables no data conversions
@@ -14,7 +16,8 @@ NB: Green arrows represent a data source and blue arrows a data destination
 ## **Vital Note**
 
 Although static text queries are used to build the data flows they are parameterized using the 
-Data Flow's "Expressions" property. Briefly this allows the developer to introduce any number of
+Data Flow's "Expressions" property. Briefly this allows the developer to introduce any number of parameters into the SQL string before it is sent to the source DB. 
+  ![Expressions.PNG](/.attachments/Expressions-b20b031c-8cf3-4d82-8598-972dc9f5d40f.PNG)
 
 
 ## Source queries

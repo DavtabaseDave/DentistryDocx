@@ -16,3 +16,5 @@ as codes where the description resides in a lookup table. This applies to such t
 codes/descriptions, ethnicity code and description. The code that merges the extracted raw data
 should first append any missing lookup codes/descriptions so that the merge of the applicant
 data will not fail due to missing foreign keys values.
+- The Data Flow tasks should extract data for the following DB tables:
+  - Applicants - correctly extract applicant's Banner data to append new/update existing data in the table t_Dent_Applicants (shown [here](https://universityofleeds.visualstudio.com/FAD/_wiki/wikis/FAD.wiki?wikiVersion=GBwikiMaster&pagePath=%2FIntro%2FData%20Dictionary%2FData%20Tables))

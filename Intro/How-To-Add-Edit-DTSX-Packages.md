@@ -65,3 +65,8 @@ be altered. This can be found by selecting the background of the Data Flow and s
 as shown here:
 ![Expressions.PNG](/.attachments/Expressions-b20b031c-8cf3-4d82-8598-972dc9f5d40f.PNG)
 Click on the RHS most part of the value that lists the query string to bring up the editor
+
+### Expression Builder
+
+This badly designed editor appears thus:
+ ![Expression Builder.PNG](/.attachments/Expression%20Builder-fbb96329-12c6-4068-a720-8ce56009d15f.PNG)

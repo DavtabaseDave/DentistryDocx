@@ -22,7 +22,7 @@ this connection)
 
 ## Project Parameters
 
-**NB: don't put the contents of sets in the Value part of the parameter - SSIS doesn't like it**
+**NB: don't put the contents of sets in the Value part of the parameter - SSIS doesn't like it** ;)
 
 ### AdApplNoMask
 
@@ -52,4 +52,5 @@ Purpose: limit applicants (and associated data) to the earliest entry year of 20
 ### AdPrevYear
 
 A string, default value: 17
-Purpose: limit applicants (and associated data) to those made after 31-AUG-<AdPrevYear>
+Purpose: limit applicants (and associated data) to those made after 31-AUG-<AdPrevYear>.
+That is no more than 

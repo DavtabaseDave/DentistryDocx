@@ -120,7 +120,8 @@ SqlCommand Expression text.
 0. In SSMS use the updated query from the previous step to create a new version of the
 holding table with the revised schema.
 0. Update your SSDT model from this using Schema Compare and alter the user visible
-table to match (you are using an SSDT model aren't you - if you're not you should be ;)). Publish your schema revisions back to the Development DB.
+table to match (you are using an SSDT model aren't you - if you're not you should be ;)).
+Publish your schema revisions back to the Development DB.
 0. Update the SqlCommand Expression text with the changes worked up in SQL Developer
 0. Re-add the data flow components, link them, and set the data mappings (as set out above).
 0. Re-add the revised SqlCommand Expression text.

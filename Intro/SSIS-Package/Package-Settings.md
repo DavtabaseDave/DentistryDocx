@@ -8,11 +8,13 @@ This sets out the two connection managers and the Package Parameters
 
 ### Target.FAD.conmgr
 
+To be used for any data destination
 An OLE DB\SQL Server Native Client connection set up like so:
  ![Target_FAD_conmgr.PNG](/.attachments/Target_FAD_conmgr-18422a5b-5c4f-4c44-b36d-392f7902083e.PNG)
 
 ### INB_PROD.LUSTXFR.conmgr
 
+To be used for any data source
 An ADO .NET\Oracle Client connection set up like so (password is not displayed as the
 project is password protected - this has to be entered EVERY time a change is made to
 this connection)

@@ -14,7 +14,8 @@ Parameters to set faculty and/or term specific parameters in the queries before 
 the Banner Oracle DB.
 
 The steps involve building a Data Flow item in a Data Flow Task (which must already be present
-in the Control Flow). This assumes that the source (ADO .NET for Banner) and target connection manager
+in the Control Flow). This assumes that the source (ADO .NET for Banner) and target connection
+managers (OLEDB for SQL Server) have already been set up 
 
 ## 1. Setup Source data
 

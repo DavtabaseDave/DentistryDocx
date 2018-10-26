@@ -22,6 +22,5 @@ this connection)
 
 ## Project Parameters
 
-**NB: don't put the contents of sets in the Value part of the parameter - SSIS doen't like it**
-
+**NB: don't put the contents of sets in the Value part of the parameter - SSIS doesn't like it**
 

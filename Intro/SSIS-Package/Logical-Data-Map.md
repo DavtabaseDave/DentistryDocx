@@ -396,3 +396,8 @@ where s1.skvssdt_sdat_code_entity = 'SKBSPIN'
 
 Not parameterized 
 ``` sql
+select
+  stvethn_code
+  ,stvethn_desc
+from stvethn
+```

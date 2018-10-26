@@ -27,4 +27,10 @@ this connection)
 ### AdApplNoMask
 
 A string, default value: 180000000
-Purpose: limit applicant (and associated data to a minimum UCAS ID
+Purpose: limit applicants (and associated data) to a minimum UCAS ID
+
+### AdDentFacCode
+
+A string, default value: MH
+Purpose: limit A2L data to the MH Faculty code
+

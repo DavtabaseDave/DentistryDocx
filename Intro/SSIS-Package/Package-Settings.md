@@ -13,7 +13,7 @@ An OLE DB\SQL Server Native Client connection set up like so:
 
 ### INB_PROD.LUSTXFR.conmgr
 
-An ADO .NET\Oracle Client connection set up like so (password is not displayed as password protected - this has to be entered EVERY time a change is made to this connection)
+An ADO .NET\Oracle Client connection set up like so (password is not displayed as the project is password protected - this has to be entered EVERY time a change is made to this connection)
  ![INB_PROD_LUSTXFR_conmgr.PNG](/.attachments/INB_PROD_LUSTXFR_conmgr-7d1df574-a27f-4b87-a657-aca2e169fa6d.PNG)
 
 ## Project Parameters

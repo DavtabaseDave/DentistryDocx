@@ -83,6 +83,7 @@ To add a new one click on the `...` button to the right of `Expressions` root an
 that appears select an available SqlCommand from the drop down then click the `...` button
 to bring up the Expression Editor:
  ![Expression_Editor.PNG](/.attachments/Expression_Editor-e6df5edf-c175-4018-af9e-984ca6548cfc.PNG)
+Unless you wish to dynamically select the Table, **DO NOT** use the TableOrViewName options
 
 ### Expression Builder
 

@@ -25,7 +25,7 @@ will give all sorts of hints, help with schema and more meaningful error message
 ## SQL Server holding tables
 When creating holding tables the best way is in SSMS using openquery() against a 
 linked server to the Oracle DB to create the new table structure based on the Oracle columns.
-This avoids any data mismatch complications
+This avoids any data mismatch complications and also speeds the building of local table schema 
 
 ## 1. Setup Source data
 

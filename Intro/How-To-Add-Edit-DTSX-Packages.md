@@ -92,7 +92,7 @@ This badly designed editor appears thus:
 Great care must be taken when using this editor as:
 1. The font used for the actual query is tiny and
 0. The Query text control (indicated in red) is not expandable - the separate controls grow in 
-proportion to the editor window.
+proportion to the whole editor dialog window.
 0. The query must be surrounded by double quotes and any double quotes within the SQL string
 must be escaped
 0. It doesn't deal with newlines properly

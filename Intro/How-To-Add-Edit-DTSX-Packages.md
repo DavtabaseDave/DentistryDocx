@@ -97,7 +97,7 @@ proportion to the whole editor dialog window.
 must be escaped
 0. It doesn't deal with newlines properly
 0. when dragging parameters from the top left tree view into the query text it doesn't insert them
-properly. Instead inserting the following into the query string:
+properly. Instead of inserting the following into the query string:
 `"' +@[$Project::AdApplNoMask] + '"` (the substitution has to be performed by a parser)
 it merely inserts 
 `@[$Project::AdApplNoMask]`

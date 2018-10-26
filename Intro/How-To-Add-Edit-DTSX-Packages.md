@@ -20,7 +20,10 @@ managers (OLEDB for SQL Server) have already been set up.
 ## Banner source queries
 When building Oracle queries the best tool for this is Oracle's SQL Developer. Use
 this until the queries run efficiently and the data produced is verifiably correct. SQL Developer
-will give all sorts of hints, help with schema and more meaningful error messages than elsewhere. 
+will give all sorts of hints, help with schema and more meaningful error messages than elsewhere.
+
+## SQL Serve holding tables
+
 
 ## 1. Setup Source data
 

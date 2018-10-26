@@ -21,6 +21,7 @@ managers (OLEDB for SQL Server) have already been set up.
 When building Oracle queries the best tool for this is Oracle's SQL Developer. Use
 this until the queries run efficiently and the data produced is verifiably correct. SQL Developer
 will give all sorts of hints, help with schema and more meaningful error messages than elsewhere.
+Where parameters are to be applied, don't make the query very long (not sure of the cutoff but it's likely to be 8,000 characters)
 
 ## SQL Server holding tables
 When creating holding tables the best way is in SSMS using openquery() against a 

@@ -71,8 +71,8 @@ casting is required to concatenate it with the query string.)
 ## Add Expressions to the Data Flow
 
 Although static text queries are used to build the data flows they are parameterized using the 
-Data Flow's "Expressions" property. This allows the developer to introduce any number of parameters into the SQL string
-before it is sent to the source DB.
+Data Flow's "Expressions" property. This allows the developer to introduce any number of
+parameters into the SQL string before it is sent to the source DB.
 
 It will always overwrite **ANY** alterations to the SQL text in the data source editor. To update the query the SqlCommand expression must
 be altered. This can be found by selecting the background of the Data Flow and scrolling down the "Properties" page to "Expressions"

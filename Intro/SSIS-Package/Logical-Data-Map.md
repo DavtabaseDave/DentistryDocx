@@ -199,3 +199,59 @@ The last line of the `where` clause is parameterized like so in the SqlCommand v
 " … 
   and gurmail_term_code >= '" + @[$Project::AdTermCodeEntry] + "'"
 ```
+
+### Results
+
+``` sql
+select sortest_pidm, ltrim(sys_connect_by_path(subject_result,'; '),'; ') actual_results
+  from (select sortest_pidm,
+        (case nvl(sortest_tadm_code, 'empty')
+          when 'empty' then stvtesc_desc || ': ' || sortest_test_score
+          else stvtadm_desc || ' ' || stvtesc_desc || ': ' || sortest_test_score/* || ' (' || sortest_tadm_code || ')'*/
+        end)subject_result,
+        row_number() over (partition by sortest_pidm order by sortest_tesc_code) rn,
+        count(*) over (partition by sortest_pidm) cnt
+        from sortest inner join stvtesc on sortest_tesc_code = stvtesc_code
+            inner join stvtadm on sortest_tadm_code = stvtadm_code
+        where sortest_pidm in (
+SELECT
+  DISTINCT SPRIDEN_PIDM as PIDM
+From
+    skrudap Inner Join saradap sa ON (saradap_term_code_entry = skrudap_term_code_entry AND saradap_appl_no = skrudap_appl_no)
+    Inner Join Spriden On (sa.Saradap_Pidm = Spriden_Pidm And Skrudap_Pidm = Spriden_Pidm)
+    Inner Join spbpers ON (spbpers_pidm = spriden_pidm)
+    Inner Join Skrsain On (Skrudap_Pidm = Skrsain_Pidm And Skrudap_Applicant_No = Skrsain_Applicant_No)
+    Inner Join Skruccr On (Skruccr_Pidm = Skrsain_Pidm And Skruccr_Applicant_No = Skrsain_Applicant_No)-- AND saradap_appl_no = Skruccr_appl_no)
+    inner join swbslcr on (swbslcr_skrutop_code_crse = skruccr_ssdt_code_crse) -- changed to inner join
+    Inner Join Skrutop On (Skrutop_Ssdt_Code_Crse = Skruccr_Ssdt_Code_Crse and Saradap_Majr_Code_1 = Skrutop_Majr_Code)
+    left Join sprmedi On (Sprmedi_Pidm = Spriden_Pidm)
+    left join stvdisa on (stvdisa_code = sprmedi_disa_code)
+where spriden_change_ind   is null
+  and spbpers_dead_ind is null
+  and sprmedi_disa_code is not null
+  and saradap_levl_code      in ('UG', 'MD', 'DE')
+  and swbslcr_swvslcn_code = '1K'
+  AND SKRUCCR_PROP_ENTRY_YR >= '2019'
+  and skruccr_applicant_no > '180000000'
+  and skrsain_appl_date > to_date('31-AUG-17','DD-MON-YY')
+  and skruccr_ssdt_code_sbgi  = 'L23'
+))
+where rn = cnt
+start with rn = 1
+connect by prior sortest_pidm = sortest_pidm and prior rn = rn - 1
+```
+
+```
+" … 
+where spriden_change_ind   is null
+  and spbpers_dead_ind is null
+  and sprmedi_disa_code is not null
+  and saradap_levl_code      in ('UG', 'MD', 'DE')
+  and swbslcr_swvslcn_code = '" + @[$Project::AdDentSelectorCentre] + "'
+  AND SKRUCCR_PROP_ENTRY_YR >= '" + @[$Project::AdEntryYear] + "'
+  and skruccr_applicant_no > '" + @[$Project::AdApplNoMask] + "'
+  and skrsain_appl_date > to_date('31-AUG-" + @[$Project::AdPrevYear] + "','DD-MON-YY')
+  and skruccr_ssdt_code_sbgi  = 'L23'
+))
+… 
+```

@@ -9,7 +9,8 @@ a guide on how the DTSXs for the StEdBase, ReSIS, and FAD are setup for the expr
 of extracting data from Banner (INB) to be stored in SQL Server DBs (this may include others at 
 a later date).
 
-To avoid having to alter myriad queries by hand every year, the packages are setup to use Package Parameters to set faculty and/or term specific parameters in the queries before they are sent to the Banner Oracle DB.
+To avoid having to alter myriad queries by hand every year, the packages are setup to use Package
+Parameters to set faculty and/or term specific parameters in the queries before they are sent to the Banner Oracle DB.
 
 The steps involved building a Data Flow item in a Data Flow Task (which must already be present
 in the Control Flow):

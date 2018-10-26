@@ -112,8 +112,11 @@ with this is to delete the existing data flow components and replace them.
 Altering the existing ones is error prone and time consuming - it's quicker and more reliable to start
 again.
 
-:
-1. 
+The steps for doing this are roughly as follows:
+1. Take separate copies of both the query in the data flow component and the equivalent SqlCommand Expression text.
+0. Use SQL Developer to transform the bare query to match the changed requirements
+0. In SSMS use the updated query from the previous step to create a new version of the holding table with the revised schema.
+0. Update your SSDT model from this and alter the user visible table to match (you are using an SSDT model aren't you - if you're not you should be ;))
 
 
 

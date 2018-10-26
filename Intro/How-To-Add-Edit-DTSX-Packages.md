@@ -103,7 +103,7 @@ it merely inserts
 `@[$Project::AdApplNoMask]` - i.e. without the surrounding concatenation syntax
 leaving the inexperienced user to puzzle over why it doesn't work.
 
-**When making changes to these always click the "Evaluate Expression" button before saving it.** It saves a lot of heartache later :(
+**When making changes to these always click the `Evaluate Expression` button before saving it.** It saves a lot of heartache later :(
 
 ## When Schema and/or requirements change
 

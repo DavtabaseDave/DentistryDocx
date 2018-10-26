@@ -29,8 +29,6 @@ This appears thus (for h_Applicants destination table):
  ![Data_destination.PNG](/.attachments/Data_destination-c2d5aa3a-bd10-4e16-9d9a-507dfa9eda09.PNG)
 
 0. link the source and the destination and then set column mappings (see below)
-**NB**: when creating holding tables the best way is in SSMS using openquery() against a 
-linked server to create the new table structure based on the Oracle columns.
 
 ## Set column mappings
 

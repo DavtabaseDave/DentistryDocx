@@ -374,3 +374,25 @@ where  SARCHRT_CHRT_CODE in('A2LAPP','A2LELG')
             and SKBUSTN1.SKBUSTN_APPLICATIONYEAR = '" + @[$Project::AdEntryYear]  + "'
             and SKBUSTN1.SKBUSTN_APP_SCHEME_CODE = sk.SKRSAIN_APP_SCHEME_CODE)"
 ```
+
+### Nationalities (stvnatn)
+
+Not parameterized 
+``` sql
+select s1.skvssdt_sdat_code_opt_1, s1.skvssdt_short_title
+from Skvssdt s1
+where s1.skvssdt_sdat_code_entity = 'SKBSPIN'
+  and s1.skvssdt_sdat_code_attr = 'SKBSPIN_NATN_CODE_LEGAL'
+  and s1.skvssdt_status_ind <> 'I'
+  AND s1.skvssdt_eff_date =
+           (select  max(skvssdt_eff_date)
+             from    skvssdt s2
+            WHERE   s2.skvssdt_sdat_code_entity = 'SKBSPIN'
+              and   s2.skvssdt_sdat_code_attr = 'SKBSPIN_NATN_CODE_LEGAL'
+              and   s2.skvssdt_sdat_code_opt_1 = s1.skvssdt_sdat_code_opt_1)
+```
+
+### Ethnicity (stvethn)
+
+Not parameterized 
+``` sql

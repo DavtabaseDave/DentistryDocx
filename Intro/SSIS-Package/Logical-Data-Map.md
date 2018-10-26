@@ -255,3 +255,122 @@ where spriden_change_ind   is null
 ))
 … 
 ```
+
+### A2L Running Record (A2L_RR)
+
+``` sql
+select 
+  SARCHRT_PIDM
+  ,sp.SPRIDEN_ID
+  ,SKRSAIN_PERSONALID
+  ,sp.SPRIDEN_FIRST_NAME,
+   sp.SPRIDEN_LAST_NAME,
+   SKRUCCR_SSDT_CODE_CRSE,
+   f_get_program_desc(SORLCUR_PROGRAM,30) Programme,
+   DECODE((select SARCHRT2.SARCHRT_CHRT_CODE
+     from SARCHRT SARCHRT2
+    where SARCHRT2.SARCHRT_PIDM = sc.SARCHRT_PIDM
+          and SARCHRT2.SARCHRT_TERM_CODE_ENTRY = sc.SARCHRT_TERM_CODE_ENTRY
+          and SARCHRT2.SARCHRT_APPL_NO = sc.SARCHRT_APPL_NO
+          and SARCHRT2.SARCHRT_CHRT_CODE in('A2LELG','A2LNOT')), 'A2LELG', 'Eligible', 'A2LNOT', 'Not Eligible', 'Awaiting Assessment') A2L_Eligibility_Decision,
+   SARADAP_TERM_CODE_ENTRY,
+   (select Count( SARADAP1.SARADAP_APPL_NO )
+        from SARADAP SARADAP1
+        where SARADAP1.SARADAP_PIDM = sd.SARADAP_PIDM
+        and SARADAP1.SARADAP_TERM_CODE_ENTRY = SARCHRT_TERM_CODE_ENTRY ) Number_Courses_Applied_For,
+   (CASE WHEN SARCHRT_CHRT_CODE = 'A2LAPP' THEN 'Route 1'
+   ELSE 'Route 2' END) A2L_Route,
+   (CASE WHEN SARCHRT_CHRT_CODE = 'A2LAPP' THEN to_char(SARCHRT_ACTIVITY_DATE,'dd/mm/yyyy')
+   ELSE '' END) A2L_Application_Received,
+   (select to_char(SARCHRT1.SARCHRT_ACTIVITY_DATE,'dd/mm/yyyy')
+     from SARCHRT SARCHRT1
+    where SARCHRT1.SARCHRT_PIDM = sc.SARCHRT_PIDM
+          and SARCHRT1.SARCHRT_TERM_CODE_ENTRY = sc.SARCHRT_TERM_CODE_ENTRY
+          and SARCHRT1.SARCHRT_APPL_NO = sc.SARCHRT_APPL_NO
+          and SARCHRT1.SARCHRT_CHRT_CODE in('A2LELG','A2LNOT')) A2L_Decision_Date
+   --,SKRSAIN_UCAS_APP_DATE UCAS_App_Date
+from  SARCHRT sc
+  inner join SARADAP sd on SARCHRT_PIDM = SARADAP_PIDM
+                     and SARCHRT_TERM_CODE_ENTRY = SARADAP_TERM_CODE_ENTRY
+                     and SARCHRT_APPL_NO = SARADAP_APPL_NO
+  inner join SPRIDEN sp on SARCHRT_PIDM = sp.SPRIDEN_PIDM
+  inner join SKRUDAP on SARADAP_PIDM = SKRUDAP_PIDM
+                     and SARADAP_TERM_CODE_ENTRY = SKRUDAP_TERM_CODE_ENTRY
+                     and SARADAP_APPL_NO = SKRUDAP_APPL_NO
+  inner join SKRSAIN sk on SKRUDAP_APPLICANT_NO = SKRSAIN_APPLICANT_NO
+  inner join SKRUCCR on SKRUDAP_APPLICANT_NO = SKRUCCR_APPLICANT_NO
+                     and SKRUDAP_CHOICE_NO = SKRUCCR_CHOICE_TYPE_NO
+  inner join SORLCUR on SARADAP_PIDM = SORLCUR_PIDM
+                     and SARADAP_TERM_CODE_ENTRY = SORLCUR_TERM_CODE
+                     and SARADAP_APPL_NO = SORLCUR_KEY_SEQNO
+  inner join SORLFOS on SORLCUR_PIDM = SORLFOS_PIDM
+                     and SORLCUR_SEQNO = SORLFOS_LCUR_SEQNO
+                     and SORLCUR_TERM_CODE = SORLFOS_TERM_CODE
+  inner join SKBUSTN skb on SKRSAIN_APPLICANT_NO = skb.SKBUSTN_APPNO
+                     and SKRSAIN_PERSONALID = skb.SKBUSTN_PERSONALID
+                     and SKRSAIN_APP_SCHEME_CODE = skb.SKBUSTN_APP_SCHEME_CODE
+  inner join SPBPERS on sp.SPRIDEN_PIDM = SPBPERS.SPBPERS_PIDM
+where  SARCHRT_CHRT_CODE in('A2LAPP','A2LELG')
+  and SARCHRT_TERM_CODE_ENTRY in ('201920', '201920'+101) 
+  and SORLCUR_COLL_CODE ='MH'
+  and SORLCUR_LMOD_CODE ='ADMISSIONS'
+  and SORLCUR_CURRENT_CDE ='Y'
+  and SORLFOS_DEPT_CODE ='DENT'
+  and SORLFOS_CURRENT_CDE ='Y'
+  and sp.SPRIDEN_CHANGE_IND is null
+  and skb.SKBUSTN_APPLICATIONYEAR = '2019'
+  and SARCHRT_CHRT_CODE =
+      (select Min( SARCHRT3.SARCHRT_CHRT_CODE ) Min_SARCHRT_CHRT_CODE
+         from SARCHRT SARCHRT3
+        where SARCHRT3.SARCHRT_PIDM = sc.SARCHRT_PIDM
+              and SARCHRT3.SARCHRT_TERM_CODE_ENTRY = sc.SARCHRT_TERM_CODE_ENTRY
+              and SARCHRT3.SARCHRT_APPL_NO = sc.SARCHRT_APPL_NO
+              and SARCHRT3.SARCHRT_CHRT_CODE in('A2LAPP','A2LELG'))
+    and not exists (select SARCHRT4.SARCHRT_CHRT_CODE Not_Eligible
+                from SARCHRT SARCHRT4
+               where SARCHRT4.SARCHRT_PIDM = sc.SARCHRT_PIDM
+                     and SARCHRT4.SARCHRT_TERM_CODE_ENTRY = sc.SARCHRT_TERM_CODE_ENTRY
+                     and SARCHRT4.SARCHRT_APPL_NO = sc.SARCHRT_APPL_NO
+                     and SARCHRT4.SARCHRT_CHRT_CODE ='A2LNOT')
+  and skb.SKBUSTN_SEQ =
+    (select Max( SKBUSTN1.SKBUSTN_SEQ ) Max_SKBUSTN_SEQ
+       from SKBUSTN SKBUSTN1
+      where SKBUSTN1.SKBUSTN_APPNO = sk.SKRSAIN_APPLICANT_NO
+            and SKBUSTN1.SKBUSTN_PERSONALID =sk. SKRSAIN_PERSONALID
+            and SKBUSTN1.SKBUSTN_APPLICATIONYEAR = '2019'
+            and SKBUSTN1.SKBUSTN_APP_SCHEME_CODE = sk.SKRSAIN_APP_SCHEME_CODE)
+```
+The `where` clause is parameterized like so in the SqlCommand version
+```
+" … 
+where  SARCHRT_CHRT_CODE in('A2LAPP','A2LELG')
+  and SARCHRT_TERM_CODE_ENTRY in ('" + @[$Project::AdTermCodeEntry]  + "', '" + @[$Project::AdTermCodeEntry]  + "'+101) 
+  and SORLCUR_COLL_CODE ='" + @[$Project::AdDentFacCode]  + "'
+  and SORLCUR_LMOD_CODE ='ADMISSIONS'
+  and SORLCUR_CURRENT_CDE ='Y'
+  and SORLFOS_DEPT_CODE ='" + @[$Project::AdDentSchoolCode]  + "'
+  and SORLFOS_CURRENT_CDE ='Y'
+  and sp.SPRIDEN_CHANGE_IND is null
+  and skb.SKBUSTN_APPLICATIONYEAR = '" +  @[$Project::AdEntryYear] + "'
+  and SARCHRT_CHRT_CODE =
+      (select Min( SARCHRT3.SARCHRT_CHRT_CODE ) Min_SARCHRT_CHRT_CODE
+         from SARCHRT SARCHRT3
+        where SARCHRT3.SARCHRT_PIDM = sc.SARCHRT_PIDM
+              and SARCHRT3.SARCHRT_TERM_CODE_ENTRY = sc.SARCHRT_TERM_CODE_ENTRY
+              and SARCHRT3.SARCHRT_APPL_NO = sc.SARCHRT_APPL_NO
+              and SARCHRT3.SARCHRT_CHRT_CODE in('A2LAPP','A2LELG'))
+    and not exists (select SARCHRT4.SARCHRT_CHRT_CODE Not_Eligible
+                from SARCHRT SARCHRT4
+               where /*:parm_CB_HideNotEligible = 1
+                     and */SARCHRT4.SARCHRT_PIDM = sc.SARCHRT_PIDM
+                     and SARCHRT4.SARCHRT_TERM_CODE_ENTRY = sc.SARCHRT_TERM_CODE_ENTRY
+                     and SARCHRT4.SARCHRT_APPL_NO = sc.SARCHRT_APPL_NO
+                     and SARCHRT4.SARCHRT_CHRT_CODE ='A2LNOT')
+  and skb.SKBUSTN_SEQ =
+    (select Max( SKBUSTN1.SKBUSTN_SEQ ) Max_SKBUSTN_SEQ
+       from SKBUSTN SKBUSTN1
+      where SKBUSTN1.SKBUSTN_APPNO = sk.SKRSAIN_APPLICANT_NO
+            and SKBUSTN1.SKBUSTN_PERSONALID =sk. SKRSAIN_PERSONALID
+            and SKBUSTN1.SKBUSTN_APPLICATIONYEAR = '" + @[$Project::AdEntryYear]  + "'
+            and SKBUSTN1.SKBUSTN_APP_SCHEME_CODE = sk.SKRSAIN_APP_SCHEME_CODE)"
+```

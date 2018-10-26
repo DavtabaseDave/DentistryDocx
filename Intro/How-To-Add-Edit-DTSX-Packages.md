@@ -90,7 +90,7 @@ Unless you wish to dynamically select the Table, **DO NOT** use the TableOrViewN
 This badly designed editor appears thus:
  ![Expression Builder.PNG](/.attachments/Expression%20Builder-cd9316e5-a093-43dc-8d27-54a6ac231fa7.PNG).
 Great care must be taken when using this editor as:
-1. The font used for the actual query is tiny and
+1. The font used for the actual query is tiny (and cannot be altered) and
 0. The Query text control (indicated in red) is not expandable - the separate controls grow in 
 proportion to the whole editor dialog window.
 0. The query must be surrounded by double quotes and any double quotes within the SQL string

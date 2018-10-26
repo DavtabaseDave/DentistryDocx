@@ -2,7 +2,7 @@
 
 [[_TOC_]]
 
-**Ignore the Vital Note below at your peril**
+**If you're unfamiliar with Expressions and/or Data flows in general, see [here]([How To Add Edit DTSX Packages](/Intro/How-To-Add-Edit-DTSX-Packages))**
 
 This runs several queries in parallel against the Banner Oracle DB via ADO .NET source connections.
 The data is temporarily stored in SQL Server holding tables via OLEDB connections. As there

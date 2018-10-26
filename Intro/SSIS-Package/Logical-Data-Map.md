@@ -44,7 +44,7 @@ This section details the plain text queries, the parameterized sections will be 
 
 ### Applicants
 
-Here's the raw SQL text. Note the comment near the top detailing the parameterization of age_at_entry in the SqlCommand version:
+Here's the raw SQL text. Note the comment near the top detailing the parameterization of age_at_entry from the SqlCommand version:
 ``` sql
 select distinct 
 spriden_pidm,
@@ -121,7 +121,7 @@ In the SqlCommand the last five lines are parameterized thus:
 ### Applicant's Decisions
 
 
-Here's the raw SQL text. Note the comment near the middle detailing the parameterization of isDeferred in the SqlCommand version:
+Here's the raw SQL text. Note the comment near the middle detailing the parameterization of isDeferred from the SqlCommand version:
 ``` sql
 select
 	distinct

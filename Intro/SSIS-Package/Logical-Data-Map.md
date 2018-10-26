@@ -43,4 +43,75 @@ Mappings can be altered as desired by dragging and dropping, selecting and delet
 This section details the plain text queries, the parameterized sections will be pointed out following them 
 
 ### Applicants
-
+``` sql
+select distinct 
+spriden_pidm,
+sa.saradap_term_code_entry,
+skrsain_applicant_no,
+spriden_id,
+sa.saradap_appl_no, -- added so that in next stage we can pick max()
+skrsain_personalid,
+spriden_last_name,
+SPRIDEN_FIRST_NAME,
+spriden_mi,
+SUBSTR (spriden_first_name, 1, 1) || SUBSTR (spriden_mi, 1, 1) as STUDENT_INITIALS,
+spbpers_name_prefix,
+spbpers_birth_date,
+f_calculate_age (NULL, spbpers_birth_date, spbpers_dead_date ) CURRENT_AGE,
+f_calculate_age ('01-SEP-2019', spbpers_birth_date, spbpers_dead_date) age_at_entry,
+-- paramtereized to: f_calculate_age ('01-SEP-" + @[$Project::AdEntryYear] + "', spbpers_birth_date, spbpers_dead_date) age_at_entry,
+spbpers_sex,
+sprmedi_disa_code,
+skrsain_criminal_conv,
+skruccr_ssdt_code_home,
+pha.spraddr_street_line1 STREET_ADDRESS_PH_LINE1,
+pha.spraddr_street_line2 STREET_ADDRESS_PH_LINE2,
+pha.spraddr_street_line3 STREET_ADDRESS_PH_LINE3,
+pha.spraddr_city,
+pha.spraddr_zip,
+substr (decode (pha.spraddr_natn_code, null, null, f_student_get_desc ('STVNATN', pha.spraddr_natn_code, 30 ) ), 1, 30 ) as nation_description_ph,
+f_get_tele_no (spriden_pidm, 'PH') telephone_number_ph,
+skbspin_natn_code_legal,
+saradap_resd_code,
+skrsain_appl_date,
+f_get_email_addr (sa.saradap_pidm, 'ADM') email_address,
+skbuarf_predictedgrades
+,skbuarf_activity_date -- used for picking the latest
+,lastschl.sorhsch_sbgi_code
+,stvsbgi_desc high_school_name
+,nvl(cast(SUBSTR(goksels.f_name_bio_value(saradap_pidm,'ETHN'),1,2) as varchar2(2)),'XX') eth_code
+,stvdisa_desc
+,SKRSAIN_SSDT_CODE_PARED, skrsain_care
+From
+    skrudap Inner Join saradap sa ON (saradap_term_code_entry = skrudap_term_code_entry AND saradap_appl_no = skrudap_appl_no)
+    Inner Join Spriden On (sa.Saradap_Pidm = Spriden_Pidm And Skrudap_Pidm = Spriden_Pidm)
+    Inner Join spbpers ON (spbpers_pidm = spriden_pidm)
+    Inner Join Skrsain On (Skrudap_Pidm = Skrsain_Pidm And Skrudap_Applicant_No = Skrsain_Applicant_No)
+    Inner Join Skruccr On (Skruccr_Pidm = Skrsain_Pidm And Skruccr_Applicant_No = Skrsain_Applicant_No)-- AND saradap_appl_no = Skruccr_appl_no)
+    inner join swbslcr on (swbslcr_skrutop_code_crse = skruccr_ssdt_code_crse) -- changed to inner join
+    Inner Join Skrutop On (Skrutop_Ssdt_Code_Crse = Skruccr_Ssdt_Code_Crse and Saradap_Majr_Code_1 = Skrutop_Majr_Code)
+    left Join sprmedi On (Sprmedi_Pidm = Spriden_Pidm)
+    left join stvdisa on (stvdisa_code = sprmedi_disa_code)
+    left join spraddr pha on (pha.rowid = f_get_address_type_rowid (spriden_pidm, 'A', sysdate, 'S', 'PH'))
+    Left Join Skbspin On (Skbspin_Pidm = Spriden_Pidm)
+    left join skbuarf on (skbuarf_pidm = skrsain_pidm and skbuarf_appno = skrsain_applicant_no)
+    left join sorhsch lastschl on (lastschl.rowid = f_get_sorhsch_rowid (spriden_pidm, 'LAST'))
+    left join stvsbgi on (stvsbgi_code = lastschl.sorhsch_sbgi_code)
+where spriden_change_ind   is null
+  and spbpers_dead_ind is null
+  and sprmedi_disa_code is not null
+  and saradap_levl_code      in ('UG', 'MD', 'DE')
+  and swbslcr_swvslcn_code = '1K'
+  AND SKRUCCR_PROP_ENTRY_YR >= '2019'
+  and skruccr_applicant_no > '180000000'
+  and skrsain_appl_date > to_date('31-AUG-17','DD-MON-YY')
+  and skruccr_ssdt_code_sbgi  = 'L23'
+```
+In the SqlCommand the last five lines are parameterized thus:
+```
+  "and swbslcr_swvslcn_code = '" + @[$Project::AdDentSelectorCentre] + "'
+  AND SKRUCCR_PROP_ENTRY_YR >= '" + @[$Project::AdEntryYear] + "'
+  and skruccr_applicant_no > '" + @[$Project::AdApplNoMask] + "'
+  and skrsain_appl_date > to_date('31-AUG-" + @[$Project::AdPrevYear] + "','DD-MON-YY')
+  and skruccr_ssdt_code_sbgi  = 'L23'"
+```

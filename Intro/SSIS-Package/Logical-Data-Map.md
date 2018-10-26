@@ -176,3 +176,26 @@ where swbslcr_swvslcn_code = '" + @[$Project::AdDentSelectorCentre] + "'
   and s1.skruccr_prop_entry_yr >= '" + @[$Project::AdEntryYear] + "'
   AND … "
 ```
+
+### Offers
+
+``` sql
+select
+gurmail_pidm,
+gurmail_letr_code,
+substr(gurmail_letr_code, 6, 1) as offer_letter,
+substr(gurmail_letr_code, 8, 1) as offer_choice_no,
+gurmail_term_code,
+gurmail_date_printed,
+gurmail_user
+,gurmail_cpln_code 
+from gurmail
+where gurmail_letr_code like 'UCAS____'
+  and gurmail_term_code >= '201920'
+```
+The last line of the `where` clause is parameterized like so in the SqlCommand version
+
+```
+" … 
+  and gurmail_term_code >= '" + @[$Project::AdTermCodeEntry] + "'"
+```

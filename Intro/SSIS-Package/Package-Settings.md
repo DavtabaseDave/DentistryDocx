@@ -25,7 +25,8 @@ this connection)
 **NB: don't put the contents of sets in the Value part of the parameter - SSIS doesn't like it** ;)
 NB1: quotes are not required for strings in the Parameters editor
 
-
+The editor appears thus:
+ ![Project_Params.PNG](/.attachments/Project_Params-e2d9c461-2f96-48c8-b478-5f4a6492538e.PNG)
 
 ### AdApplNoMask
 

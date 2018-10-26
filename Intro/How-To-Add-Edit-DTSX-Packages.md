@@ -68,7 +68,7 @@ These should be added as Project Parameters. A sensible naming scheme should be 
  the most suiteable data type for the parameters is String (otherwise if an integer type is used type 
 casting is required to concatenate it with the query string.)
 
-## Add Expressions to the Data Flow
+## Add Expressions to the Data Flow items
 
 Although static text queries are used to build the data flows they are parameterized using the 
 Data Flow's "Expressions" property. This allows the developer to introduce any number of

@@ -13,7 +13,7 @@ To avoid having to alter myriad queries by hand every year, the packages are set
 Parameters to set faculty and/or term specific parameters in the queries before they are sent to
 the Banner Oracle DB.
 
-The steps involved building a Data Flow item in a Data Flow Task (which must already be present
+The steps involve building a Data Flow item in a Data Flow Task (which must already be present
 in the Control Flow):
 
 ## 1. Setup Source data

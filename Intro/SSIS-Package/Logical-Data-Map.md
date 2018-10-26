@@ -39,3 +39,8 @@ To set/alter the column mappings, click on the "Mappings" item in the list box. 
 Mappings can be altered as desired by dragging and dropping, selecting and deleting, etc..
 
 ## The actual queries
+
+This section details the plain text queries, the parameterized sections will be pointed out following them 
+
+### Applicants
+

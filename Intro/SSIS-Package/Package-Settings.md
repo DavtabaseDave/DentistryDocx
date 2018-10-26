@@ -49,4 +49,7 @@ Purpose: limit applicants (and associated data) to the 1K Select Centre code
 A string, default value: 2019
 Purpose: limit applicants (and associated data) to the earliest entry year of 2019
 
-### 
+### AdPrevYear
+
+A string, default value: 17
+Purpose: limit applicants (and associated data) to those made after 31-AUG-<AdPrevYear>

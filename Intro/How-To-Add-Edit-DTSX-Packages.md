@@ -77,6 +77,9 @@ It will always overwrite **ANY** alterations to the SQL text in the data source 
 query the SqlCommand expression must be altered. This can be found by selecting the background
 of the Data Flow and scrolling down the "Properties" page to "Expressions" as shown here:
 ![Expressions.PNG](/.attachments/Expressions-b20b031c-8cf3-4d82-8598-972dc9f5d40f.PNG)
+To add a new one click on the `...` button to the right of `Expressions` root and in the dialog that appears select an available SqlCommand from the drop down then click the `...` button to bring up the Expression Editor:
+ ![Expression_Editor.PNG](/.attachments/Expression_Editor-e6df5edf-c175-4018-af9e-984ca6548cfc.PNG)
+ To edit and 
 Click on the RHS most part of the value that lists the query string to bring up the editor
 
 ### Expression Builder

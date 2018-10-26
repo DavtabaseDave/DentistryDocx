@@ -22,7 +22,7 @@ When building Oracle queries the best tool for this is Oracle's SQL Developer. U
 this until the queries run efficiently and the data produced is verifiably correct. SQL Developer
 will give all sorts of hints, help with schema and more meaningful error messages than elsewhere.
 
-## SQL Serve holding tables
+## SQL Server holding tables
 When creating holding tables the best way is in SSMS using openquery() against a 
 linked server to the Oracle DB to create the new table structure based on the Oracle columns.
 This avoids any data mismatch complications

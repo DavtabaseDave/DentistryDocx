@@ -56,4 +56,9 @@ Purpose: limit applicants (and associated data) to the earliest entry year of 20
 
 A string, default value: 17
 Purpose: limit applicants (and associated data) to those made after 31-AUG-<AdPrevYear>.
-That is, acquire data from at the earliest, the beginning of the previous academic year.
+That is, acquire data from at the earliest, the beginning of the previous academic year - we want the deferred applicants.
+
+### AdTermCodeEntry
+
+A string, default value: 201920
+Purpose: to limit offers to the entry year and A2L data to the entry year plus the year after.

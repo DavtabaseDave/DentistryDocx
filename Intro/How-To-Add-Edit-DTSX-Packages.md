@@ -65,7 +65,7 @@ The queries are inspected to identify suitable parameters for the package. These
 - Term Code of Entry
 
 These should be added as Project Parameters. Sensible naming scheme should be employed and
- the most suiteable data type for the parameters is String
+ the most suiteable data type for the parameters is String (otherwise if an integer type is used
 
 ## Add Expressions to the Data Flow
 

@@ -76,8 +76,7 @@ parameters into the SQL string before it is sent to the source DB.
 
 It will always overwrite **ANY** alterations to the SQL text in the data source editor. To update the
 query the SqlCommand expression must be altered. This can be found by selecting the background
-of the Data Flow and scrolling down the "Properties" page to "Expressions"
-as shown here:
+of the Data Flow and scrolling down the "Properties" page to "Expressions" as shown here:
 ![Expressions.PNG](/.attachments/Expressions-b20b031c-8cf3-4d82-8598-972dc9f5d40f.PNG)
 Click on the RHS most part of the value that lists the query string to bring up the editor
 

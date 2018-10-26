@@ -43,6 +43,8 @@ Mappings can be altered as desired by dragging and dropping, selecting and delet
 This section details the plain text queries, the parameterized sections will be pointed out following them 
 
 ### Applicants
+
+Here's the raw SQL text. Note the comment near the top detailing the parameterization of age_at_entry:
 ``` sql
 select distinct 
 spriden_pidm,
@@ -115,3 +117,4 @@ In the SqlCommand the last five lines are parameterized thus:
   and skrsain_appl_date > to_date('31-AUG-" + @[$Project::AdPrevYear] + "','DD-MON-YY')
   and skruccr_ssdt_code_sbgi  = 'L23'"
 ```
+

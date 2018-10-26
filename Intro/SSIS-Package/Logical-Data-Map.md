@@ -170,7 +170,7 @@ where swbslcr_swvslcn_code = '1K'
 ```
 The first three lines of the `where` clause are parameterized like so in the SqlCommand version
 ```
-"where swbslcr_swvslcn_code = '" + @[$Project::AdDentSelectorCentre] + "'
+"... where swbslcr_swvslcn_code = '" + @[$Project::AdDentSelectorCentre] + "'
   and s1.skruccr_applicant_no > '" + @[$Project::AdApplNoMask] + "'
   and s1.skruccr_prop_entry_yr >= '" + @[$Project::AdEntryYear] + "'
   AND ..."

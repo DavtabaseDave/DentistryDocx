@@ -240,7 +240,7 @@ where rn = cnt
 start with rn = 1
 connect by prior sortest_pidm = sortest_pidm and prior rn = rn - 1
 ```
-
+The inner `where` clause are parameterized like so in the SqlCommand version
 ```
 " … 
 where spriden_change_ind   is null

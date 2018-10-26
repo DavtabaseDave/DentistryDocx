@@ -1,7 +1,7 @@
 [[_TOC_]]
 
 # Vital note
-**If you're unfamiliar with Expressions and/or Data flows in general, see [How To Add Edit DTSX Packages](/Intro/How-To-Add-Edit-DTSX-Packages)**
+**If you're unfamiliar with Expressions and/or Data flows in general, see [How To Add/Edit DTSX Packages](/Intro/How-To-Add-Edit-DTSX-Packages)**
 
 # INB Extractions Data Flow Task
 
@@ -37,4 +37,5 @@ This appears thus (for h_Applicants destination table):
 To set/alter the column mappings, click on the "Mappings" item in the list box. This appears thus:
 ![source_dest_mappings.PNG](/.attachments/source_dest_mappings-29410702-bc68-4fcd-82e6-389f4b467760.PNG)
 Mappings can be altered as desired by dragging and dropping, selecting and deleting, etc..
+
 

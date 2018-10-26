@@ -24,3 +24,7 @@ this connection)
 
 **NB: don't put the contents of sets in the Value part of the parameter - SSIS doesn't like it**
 
+### AdApplNoMask
+
+A string, default value: 180000000
+Purpose: limit applicant (and associated data to a minimum UCAS ID

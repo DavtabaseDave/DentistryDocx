@@ -38,4 +38,4 @@ To set/alter the column mappings, click on the "Mappings" item in the list box. 
 ![source_dest_mappings.PNG](/.attachments/source_dest_mappings-29410702-bc68-4fcd-82e6-389f4b467760.PNG)
 Mappings can be altered as desired by dragging and dropping, selecting and deleting, etc..
 
-
+## The actual queries

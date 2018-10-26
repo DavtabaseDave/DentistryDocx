@@ -100,7 +100,7 @@ must be escaped
 properly. Instead of inserting the following into the query string (the correct way):
 `"' +@[$Project::AdApplNoMask] + '"` (the substitution has to be performed by a parser)
 it merely inserts 
-`@[$Project::AdApplNoMask]`
+`@[$Project::AdApplNoMask]` without the surrounding concatenation syntax
 leaving the inexperienced user to puzzle over why it doesn't work.
 
 **When making changes to these always click the "Evaluate Expression" button before saving it.** It saves a lot of heartache later :(

@@ -105,9 +105,11 @@ leaving the inexperienced user to puzzle over why it doesn't work.
 
 **When making changes to these always click the "Evaluate Expression" button before saving it.** It saves a lot of heartache later :(
 
-## when Schema and/or requirements change
+## When Schema and/or requirements change
 
-
+Should the Oracle schema change or additional columns be required the best strategy in dealing
+with this is to:
+1. 
 
 
 

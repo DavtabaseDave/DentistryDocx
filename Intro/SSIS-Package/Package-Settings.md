@@ -43,3 +43,8 @@ Purpose: limit A2L data to the DENT Department code
 
 A string, default value: 1K
 Purpose: limit applicants (and associated data) to the 1K Select Centre code
+
+### AdEntryYear
+
+A string, default value: 2019
+Purpose: limit applicants (and associated data) to the earliest entry year of 2019

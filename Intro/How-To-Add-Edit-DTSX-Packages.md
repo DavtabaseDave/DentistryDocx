@@ -108,9 +108,9 @@ leaving the inexperienced user to puzzle over why it doesn't work.
 ## When Schema and/or requirements change
 
 Should the Oracle schema change or additional columns be required the best strategy in dealing
-with this is to deal with this by deleting the existing data flow components and replace them.
+with this is to delete the existing data flow components and replace them.
 Altering the existing ones is error prone and time consuming - it's quicker and more reliable to start
-again
+again.
 
 :
 1. 

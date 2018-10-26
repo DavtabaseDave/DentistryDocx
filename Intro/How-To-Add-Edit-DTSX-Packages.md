@@ -15,15 +15,17 @@ the Banner Oracle DB.
 
 The steps involve building a Data Flow item in a Data Flow Task (which must already be present
 in the Control Flow). This assumes that the source (ADO .NET for Banner) and destination connection
-managers (OLEDB for SQL Server) have already been set up 
+managers (OLEDB for SQL Server) have already been set up.
+
+**NB**: when building Oracle queries the best tool for this is Oracle's SQL Developer. Use
+this until the queries run efficiently and the data produced is verifiably correct
 
 ## 1. Setup Source data
 
 When building a data flow source the procedure is to:
 Create the data source by dragging from the toolbox - give it a meaningful name. and set the connection, access
 mode, and SQL query.
-**NB**: when building Oracle queries the best tool for this is Oracle's SQL Developer. Use
-this until the queries run efficiently and the data produced is verifiably correct
+
 
 ## 2. Setup Data Destination
 

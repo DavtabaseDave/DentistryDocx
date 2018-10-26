@@ -5,7 +5,7 @@
 
 # INB Extractions Data Flow Task
 
-This runs several queries in parallel against the Banner Oracle DB via ADO .NET source connections. A maximum of 10 is the limit when using expressions.
+This runs several queries in parallel against the Banner Oracle DB via ADO .NET source connections. A maximum of 10 is the limit when using Expressions.
 The data is temporarily stored in SQL Server holding tables via OLEDB connections. As there
 is a 1:1 correspondence between the source queries and the target tables no data conversions
 or complicated mappings are required. 

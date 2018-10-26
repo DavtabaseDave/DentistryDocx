@@ -118,3 +118,51 @@ In the SqlCommand the last five lines are parameterized thus:
   and skruccr_ssdt_code_sbgi  = 'L23'"
 ```
 
+### Applicant's Decisions
+
+
+Here's the raw SQL text. Note the comment near the middle detailing the parameterization of isDeferred in the SqlCommand version:
+``` sql
+select
+	distinct
+	skruccr_pidm,
+	skruccr_applicant_no,
+	skruccr_choice_type_no,
+	skruccr_ssdt_code_crse,
+	crse.skrutop_program program_code,
+	substr(f_get_long_progtitle(crse.skrutop_program,crse.skrutop_term_code_eff),1,255) program_desc,
+	skrsain_ssdt_code_cwd_flg,
+	skruccr_ssdt_code_decn,
+	skruccr_decision_date,
+	skrudec_trans_status,
+	skruccr_ssdt_code_reply,
+	skruccr_ssdt_code_cf_decn,
+	skruccr_ssdt_code_ap_resp,
+	skruccr_prop_entry_yr,
+	skruccr_prop_entry_mth,
+	skruccr_conditions,
+	skruccr_ssdt_code_entry
+  ,(case 
+    when skruccr_prop_entry_yr >= '2019'+1 then 1
+    else 0
+    end) isDeferred
+
+from skruccr s1
+  inner join skrutop crse on (crse.skrutop_ssdt_code_crse = s1.skruccr_ssdt_code_crse
+                             and (crse.skrutop_ssdt_code_camp      = s1.skruccr_ssdt_code_camp
+                                  or crse.skrutop_ssdt_code_camp   is null
+                                  or s1.skruccr_ssdt_code_camp        is null)
+                             )
+  inner join skrsain on (s1.skruccr_pidm = skrsain_pidm
+                      and s1.skruccr_applicant_no = skrsain_applicant_no)
+ left join swbslcr on swbslcr_skrutop_code_crse = s1.skruccr_ssdt_code_crse
+  left join skrudec sd on sd.rowid = F_Get_Skrudec_Rowid(skruccr_applicant_no,skruccr_choice_type,skruccr_choice_type_no)
+where swbslcr_swvslcn_code = '1K'
+  and s1.skruccr_applicant_no > '180000000'
+  and s1.skruccr_prop_entry_yr >= '2019'
+  AND s1.skruccr_ssdt_code_sbgi        = 'L23'
+  AND crse.skrutop_term_code_eff   =
+    (SELECT MAX(a.skrutop_term_code_eff)
+    FROM SKRUTOP a
+    WHERE a.skrutop_ssdt_code_crse = skruccr_ssdt_code_crse)
+```

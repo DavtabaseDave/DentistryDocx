@@ -41,5 +41,5 @@ Purpose: limit A2L data to the DENT Department code
 
 ### AdDentSelectorCentre
 
-A string, default value: DENT
-Purpose: limit A2L data to the DENT Department code
+A string, default value: 1K
+Purpose: limit A2L data to the 1K Select Centre code

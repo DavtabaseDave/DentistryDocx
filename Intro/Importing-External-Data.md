@@ -88,7 +88,40 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 Also to clear out the User table
 0. Update the actual table t_Dntl_Academic_Scores using Pidm 
 
+## Importing ALL MMI Rankings
 
+### Format of XLSX and worksheet name
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. [Candidate_number]
+0. [Candidate_Name]
+0. [Course]
+0. [Cohort_Ranked_In]
+0. [Mean_Task]
+0. [Mean_Rank_Task]
+0. [Offer_Cutoff]
+0. [Mean_Task_Low_score_removed]
+0. [Rank_Task_low_score_removed]
+0. [Rank_Difference]
+0. [Station_1_Mean_Percentile_Rank]
+0. [Station_1_Quartile_Rank]
+0. [Station_2_Mean_Percentile_Rank]
+0. [Station_2_Quartile_Rank]
+0. [Station_3_Mean_Percentile_Rank]
+0. [Station_3_Quartile_Rank]
+0. [Station_4_Mean_Percentile_Rank]
+0. [Station_4_Quartile_Rank]
+0. [Station_5_Mean_Percentile_Rank]
+0. [Station_5_Quartile_Rank]
+0. [Station_6_Mean_Percentile_Rank]
+0. [Station_6_Quartile_Rank]
+0. [Station_7_Mean_Percentile_Rank]
+0. [Station_7_Quartile_Rank]
+0. [Station_8_Mean_Percentile_Rank]
+0. [Station_8_Quartile_Rank]
 
+The imported table in SQL Server will take the name of the worksheet so something
+succinct like `All_MMI_Rankings` would be best – the holding table is named `All_MMI_Rankings$`
 
+### Script & Link
 
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20Academic%20Scores.sql&version=GBmaster)

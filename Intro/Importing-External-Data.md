@@ -461,4 +461,12 @@ with valid but meaningless dates
 the whole column is formatted as text and resave the file before proceeding
 0. Ensure that the column names match those of the table [dbo].[ResultsSheet$] otherwise
 you will be forced to match those by hand. For those that are missing that are non-essential
-(such as candidate number) can simply be added as a heading alone
+(such as candidate number) can simply be added as a heading alone.
+
+### Script & Link
+
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20Results%20Data%20Sheet.sql&version=GBmaster)
+
+1. Give user the option to clear out the `Reject_post_MMI$` (for when they're NOT appending new data)
+0. Insert MMI Schedule rows into t_Dntl_Reject_post_MMI by [Candidate number]
+0. Display any that are not matched

@@ -394,3 +394,18 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [Checked against UCAS list]
 0. [BMAT Overall score]
 0. [BMAT Overall Rank]
+
+**First ensure that the Student ID column is formatted as text in Excel –
+if not ensure that the whole column is formatted as text and resave the file before proceeding.**
+
+The imported table in SQL Server will take the name of the worksheet so something
+succinct like `MMI_Schedule` would be best – the holding table is named `MMI_Schedule$`
+
+### Script & Link
+
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20MMI%20Schedules.sql&version=GBmaster)
+
+1. Give user the option to clear out the `MMI_Schedule$`(for when they're NOT appending new passes
+0. Insert MMI Schedule rows into t_Dntl_MMI_Schedule by [Student ID]
+0. Display any that are not matched
+

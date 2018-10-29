@@ -36,6 +36,7 @@ The columns should be named (and preferably appear in this order) (sans square b
 The imported table in SQL Server will take the name of the worksheet so something
 succinct like `A2L_Passlist` would be best – the holding table is named `A2L_Passlist$`
 
-### Script
+### Script & Link
 
-1. 
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20A2L%20Pass%20List.sql&version=GBmaster)
+1. Give the 

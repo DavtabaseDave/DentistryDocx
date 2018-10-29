@@ -493,3 +493,12 @@ The columns should be named (and preferably appear in this order) (sans square b
 **First ensure that the Student ID column is formatted as text in Excel – if not ensure that
 the whole column is formatted as text and resave the file before proceeding**
 
+### Script & Link
+
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20UCAS%20Scores.sql&version=GBmaster)
+
+1. Give user the option to clear out the `ResultsSheet$` (for when they're NOT appending new data)
+Also to clear out the User table
+0. Insert ResultsSheet rows into t_Dntl_Results_Sheet by [Student ID], 12.[App Number], and 4.[Year]
+
+

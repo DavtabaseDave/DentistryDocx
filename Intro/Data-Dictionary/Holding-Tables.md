@@ -110,10 +110,13 @@
 |-----------|----------|--------------|
 | stvethn_code	| nvarchar	| |
 | stvethn_desc	| nvarchar	| |
+
 ## h_stvnatn
 
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
+| SKVSSDT_SDAT_CODE_OPT_1	| nvarchar	| |
+| SKVSSDT_SHORT_TITLE	| nvarchar	| |
 
 # XSLX Import Holding Tables
 

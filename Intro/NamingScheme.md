@@ -1,6 +1,6 @@
-# Naming conventions in FAD
-
 [[_TOC_]]
+
+# Naming conventions in FAD
 
 NB: to prevent confusion this key is presented in uppercase but in ReSIS they are usually lower case.
 

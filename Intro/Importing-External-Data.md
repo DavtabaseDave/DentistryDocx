@@ -263,3 +263,15 @@ if not ensure that the whole column is formatted as text and resave the file bef
 
 The imported table in SQL Server will take the name of the worksheet so something
 succinct like `IFY` would be best – the holding table is named `IFY$`
+
+The user must supply their own PIDM for these applicants. These can begin at 1 
+
+### Script & Link
+
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20IFY.sql&version=GBmaster)
+
+1. Give user the option to clear out the `All_MMI_Rankings$`(for when they're NOT appending new passes. 
+Also to clear out the User table
+0. Insert into the actual table t_Dntl_BMAT_Scores using Candidate_number.
+This is done in two parts - for those who were not marked absent and those who were
+

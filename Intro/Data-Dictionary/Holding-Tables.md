@@ -108,7 +108,8 @@
 
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
-
+| stvethn_code	| nvarchar	| |
+| stvethn_desc	| nvarchar	| |
 ## h_stvnatn
 
 | Attribute | DataType | Allow Nulls? |

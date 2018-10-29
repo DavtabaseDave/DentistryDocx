@@ -101,6 +101,8 @@
 
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
+| SORTEST_PIDM	| numeric	| Yes	|
+| ACTUAL_RESULTS	| nvarchar	| Yes	|
 
 ## h_stvethn
 

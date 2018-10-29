@@ -203,6 +203,9 @@ The columns should be named (and preferably appear in this order) (sans square b
 **First ensure that the STUDENT_ID column is formatted as text in Excel –
 if not ensure that the whole column is formatted as text and resave the file before proceeding.**
 
+The imported table in SQL Server will take the name of the worksheet so something
+succinct like `DHDT_RejFdbkLetter` would be best – the holding table is named `DHDT_RejFdbkLetter$`
+
 ### Script & Link
 
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20BMAT%20Scores.sql&version=GBmaster)

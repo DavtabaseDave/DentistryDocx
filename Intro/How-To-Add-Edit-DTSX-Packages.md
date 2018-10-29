@@ -1,5 +1,3 @@
-# How To Add Edit DTSX Packages
-
 [[_TOC_]]
 
 ## Important Note

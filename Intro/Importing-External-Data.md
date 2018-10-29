@@ -35,3 +35,5 @@ The columns should be named (and preferably appear in this order) (sans square b
 
 The imported table in SQL Server will take the name of the worksheet so something
 succinct like `A2L_Passlist` would be best – the holding table is named `A2L_Passlist$`
+
+### Script

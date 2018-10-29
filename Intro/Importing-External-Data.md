@@ -77,5 +77,9 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [Notes]
 0. [Total]
 
+The imported table in SQL Server will take the name of the worksheet so something
+succinct like `Academic_Scores` would be best – the holding table is named `Academic_Scores$`
+
+
 
 

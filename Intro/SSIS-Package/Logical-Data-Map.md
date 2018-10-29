@@ -275,7 +275,7 @@ select
           and SARCHRT2.SARCHRT_APPL_NO = sc.SARCHRT_APPL_NO
           and SARCHRT2.SARCHRT_CHRT_CODE in('A2LELG','A2LNOT')), 'A2LELG', 'Eligible', 'A2LNOT', 'Not Eligible', 'Awaiting Assessment') A2L_Eligibility_Decision,
    SARADAP_TERM_CODE_ENTRY,
-   (select Count( SARADAP1.SARADAP_APPL_NO )
+   (select Count(SARADAP1.SARADAP_APPL_NO)
         from SARADAP SARADAP1
         where SARADAP1.SARADAP_PIDM = sd.SARADAP_PIDM
         and SARADAP1.SARADAP_TERM_CODE_ENTRY = SARCHRT_TERM_CODE_ENTRY ) Number_Courses_Applied_For,

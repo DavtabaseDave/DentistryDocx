@@ -88,8 +88,7 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 Also to clear out the User table
 0. Remove any blank rows
 0. Update the PIDM by [Banner ID]
-0. Update the actual table t_Dntl_Decisions using Pidm and Course Code
-
+0. Update the actual table t_Dntl_Academic_Scores using Pidm 
 
 
 

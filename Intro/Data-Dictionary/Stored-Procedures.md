@@ -1,5 +1,3 @@
-# Stored Procedures
-
 [[_TOC_]]
 
 These can be divided into three categories:

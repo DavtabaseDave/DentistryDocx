@@ -9,15 +9,33 @@
 
 ## h_Decisions
 
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
+
 ## h_A2L_RR
+
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
 
 ## h_Offers
 
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
+
 ## h_Results
+
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
 
 ## h_stvethn
 
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
+
 ## h_stvnatn
+
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
 
 # XSLX Import Holding Tables
 

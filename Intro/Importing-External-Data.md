@@ -19,7 +19,7 @@ if any of these are present in column names.
 
 ## Importing A2L Pass List
 
-### Format of XLSX
+### Format of XLSX and worksheet name
 The columns should be named (and preferably appear in this order) (sans square brackets):
 1. [First Name]
 0. [Surname]
@@ -32,3 +32,6 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [Study Skills Pass]
 0. [Subject Mark]
 0. [A2L Pass]
+
+The imported table in SQL Server will take the name of the worksheet so something
+succinct like `A2L_Passlist` would be best – the holding table is named `A2L_Passlist$`

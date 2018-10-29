@@ -271,7 +271,7 @@ The user must supply their own PIDM for these applicants. These can begin at 1
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20IFY.sql&version=GBmaster)
 
 1. Give user the option to clear out the `IFY$`(for when they're NOT appending new passes. 
-Also to clear out the User table
-0. Insert into the actual table t_Dntl_BMAT_Scores using Candidate_number.
+0. Insert into the actual table t_Dntl_Applicants.
+The uses can alter the data_source code to be 1, 2, or 3 (IFY, ISFY, and PHE respectively)
 This is done in two parts - for those who were not marked absent and those who were
 

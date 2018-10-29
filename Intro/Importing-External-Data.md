@@ -326,8 +326,7 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 0. Insert MMI Schedule rows into t_Dntl_MMI_Schedule by [Student ID]
 0. Display any that are not matched
 
-## Importing Results Sheet
-
+## Importing MMI Scores & Rankings
 ### Format of XLSX and worksheet name
 The columns should be named (and preferably appear in this order) (sans square brackets):
 1. [

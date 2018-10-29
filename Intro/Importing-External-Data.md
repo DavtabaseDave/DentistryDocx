@@ -124,4 +124,4 @@ succinct like `All_MMI_Rankings` would be best – the holding table is named `A
 
 ### Script & Link
 
-See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20Academic%20Scores.sql&version=GBmaster)
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20All%20MMI%20Rankings.sql&version=GBmaster)

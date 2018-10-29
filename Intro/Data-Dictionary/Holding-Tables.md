@@ -76,6 +76,8 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## h_A2L_RR
 
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_A2L_RR.sql&version=GBmaster)
+
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | sarchrt_pidm	| int	| 	| 

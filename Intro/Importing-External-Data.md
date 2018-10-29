@@ -413,4 +413,41 @@ Also to clear out the User table
 
 ### Format of XLSX and worksheet name
 The columns should be named (and preferably appear in this order) (sans square brackets):
-1.
+1. [Selector Centre]
+0. [Faculty]
+0. [School]
+0. [Year]
+0. [Level]
+0. [Fee Code]
+0. [Surname]
+0. [First Name]
+0. [DoB]
+0. [Student ID]
+0. [UCAS ID]
+0. [App Number]
+0. [Course]
+0. [Course Desc]
+0. [Dec Code]
+0. [App Reply]
+0. [Conf Dec]
+0. [Conf Rep]
+0. [Full Offer Text]
+0. [Condition Code]
+0. [App date]
+0. [Age 1st Oct]
+0. [Late App]
+0. [IELTS]
+0. [A2L]
+0. [RoP]
+0. [Full Results]
+0. [Decision]
+0. [Result Position]
+0. [Quality]
+0. [Notes]
+0. [Received as CCO]
+0. [Received from]
+0. [Old Course Code]
+
+#### Vital notes
+Ignore at your peril
+1. If the XLSX has been protected with a password, open it and copy and paste the data & column headings into a new workbook as the import wizard cannot cope with a protected XLSX. Name the worksheet `ResultsSheet`

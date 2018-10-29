@@ -275,7 +275,7 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 The uses can alter the data_source code to be 1, 2, or 3 (IFY, ISFY, and PHE respectively)
 0. Insert their decisions into the actual table t_Dntl_Decisions
 
-## Importing MMI Descisions
+## Importing MMI Decisions
 
 ### Format of XLSX and worksheet name
 The columns should be named (and preferably appear in this order) (sans square brackets):
@@ -285,7 +285,7 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [MMI Decision]
 0. [CourseFor]
 
-**First ensure that the BannerID column is formatted as text in Excel –
+**First ensure that the Student ID column is formatted as text in Excel –
 if not ensure that the whole column is formatted as text and resave the file before proceeding.**
 
 The imported table in SQL Server will take the name of the worksheet so something

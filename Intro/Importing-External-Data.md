@@ -33,6 +33,9 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [Subject Mark]
 0. [A2L Pass]
 
+**First ensure that the BannerID column is formatted as text in Excel –
+if not ensure that the whole column is formatted as text and resave the file before proceeding.**
+
 The imported table in SQL Server will take the name of the worksheet so something
 succinct like `A2L_Passlist` would be best – the holding table is named `A2L_Passlist$`
 
@@ -118,6 +121,9 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [Station_7_Quartile_Rank]
 0. [Station_8_Mean_Percentile_Rank]
 0. [Station_8_Quartile_Rank]
+
+**VITAL: First ensure that the Candidate_number column is formatted as text in Excel –
+if not ensure that the whole column is formatted as text and resave the file before proceeding.**
 
 The imported table in SQL Server will take the name of the worksheet so something
 succinct like `All_MMI_Rankings` would be best – the holding table is named `All_MMI_Rankings$`

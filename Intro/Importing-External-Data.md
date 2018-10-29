@@ -135,3 +135,43 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 1. Give user the option to clear out the `All_MMI_Rankings$`(for when they're NOT appending new passes. 
 Also to clear out the User table
 0. Update the actual table t_Dntl_All_MMI_Rankings using Candidate_number
+
+## Importing BMAT Scores
+
+### Format of XLSX and worksheet name
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. [Centre Number]
+0. [Centre Name]
+0. [CandidateID]
+0. [BannerID]
+0. [Forenames]
+0. [Surname]
+0. [Test]
+0. [Date of Birth]
+0. [Gender]
+0. [Special Considerations]
+0. [Section 1 Score]
+0. [Section 2 Score]
+0. [Essay Answered]
+0. [Section 3 Content]
+0. [Section 3 English]
+0. [Section 3 English Score]
+0. [Overall Score]
+0. [Overall Rank]
+0. [Absent Flag]
+0. [UCASID]
+0. [Institution]
+0. [Course Code]
+0. [Time Zone]
+0. [OptionalID]
+
+**First ensure that the BannerID column is formatted as text in Excel –
+if not ensure that the whole column is formatted as text and resave the file before proceeding.**
+
+### Script & Link
+
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20BMAT%20Scores.sql&version=GBmaster)
+
+1. Give user the option to clear out the `All_MMI_Rankings$`(for when they're NOT appending new passes. 
+Also to clear out the User table
+0. Update the actual table t_Dntl_All_MMI_Rankings using Candidate_number

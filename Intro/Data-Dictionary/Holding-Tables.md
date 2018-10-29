@@ -16,6 +16,19 @@
 
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
+| sarchrt_pidm	| int	| 	| 
+| spriden_id	| nvarchar	| 	| 
+| skrsain_personalid	| nvarchar	| 	| 
+| spriden_first_name	| nvarchar	| 	| 
+| spriden_last_name	| nvarchar	| 	| 
+| skruccr_ssdt_code_crse	| nvarchar	| 	| 
+| Programme	| nvarchar	| 	| 
+| A2L_Eligibility_Decision	| nvarchar	| 	| 
+| saradap_term_code_entry	| nvarchar	| 	| 
+| Number_Courses_Applied_For	| tinyint	| 	| 
+| A2L_Route	| nvarchar	| 	| 
+| A2L_Application_Received	| datetime	| Yes	| 
+| A2L_Decision_Date	| datetime	| Yes	| 
 
 ## h_Offers
 

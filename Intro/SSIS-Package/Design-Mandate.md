@@ -1,5 +1,3 @@
-# Design Mandate
-
 In order to best facilitate maintenance and update of SSIS packages the following guidelines are more than strongly urged
 In no particular order theses are:
 - Connection managers **MUST** be used to simplify testing of the package against different DBs.

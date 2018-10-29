@@ -176,3 +176,23 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 Also to clear out the User table
 0. Insert into the actual table t_Dntl_BMAT_Scores using Candidate_number.
 This is done in two parts - for those who were not marked absent and those who were
+
+## Importing DHDT Reject with feedback
+
+### Format of XLSX and worksheet name
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. [PERSONAL_ID]
+0. [STUDENT_ID]
+0. [STUDENT_FIRST_NAME]
+0. [STUDENT_LAST_NAME]
+0. [EMAIL_ADDRESS]
+0. [STREET_ADDRESS_PH_LINE1]
+0. [STREET_ADDRESS_PH_LINE2]
+0. [STREET_ADDRESS_PH_LINE3]
+0. [CITY_PH]
+0. [POSTCODE_PH]
+0. [NATION_DESCRIPTION_PH]
+0. [Life Experience and Social Awareness:]
+0. [Motivation And Insight]
+0. [Reflective Skills]
+0. [Interests and Achievements]

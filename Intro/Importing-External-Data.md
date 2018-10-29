@@ -213,4 +213,47 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 1. Give user the option to clear out the `DHDT_RejFdbkLetter$`(for when they're NOT appending new passes. 
 0. Insert into the actual table t_Dntl_RejFdbkLetter using STUDENT_ID_number.
 
-## Importing
+## Importing IFY, ISPY, & PHE Applicants
+
+This is slightly different to the others in that this provides a route for importing non-UCAS
+Applicants and their decisions. 
+
+[PIDM_KEY]
+0. [TERM_CODE_KEY]
+0. [SELECTOR_CENTRE_CODE]
+0. [LEVEL_CODE]
+0. [PERSONAL_ID]
+0. [SCHEME_CODE]
+0. [UCAS_ID_KEY]
+0. [STUDENT_ID]
+0. [STUDENT_LAST_NAME]
+0. [STUDENT_FIRST_NAME]
+0. [EMAIL_ADDRESS]
+0. [STREET_ADDRESS_PH_LINE1]
+0. [STREET_ADDRESS_PH_LINE2]
+0. [STREET_ADDRESS_PH_LINE3]
+0. [CITY_PH]
+0. [POSTCODE_PH]
+0. [NATION_DESCRIPTION_PH]
+0. [RESIDENCY_CODE]
+0. [RESIDENCY_DESC]
+0. [UCAS_COURSE_CODE]
+0. [PROGRAM_CODE]
+0. [DECISION_CODE]
+0. [APPLICANT_REPLY]
+0. [CONFIRMATION_DECISION]
+0. [APPLICANT_RESPONSE]
+0. [DECISION_STATUS]
+0. [YEAR_OF_ENTRY]
+0. [DECEASED_INDICATOR]
+0. [INSTITUITION_CODE]
+0. [CWD_FLG]
+0. [GENDER]
+0. [BIRTH_DATE]
+0. [CURRENT_AGE]
+0. [BEEN_IN_CARE]
+0. [PARENTAL_EDUCATION]
+
+### Format of XLSX and worksheet name
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. 

@@ -43,11 +43,29 @@
 | STVDISA_DESC	| nvarchar	| Yes	|
 | SKRSAIN_SSDT_CODE_PARED	| nvarchar	| Yes	|
 | skrsain_care	| nvarchar	| Yes	|
+
 ## h_Decisions
 
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
-
+| SKRUCCR_PIDM	| numeric	| 	| 
+| SKRUCCR_APPLICANT_NO	| nvarchar	| 	| 
+| SKRUCCR_CHOICE_TYPE_NO	| nvarchar	| 	| 
+| SKRUCCR_SSDT_CODE_CRSE	| nvarchar	| Yes	|
+| PROGRAM_CODE	| nvarchar	| Yes	|
+| PROGRAM_DESC	| nvarchar	| Yes	|
+| SKRSAIN_SSDT_CODE_CWD_FLG	| nvarchar	| Yes	|
+| SKRUCCR_SSDT_CODE_DECN	| nvarchar	| Yes	|
+| SKRUCCR_DECISION_DATE	| datetime2	| Yes	|
+| SKRUDEC_TRANS_STATUS	| nvarchar	| Yes	|
+| SKRUCCR_SSDT_CODE_REPLY	| nvarchar	| Yes	|
+| SKRUCCR_SSDT_CODE_CF_DECN	| nvarchar	| Yes	|
+| SKRUCCR_SSDT_CODE_AP_RESP	| nvarchar	| Yes	|
+| SKRUCCR_PROP_ENTRY_YR	| numeric	| Yes	|
+| SKRUCCR_PROP_ENTRY_MTH	| numeric	| Yes	|
+| SKRUCCR_CONDITIONS	| nvarchar	| Yes	|
+| SKRUCCR_SSDT_CODE_ENTRY	| nvarchar	| Yes	|
+| isDeferred	| bit	| Yes	|
 ## h_A2L_RR
 
 | Attribute | DataType | Allow Nulls? |

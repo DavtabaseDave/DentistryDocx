@@ -210,8 +210,7 @@ succinct like `DHDT_RejFdbkLetter` would be best – the holding table is named 
 
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20DHDT_RejFdbk.sql&version=GBmaster)
 
-1. Give user the option to clear out the `All_MMI_Rankings$`(for when they're NOT appending new passes. 
-Also to clear out the User table
+1. Give user the option to clear out the `DHDT_RejFdbkLetter$`(for when they're NOT appending new passes. 
 0. Insert into the actual table t_Dntl_BMAT_Scores using Candidate_number.
 This is done in two parts - for those who were not marked absent and those who were
 

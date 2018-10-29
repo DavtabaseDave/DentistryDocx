@@ -20,3 +20,15 @@ if any of these are present in column names.
 ## Importing A2L Pass List
 
 ### Format of XLSX
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. [First Name]
+0. [Surname]
+0. [UCAS ID]
+0. [Banner ID]
+0. [Route]
+0. [Course Code]
+0. [Programme]
+0. [Offer status]
+0. [Study Skills Pass]
+0. [Subject Mark]
+0. [A2L Pass]

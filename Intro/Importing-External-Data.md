@@ -82,7 +82,7 @@ succinct like `Academic_Scores` would be best – the holding table is named `Ac
 
 ### Script & Link
 
-See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20A2L%20Academic%20Scores.sql&version=GBmaster)
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20Academic%20Scores.sql&version=GBmaster)
 
 1. Give user the option to clear out the `A2L_Passlist$`(for when they're NOT appending new passes
 0. Remove any blank rows

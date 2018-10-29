@@ -218,7 +218,10 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 This is slightly different to the others in that this provides a route for importing non-UCAS
 Applicants and their decisions. 
 
-[PIDM_KEY]
+
+### Format of XLSX and worksheet name
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. [PIDM_KEY]
 0. [TERM_CODE_KEY]
 0. [SELECTOR_CENTRE_CODE]
 0. [LEVEL_CODE]
@@ -253,7 +256,3 @@ Applicants and their decisions.
 0. [CURRENT_AGE]
 0. [BEEN_IN_CARE]
 0. [PARENTAL_EDUCATION]
-
-### Format of XLSX and worksheet name
-The columns should be named (and preferably appear in this order) (sans square brackets):
-1. 

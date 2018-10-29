@@ -471,3 +471,25 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 Also to clear out the User table
 0. Insert ResultsSheet rows into t_Dntl_Results_Sheet by [Student ID], 12.[App Number], and 4.[Year]
 
+
+## Importing UCAS Scores
+
+### Format of XLSX and worksheet name
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. [STUDENT_LAST_NAME]
+0. [STUDENT_FIRST_NAME]
+0. [PERSONAL_ID]
+0. [STUDENT_ID]
+0. [ETHNICITY_DESCRIPTION]
+0. [GENDER]
+0. [Life Experience and Social Awareness]
+0. [Motivation and Insight]
+0. [Reflective Skills]
+0. [Interests and Achievements]
+0. [GLOBAL]
+0. [Overall Score (minus Global)]
+0. [F13]
+
+**First ensure that the Student ID column is formatted as text in Excel – if not ensure that
+the whole column is formatted as text and resave the file before proceeding**
+

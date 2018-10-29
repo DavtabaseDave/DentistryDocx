@@ -168,6 +168,9 @@ The columns should be named (and preferably appear in this order) (sans square b
 **First ensure that the BannerID column is formatted as text in Excel –
 if not ensure that the whole column is formatted as text and resave the file before proceeding.**
 
+The imported table in SQL Server will take the name of the worksheet so something
+succinct like `BMAT_Scores` would be best – the holding table is named `BMAT_Scores$`
+
 ### Script & Link
 
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20BMAT%20Scores.sql&version=GBmaster)
@@ -199,3 +202,14 @@ The columns should be named (and preferably appear in this order) (sans square b
 
 **First ensure that the STUDENT_ID column is formatted as text in Excel –
 if not ensure that the whole column is formatted as text and resave the file before proceeding.**
+
+### Script & Link
+
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20BMAT%20Scores.sql&version=GBmaster)
+
+1. Give user the option to clear out the `All_MMI_Rankings$`(for when they're NOT appending new passes. 
+Also to clear out the User table
+0. Insert into the actual table t_Dntl_BMAT_Scores using Candidate_number.
+This is done in two parts - for those who were not marked absent and those who were
+
+## Importing

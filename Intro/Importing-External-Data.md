@@ -364,3 +364,33 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 1. Give user the option to clear out the `Reject_post_MMI$` (for when they're NOT appending new data)
 0. Insert MMI Schedule rows into t_Dntl_Reject_post_MMI by [Candidate number]
 0. Display any that are not matched
+
+## Importing Practique finalscores
+
+### Format of XLSX and worksheet name
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. [ID]
+0. [Student_ID]
+0. [Name]
+0. [LS_1stScorer]
+0. [LS_2ndScorer]
+0. [LS_Final]
+0. [MI_1stScore]
+0. [MI_2ndScorer]
+0. [MI_Final]
+0. [Ref_1stScorer]
+0. [Ref_2ndScorer]
+0. [Ref_Final]
+0. [IA_1stScorer]
+0. [IA_2ndScorer]
+0. [IA_Final]
+0. [Admissions team total]
+0. [MMI_Decision] **VITAL: Change this from [Field16]**
+0. [Academic staff total]
+0. [Accept final total for personal statement or rescreen?]
+0. [Staff] **VITAL: Change this from [Field19]**
+0. [Second scorer]
+0. [Final checker]
+0. [Checked against UCAS list]
+0. [BMAT Overall score]
+0. [BMAT Overall Rank]

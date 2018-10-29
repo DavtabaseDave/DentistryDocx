@@ -317,3 +317,13 @@ if not ensure that the whole column is formatted as text and resave the file bef
 
 The imported table in SQL Server will take the name of the worksheet so something
 succinct like `MMI_Schedule` would be best – the holding table is named `MMI_Schedule$`
+
+### Script & Link
+
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20MMI%20Schedules.sql&version=GBmaster)
+
+1. Give user the option to clear out the `MMI_Decisions$`(for when they're NOT appending new passes
+0. Remove any blank rows
+0. Update the PIDM by [Student ID]
+0. Update the actual table t_Dntl_Decisions using Pidm and Course Code
+

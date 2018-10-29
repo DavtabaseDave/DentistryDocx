@@ -1,5 +1,3 @@
-# Functions
-
 [[_TOC_]]
 
 ## fnGetCurTermCode()

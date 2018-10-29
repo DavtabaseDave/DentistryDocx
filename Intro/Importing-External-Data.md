@@ -361,6 +361,6 @@ succinct like `Reject_post_MMI` would be best – the holding table is named `Re
 
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20MMI%20Scores%20%26%20Rankings.sql&version=GBmaster)
 
-1. Give user the option to clear out the `MMI_Schedule$`(for when they're NOT appending new passes
+1. Give user the option to clear out the `Reject_post_MMI$` (for when they're NOT appending new data)
 0. Insert MMI Schedule rows into t_Dntl_MMI_Schedule by [Student ID]
 0. Display any that are not matched

@@ -217,7 +217,7 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 
 This is slightly different to the others in that this provides a route for importing non-UCAS
 Applicants and their decisions. The same import table, `IFY$` is used to import the different
-types -f non-UCAS applicants.
+types of non-UCAS applicants.
 
 
 ### Format of XLSX and worksheet name

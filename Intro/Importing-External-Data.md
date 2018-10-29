@@ -311,3 +311,9 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [Time]
 0. [Colour]
 0. [Number]
+
+**First ensure that the Student ID column is formatted as text in Excel –
+if not ensure that the whole column is formatted as text and resave the file before proceeding.**
+
+The imported table in SQL Server will take the name of the worksheet so something
+succinct like `MMI_Schedule` would be best – the holding table is named `MMI_Schedule$`

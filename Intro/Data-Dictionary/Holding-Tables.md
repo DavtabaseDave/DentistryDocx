@@ -88,6 +88,14 @@
 
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
+| GURMAIL_PIDM	| numeric	| 	| 
+| GURMAIL_LETR_CODE	| nvarchar	| Yes	|
+| OFFER_LETTER	| nvarchar	| Yes	|
+| OFFER_CHOICE_NO	| nvarchar	| Yes	|
+| GURMAIL_TERM_CODE	| nvarchar	| Yes	|
+| GURMAIL_DATE_PRINTED	| datetime2	| Yes	|
+| GURMAIL_USER	| nvarchar	| Yes	|
+| GURMAIL_CPLN_CODE	| nvarchar	| Yes	|
 
 ## h_Results
 

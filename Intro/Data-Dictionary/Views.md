@@ -1,5 +1,3 @@
-# Views
-
 [[_TOC_]]
 
 These can be divided into two broad categories:

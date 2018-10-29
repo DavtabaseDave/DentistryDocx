@@ -7,6 +7,6 @@ to the Application Support SharePoint site.
 This page will roughly:
 1. the spreadsheet columns naming, order and any format requirements.
 0. details the steps involved for each and 
-0. a link to the actual scriptgadfgdafgdf
+0. a link to the actual script.
 
 ## Importing A2L Pass List

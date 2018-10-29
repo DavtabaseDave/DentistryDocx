@@ -1,6 +1,6 @@
 # Developer documentation
 
-##  [Naming conventions in FAD](/Intro/NamingScheme)
+##  [Naming conventions in FAD](/Intro/Naming-Scheme)
 
 ## [Data Dictionary](/Intro/Data-Dictionary)
 

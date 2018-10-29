@@ -1,6 +1,22 @@
-# Holding Tables
-
 [[_TOC_]]
+
+# SSIS Import Holding Tables
+
+## h_Applicants
+
+## h_Decisions
+
+## h_A2L_RR
+
+## h_Offers
+
+## h_Results
+
+## h_stvethn
+
+## h_stvnatn
+
+# XSLX Import Holding Tables
 
 These table are *NOT* standard user visible, they are for administrative use only. They are intended for importing data from XLSX files before being transformed into user visible tables. Unlike normal tables they don't have Primary Keys as the data is not guaranteed to be in any "normal" form. Also, as the importer program may include the odd blank row all the fields must be null-able :(
 

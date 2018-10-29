@@ -2,6 +2,9 @@
 
 # SSIS Import Holding Tables
 
+These are used as temporary stores for Banner data as it is first extract by the SSIS DTSX package.
+As they permit duplicates they have to be cleared before and after use.
+
 ## h_Applicants
 
 | Attribute | DataType | Allow Nulls? |

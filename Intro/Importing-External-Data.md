@@ -355,7 +355,7 @@ The columns should be named (and preferably appear in this order) (sans square b
 if not ensure that the whole column is formatted as text and resave the file before proceeding.**
 
 The imported table in SQL Server will take the name of the worksheet so something
-succinct like `MMI_Schedule` would be best – the holding table is named `MMI_Schedule$`
+succinct like `Reject_post_MMI` would be best – the holding table is named `Reject_post_MMI$`
 
 ### Script & Link
 

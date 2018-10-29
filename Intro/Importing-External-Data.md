@@ -196,3 +196,6 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [Motivation And Insight]
 0. [Reflective Skills]
 0. [Interests and Achievements]
+
+**First ensure that the STUDENT_ID column is formatted as text in Excel –
+if not ensure that the whole column is formatted as text and resave the file before proceeding.**

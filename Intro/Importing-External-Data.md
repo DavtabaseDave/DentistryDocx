@@ -300,3 +300,14 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 0. Update the PIDM by [Student ID]
 0. Update the actual table t_Dntl_Decisions using Pidm and Course Code
 
+## Importing MMI Schedule
+
+### Format of XLSX and worksheet name
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. [Student ID]
+0. [Firstname]
+0. [Surname]
+0. [Date]
+0. [Time]
+0. [Colour]
+0. [Number]

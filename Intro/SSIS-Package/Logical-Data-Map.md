@@ -110,7 +110,7 @@ where spriden_change_ind   is null
   and skruccr_ssdt_code_sbgi  = 'L23'
 ```
 In the SqlCommand the last five lines are parameterized thus:
-```
+``` ... 
   "and swbslcr_swvslcn_code = '" + @[$Project::AdDentSelectorCentre] + "'
   AND SKRUCCR_PROP_ENTRY_YR >= '" + @[$Project::AdEntryYear] + "'
   and skruccr_applicant_no > '" + @[$Project::AdApplNoMask] + "'

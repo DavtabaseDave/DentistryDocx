@@ -175,4 +175,4 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 1. Give user the option to clear out the `All_MMI_Rankings$`(for when they're NOT appending new passes. 
 Also to clear out the User table
 0. Insert into the actual table t_Dntl_BMAT_Scores using Candidate_number.
-This is done in two parts - for those who were not marked absent and thos who were
+This is done in two parts - for those who were not marked absent and those who were

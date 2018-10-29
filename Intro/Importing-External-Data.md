@@ -9,4 +9,7 @@ This page will roughly:
 0. details the steps involved for each and 
 0. a link to the actual script.
 
+The exact steps in running the Import/Export Wizard will **NOT** detailed here as they
+are set out in detail in the User Guides available on the SharePoint site
+
 ## Importing A2L Pass List

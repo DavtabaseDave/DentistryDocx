@@ -96,6 +96,8 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## h_Offers
 
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_Offers.sql&version=GBmaster)
+
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | GURMAIL_PIDM	| numeric	| 	| 
@@ -109,6 +111,8 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## h_Results
 
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_Results.sql&version=GBmaster)
+
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | SORTEST_PIDM	| numeric	| Yes	|
@@ -116,12 +120,16 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## h_stvethn
 
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_stvethn.sql&version=GBmaster)
+
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | stvethn_code	| nvarchar	| |
 | stvethn_desc	| nvarchar	| |
 
 ## h_stvnatn
+
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_stvnatn.sql&version=GBmaster)
 
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|

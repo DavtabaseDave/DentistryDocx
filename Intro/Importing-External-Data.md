@@ -450,4 +450,11 @@ The columns should be named (and preferably appear in this order) (sans square b
 
 #### Vital notes
 Ignore at your peril
-1. If the XLSX has been protected with a password, open it and copy and paste the data & column headings into a new workbook as the import wizard cannot cope with a protected XLSX. Name the worksheet `ResultsSheet`
+1. If the XLSX has been protected with a password, open it and copy and paste the data
+& column headings into a new workbook as the import wizard cannot cope with a
+protected XLSX. Name the worksheet `ResultsSheet`
+0. Ensure the dates are formatted as dates and not text – the dates may occasionally lose
+their formatting and appear a number of days elapsed since 1-JAN-70.
+If this becomes a problem neither of the dates in this data are important so you can fill
+with valid but meaningless dates
+

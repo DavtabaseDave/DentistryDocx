@@ -4,6 +4,9 @@
 
 ## h_Applicants
 
+| Attribute | DataType | Allow Nulls? |
+|-----------|----------|--------------|
+
 ## h_Decisions
 
 ## h_A2L_RR

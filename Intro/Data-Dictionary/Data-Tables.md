@@ -1,5 +1,3 @@
-# Data Tables
-
 [[_TOC_]]
 
 **NB: all tables have the prefix t\_Dent\_, this has been removed from the heading as otherwise the ToC doesn't render properly**

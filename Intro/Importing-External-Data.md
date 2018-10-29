@@ -268,7 +268,7 @@ The user must supply their own PIDM for these applicants. These can begin at 1
 
 ### Script & Link
 
-See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20IFY.sql&version=GBmaster)
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20IFYs%20from%20IFY%24.sql&version=GBmaster)
 
 1. Give user the option to clear out the `IFY$`(for when they're NOT appending new passes. 
 0. Insert applicants into the actual table t_Dntl_Applicants.

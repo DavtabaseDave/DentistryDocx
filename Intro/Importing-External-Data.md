@@ -216,7 +216,8 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 ## Importing IFY, ISPY, & PHE Applicants
 
 This is slightly different to the others in that this provides a route for importing non-UCAS
-Applicants and their decisions. 
+Applicants and their decisions. The same import table, `IFY$` is used to import the different
+types -f non-UCAS applicants.
 
 
 ### Format of XLSX and worksheet name

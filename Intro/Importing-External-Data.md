@@ -12,7 +12,7 @@ This page will roughly:
 The exact steps in running the Import/Export Wizard will **NOT** detailed here as they
 are set out in detail in the User Guides available on the SharePoint site listed above.
 
-# Vital Note
+## Vital Note
 Using Find and replace (CTRL+H) in Excel, delete every parenthesis and square bracket
 from the column names row.
 

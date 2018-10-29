@@ -467,6 +467,7 @@ you will be forced to match those by hand. For those that are missing that are n
 
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20Results%20Data%20Sheet.sql&version=GBmaster)
 
-1. Give user the option to clear out the `Reject_post_MMI$` (for when they're NOT appending new data)
-0. Insert MMI Schedule rows into t_Dntl_Reject_post_MMI by [Candidate number]
-0. Display any that are not matched
+1. Give user the option to clear out the `ResultsSheet$` (for when they're NOT appending new data)
+Also to clear out the User table
+0. Insert ResultsSheet rows into t_Dntl_Results_Sheet by [Student ID], 12.[App Number], and 4.[Year]
+

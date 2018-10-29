@@ -45,4 +45,37 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 0. Update the PIDM by [Banner ID]
 0. Update the actual table t_Dntl_Decisions using Pidm and Course Code
 
+## Importing Academic Scores
+
+### Format of XLSX and worksheet name
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. [PIDM]
+0. [DoB]
+0. [Leeds Code]
+0. [Scorer initials]
+0. [Standard entry - GCSE English]
+0. [Standard entry - GCSE Maths]
+0. [Standard entry - GCSE Biology or Science]
+0. [Standard entry - GCSE Chemistry or Science]
+0. [Standard entry - GCSE other 1]
+0. [Standard entry - GCSE other 2]
+0. [Standard entry - GCSE other 3]
+0. [Standard entry - GCSE other 4]
+0. [Standard entry - GCSE other 5]
+0. [Standard entry - A2]
+0. [Graduate English GCSE]
+0. [Graduate Maths GCSE]
+0. [Graduate Biology GCSE]
+0. [Graduate Chemistry GCSE]
+0. [Graduate GCSE any 1]
+0. [Graduate GCSE Any 2]
+0. [Graduate GCSE total]
+0. [Graduate - Degree name]
+0. [Graduate - Degree classification Degree]
+0. [total GCSE]
+0. [Reference statement?]
+0. [Notes]
+0. [Total]
+
+
 

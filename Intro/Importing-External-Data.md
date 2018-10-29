@@ -459,3 +459,6 @@ If this becomes a problem neither of the dates in this data are important so you
 with valid but meaningless dates
 0. First ensure that the Student ID column is formatted as text in Excel – if not ensure that
 the whole column is formatted as text and resave the file before proceeding
+0. Ensure that the column names match those of the table [dbo].[ResultsSheet$] otherwise
+you will be forced to match those by hand. For those that are missing that are non-essential
+(such as candidate number) can simply be added as a heading alone

@@ -51,6 +51,8 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## h_Decisions
 
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_Decisions.sql&version=GBmaster)
+
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | SKRUCCR_PIDM	| numeric	| 	| 
@@ -71,6 +73,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | SKRUCCR_CONDITIONS	| nvarchar	| Yes	|
 | SKRUCCR_SSDT_CODE_ENTRY	| nvarchar	| Yes	|
 | isDeferred	| bit	| Yes	|
+
 ## h_A2L_RR
 
 | Attribute | DataType | Allow Nulls? |

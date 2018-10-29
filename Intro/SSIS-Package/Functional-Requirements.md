@@ -1,5 +1,3 @@
-# Functional Requirements
-
 - In order to prevent have to update the entire package at the start of each new academic year
 Project Level parameters **MUST** be used so that they can easily be altered
 - As there is a slight chance that another Faculty will want a similar DB and variables and other

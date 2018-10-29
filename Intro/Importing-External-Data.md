@@ -131,3 +131,7 @@ succinct like `All_MMI_Rankings` would be best – the holding table is named `A
 ### Script & Link
 
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20All%20MMI%20Rankings.sql&version=GBmaster)
+
+1. Give user the option to clear out the `All_MMI_Rankings$`(for when they're NOT appending new passes. 
+Also to clear out the User table
+0. Update the actual table t_Dntl_All_MMI_Rankings using Candidate_number

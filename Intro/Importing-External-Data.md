@@ -208,7 +208,7 @@ succinct like `DHDT_RejFdbkLetter` would be best – the holding table is named 
 
 ### Script & Link
 
-See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%DHDT_RejFdbk.sql&version=GBmaster)
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20DHDT_RejFdbk.sql&version=GBmaster)
 
 1. Give user the option to clear out the `All_MMI_Rankings$`(for when they're NOT appending new passes. 
 Also to clear out the User table

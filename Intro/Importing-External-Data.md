@@ -457,4 +457,5 @@ protected XLSX. Name the worksheet `ResultsSheet`
 their formatting and appear a number of days elapsed since 1-JAN-70.
 If this becomes a problem neither of the dates in this data are important so you can fill
 with valid but meaningless dates
-
+0. First ensure that the Student ID column is formatted as text in Excel – if not ensure that
+the whole column is formatted as text and resave the file before proceeding

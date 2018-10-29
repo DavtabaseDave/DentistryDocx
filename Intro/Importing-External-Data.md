@@ -217,7 +217,7 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 
 This is slightly different to the others in that this provides a route for importing non-UCAS
 Applicants and their decisions. The same import table, `IFY$` is used to import the different
-types of non-UCAS applicants.
+types of non-UCAS applicants. 
 
 
 ### Format of XLSX and worksheet name
@@ -257,3 +257,7 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [CURRENT_AGE]
 0. [BEEN_IN_CARE]
 0. [PARENTAL_EDUCATION]
+
+**First ensure that the STUDENT_ID, UCAS_ID_KEY, and PERSONAL_ID columns are formatted as text in Excel –
+if not ensure that the whole column is formatted as text and resave the file before proceeding.**
+

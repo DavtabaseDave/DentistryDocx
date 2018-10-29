@@ -330,4 +330,23 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 
 ### Format of XLSX and worksheet name
 The columns should be named (and preferably appear in this order) (sans square brackets):
-1. 
+1. [Candidate number]
+0. [Candidate Name]
+0. [Course]
+0. [Mean Task]
+0. [Mean Task (+KAT)]
+0. [Mean Global Score]
+0. [Mean Rank (Task including KAT)]
+0. [Mean Rank (Task, KAT and Global)]
+0. [Mean Rank (Task- Not including KAT)]
+0. [Rank (low score removed)]
+0. [Rank (low scored removed- including KAT)]
+0. [Station 1 Mean Percentile Rank]
+0. [Station 2 Mean Percentile Rank]
+0. [Station 3 Mean Percentile Rank]
+0. [Station 4 Mean Percentile Rank]
+0. [Station 5 Mean Percentile Rank]
+0. [Station 6 Mean Percentile Rank]
+0. [Station 7 Mean Percentile Rank]
+0. [Station 8 Mean Percentile Rank]
+0. [KAT Mean Percentile Rank]

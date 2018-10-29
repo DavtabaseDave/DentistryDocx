@@ -274,3 +274,29 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 0. Insert applicants into the actual table t_Dntl_Applicants.
 The uses can alter the data_source code to be 1, 2, or 3 (IFY, ISFY, and PHE respectively)
 0. Insert their decisions into the actual table t_Dntl_Decisions
+
+## Importing MMI Descisions
+
+### Format of XLSX and worksheet name
+The columns should be named (and preferably appear in this order) (sans square brackets):
+1. [ID]
+0. [Student ID]
+0. [Applicant Name]
+0. [MMI Decision]
+0. [CourseFor]
+
+**First ensure that the BannerID column is formatted as text in Excel –
+if not ensure that the whole column is formatted as text and resave the file before proceeding.**
+
+The imported table in SQL Server will take the name of the worksheet so something
+succinct like `MMI_Decisions` would be best – the holding table is named `MMI_Decisions$`
+
+### Script & Link
+
+See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20A2L%20Pass%20List.sql&version=GBmaster)
+
+1. Give user the option to clear out the `A2L_Passlist$`(for when they're NOT appending new passes
+0. Remove any blank rows
+0. Update the PIDM by [Banner ID]
+0. Update the actual table t_Dntl_Decisions using Pidm and Course Code
+

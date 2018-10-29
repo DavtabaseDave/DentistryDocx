@@ -7,6 +7,8 @@ As they permit duplicates they have to be cleared before and after use.
 
 ## h_Applicants
 
+Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_Applicants.sql&version=GBmaster)
+
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
 | SPRIDEN_PIDM	| numeric	| 	| 

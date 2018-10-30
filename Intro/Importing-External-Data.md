@@ -43,7 +43,7 @@ succinct like `A2L_Passlist` would be best – the holding table is named `A2L_P
 
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20A2L%20Pass%20List.sql&version=GBmaster)
 
-1. Give user the option to clear out the `A2L_Passlist$`(for when they're NOT appending new passes
+1. Give user the option to clear out the `A2L_Passlist$`(for when they're NOT appending new passes)
 0. Remove any blank rows
 0. Update the PIDM by [Banner ID]
 0. Update the actual table t_Dntl_Decisions using Pidm and Course Code

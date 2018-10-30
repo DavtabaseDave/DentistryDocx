@@ -4,7 +4,7 @@ Along with the Full Design Spec of the application's UI user guides for importin
 for the different tables can be found [here](https://leeds365.sharepoint.com/teams/ITApplicationsSupport/UG%20Admissions%20Dentistry/Forms/AllItems.aspx). This requires appropriate access privileges
 to the Application Support SharePoint site.
 
-This page will roughly:
+This page will roughly set out:
 1. the spreadsheet columns naming, order and any format requirements.
 0. details the steps involved for each and 
 0. a link to the actual script.

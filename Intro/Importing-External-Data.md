@@ -14,7 +14,7 @@ are set out in detail in the User Guides available on the SharePoint site listed
 
 ## Vital Note
 Using Find and replace (CTRL+H) in Excel, delete every parenthesis and square bracket
-from the column names row. This mainly applied to A2L Pass List but the import won't work
+from the **column names row**. This mainly applies to A2L Pass List but the import won't work
 if any of these are present in column names.
 
 ## Importing A2L Pass List

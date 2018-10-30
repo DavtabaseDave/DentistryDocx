@@ -5,3 +5,5 @@
 ## [Data Dictionary](/Intro/Data-Dictionary)
 
 ## [SSIS Package](/Intro/SSIS-Package)
+
+## [Importing External Data](/Intro/Importing-External-Data)

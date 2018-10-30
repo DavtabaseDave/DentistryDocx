@@ -210,7 +210,7 @@ succinct like `DHDT_RejFdbkLetter` would be best – the holding table is named 
 
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20DHDT_RejFdbk.sql&version=GBmaster)
 
-1. Give user the option to clear out the `DHDT_RejFdbkLetter$`(for when they're NOT appending new passes. 
+1. Give user the option to clear out the `DHDT_RejFdbkLetter$` (for when they're NOT appending new rows). 
 0. Insert into the actual table t_Dntl_RejFdbkLetter using STUDENT_ID_number.
 
 ## Importing IFY, ISPY, & PHE Applicants

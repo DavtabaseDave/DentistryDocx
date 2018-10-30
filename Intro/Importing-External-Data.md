@@ -405,7 +405,7 @@ succinct like `Practique_finalscores` would be best – the holding table is nam
 
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20Practique%20finalscores.sql&version=GBmaster)
 
-1. Give user the option to clear out the `Practique_finalscores$` (for when they're NOT appending new passes).
+1. Give user the option to clear out the `Practique_finalscores$` (for when they're NOT appending new rows).
 Also to clear out the User table
 0. Update the actual table t_Dntl_Practique_finalscores using Student_ID_number
 

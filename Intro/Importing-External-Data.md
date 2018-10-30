@@ -259,7 +259,7 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [PARENTAL_EDUCATION]
 
 **First ensure that the STUDENT_ID, UCAS_ID_KEY, and PERSONAL_ID columns are formatted as text in Excel –
-if not ensure that eachcolumn is formatted as text and resave the file before proceeding.**
+if not ensure that each column is formatted as text and resave the file before proceeding.**
 
 The imported table in SQL Server will take the name of the worksheet so something
 succinct like `IFY` would be best – the holding table is named `IFY$`

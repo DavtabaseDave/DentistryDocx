@@ -175,7 +175,7 @@ succinct like `BMAT_Scores` would be best – the holding table is named `BMAT_S
 
 See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?path=%2FFAD%20Add%20BMAT%20Scores.sql&version=GBmaster)
 
-1. Give user the option to clear out the `BMAT_Scores$` (for when they're NOT appending new passes. 
+1. Give user the option to clear out the `BMAT_Scores$` (for when they're NOT appending new scores). 
 Also to clear out the User table
 0. Insert into the actual table t_Dntl_BMAT_Scores using Candidate_number.
 This is done in two parts - for those who were not marked absent and those who were

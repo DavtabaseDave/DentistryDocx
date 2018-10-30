@@ -409,7 +409,7 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 Also to clear out the User table
 0. Update the actual table t_Dntl_Practique_finalscores using Student_ID_number
 
-## Importing Practique finalscores
+## Importing Results Sheet
 
 ### Format of XLSX and worksheet name
 The columns should be named (and preferably appear in this order) (sans square brackets):

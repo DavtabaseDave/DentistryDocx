@@ -45,7 +45,7 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 
 1. Give user the option to clear out the `A2L_Passlist$`(for when they're NOT appending new passes)
 0. Remove any blank rows
-0. Update the PIDM by [Banner ID]
+0. Update the PIDM column by [Banner ID]
 0. Update the actual table t_Dntl_Decisions using Pidm and Course Code
 
 ## Importing Academic Scores

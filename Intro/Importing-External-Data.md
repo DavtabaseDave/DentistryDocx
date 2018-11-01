@@ -53,9 +53,8 @@ See [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD?pa
 ### Format of XLSX and worksheet name
 The columns should be named (and preferably appear in this order) (sans square brackets):
 1. [PIDM]
-0. [DoB]
+0. [Scorer Name]
 0. [Leeds Code]
-0. [Scorer initials]
 0. [Standard entry - GCSE English]
 0. [Standard entry - GCSE Maths]
 0. [Standard entry - GCSE Biology or Science]
@@ -72,12 +71,14 @@ The columns should be named (and preferably appear in this order) (sans square b
 0. [Graduate Chemistry GCSE]
 0. [Graduate GCSE any 1]
 0. [Graduate GCSE Any 2]
-0. [Graduate GCSE total]
+0. [Graduate A-level Biology]
+0. [Graduate A-level Chemistry]
+0. [Graduate Third Subject]
+0. [Graduate Other A-level 1]
+0. [Graduate Other A-level 2]
 0. [Graduate - Degree name]
 0. [Graduate - Degree classification Degree]
-0. [total GCSE]
-0. [Reference statement?]
-0. [Notes]
+0. [A2HE DHDT only]
 0. [Total]
 
 **VITAL: First ensure that all columns (except `PIDM` & `Total`) are formatted as text in Excel –

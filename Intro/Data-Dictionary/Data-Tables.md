@@ -281,9 +281,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Grad_Other_A_Level_2	| varchar	| Yes	| 	| 	|  |
 | Grad_Degree_name	| varchar	| Yes	| 	| 	|  |
 | Grad_Degree_classification_Degree	| varchar	| Yes	| 	| 	|  |
- 	| varchar	| Yes	| 	| 	|  |
-| 	| varchar	| Yes	| 	| 	|  |
-| 	| varchar	| Yes	| 	| 	|  |
+| A2HE_DHDT_only	| varchar	| Yes	| 	| 	|  |
 | Total	| tinyint	| Yes	| 	| 	|  |
 
 ## MMI_Schedule

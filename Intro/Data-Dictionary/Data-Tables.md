@@ -278,10 +278,10 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Grad_A_Level_Chemistry	| varchar	| Yes	| 	| 	|  |
 | Grad_3rd_Subject	| varchar	| Yes	| 	| 	|  |
 | Grad_Other_A_Level_1	| varchar	| Yes	| 	| 	|  |
-| Grad_Degree_name	| varchar	| Yes	| 	| 	|  |
-| Grad_Degree_classification_Degree	| varchar	| Yes	| 	| 	|  |
 | Grad_Other_A_Level_2	| varchar	| Yes	| 	| 	|  |
-| 	| varchar	| Yes	| 	| 	|  |
+|| Grad_Degree_name	| varchar	| Yes	| 	| 	|  |
+| Grad_Degree_classification_Degree	| varchar	| Yes	| 	| 	|  |
+ 	| varchar	| Yes	| 	| 	|  |
 | 	| varchar	| Yes	| 	| 	|  |
 | 	| varchar	| Yes	| 	| 	|  |
 | Total	| tinyint	| Yes	| 	| 	|  |

@@ -256,31 +256,28 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Interests_And_Achievements	| varchar	| Yes	| 	| 	|  |
 | GLOBAL	| varchar	| Yes	| 	| 	|  |
 | Overall_Score	| varchar	| Yes	| 	| 	|  |
+| Scorer Name	| varchar	| Yes	| 	| 	|  |
 | Leeds_Code	| char	| Yes	| 	| 	|  |
-| Scorer_initials	| varchar	| Yes	| 	| 	|  |
-| Std_entry_GCSE_English	| char	| Yes	| 	| 	|  |
-| Std_entry_GCSE_Maths	| char	| Yes	| 	| 	|  |
-| Std_entry_GCSE_Biology_or_Science	| char	| Yes	| 	| 	|  |
-| Std_entry_GCSE_Chemistry_or_Science	| char	| Yes	| 	| 	|  |
-| Std_entry_GCSE_other_1	| char	| Yes	| 	| 	|  |
-| Std_entry_GCSE_other_2	| char	| Yes	| 	| 	|  |
-| Std_entry_GCSE_other_3	| char	| Yes	| 	| 	|  |
-| Std_entry_GCSE_other_4	| char	| Yes	| 	| 	|  |
-| Std_entry_GCSE_other_5	| char	| Yes	| 	| 	|  |
+| Std_entry_GCSE_English	| varchar	| Yes	| 	| 	|  |
+| Std_entry_GCSE_Maths	| varchar	| Yes	| 	| 	|  |
+| Std_entry_GCSE_Biology_or_Science	| varchar	| Yes	| 	| 	|  |
+| Std_entry_GCSE_Chemistry_or_Science	| varchar	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_1	| varchar	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_2	| varchar	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_3	| varchar	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_4	| varchar	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_5	| varchar	| Yes	| 	| 	|  |
 | Std_entry_A2	| tinyint	| Yes	| 	| 	|  |
-| Grad_English_GCSE	| char	| Yes	| 	| 	|  |
-| Grad_Maths_GCSE	| char	| Yes	| 	| 	|  |
-| Grad_Biology_GCSE	| char	| Yes	| 	| 	|  |
-| Grad_Chemistry_GCSE	| char	| Yes	| 	| 	|  |
-| Grad_GCSE_any_1	| char	| Yes	| 	| 	|  |
-| Grad_GCSE_Any_2	| char	| Yes	| 	| 	|  |
-| Grad_GCSE_total	| varchar	| Yes	| 	| 	|  |
-| Grad_Degree_name	| char	| Yes	| 	| 	|  |
-| Grad_Degree_classification_Degree	| char	| Yes	| 	| 	|  |
-| total_GCSE	| tinyint	| Yes	| 	| 	|  |
-| Reference_statement?	| varchar	| Yes	| 	| 	|  |
-| Notes	| varchar	| Yes	| 	| 	|  |
-| Total	| tinyint	| Yes	| 	| 	|  |
+| Grad_English_GCSE	| varchar	| Yes	| 	| 	|  |
+| Grad_Maths_GCSE	| varchar	| Yes	| 	| 	|  |
+| Grad_Biology_GCSE	| varchar	| Yes	| 	| 	|  |
+| Grad_Chemistry_GCSE	| varchar	| Yes	| 	| 	|  |
+| Grad_GCSE_Any_1	| varchar	| Yes	| 	| 	|  |
+| Grad_GCSE_Any_2	| varchar	| Yes	| 	| 	|  |
+| Grad_A_Level_Biology	| varchar	| Yes	| 	| 	|  |
+| Grad_A_Level_Chemistry	| varchar	| Yes	| 	| 	|  |
+| Grad_3rd_Subject	| varchar	| Yes	| 	| 	|  |
+| Grad_Other_A_Level_1	| varchar	| Yes	| 	| 	|  |
 
 ## MMI_Schedule
 

@@ -279,7 +279,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Grad_3rd_Subject	| varchar	| Yes	| 	| 	|  |
 | Grad_Other_A_Level_1	| varchar	| Yes	| 	| 	|  |
 | Grad_Other_A_Level_2	| varchar	| Yes	| 	| 	|  |
-|| Grad_Degree_name	| varchar	| Yes	| 	| 	|  |
+| Grad_Degree_name	| varchar	| Yes	| 	| 	|  |
 | Grad_Degree_classification_Degree	| varchar	| Yes	| 	| 	|  |
  	| varchar	| Yes	| 	| 	|  |
 | 	| varchar	| Yes	| 	| 	|  |

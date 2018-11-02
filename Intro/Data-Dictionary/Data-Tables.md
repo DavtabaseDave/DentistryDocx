@@ -256,7 +256,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Interests_And_Achievements	| varchar	| Yes	| 	| 	|  |
 | GLOBAL	| varchar	| Yes	| 	| 	|  |
 | Overall_Score	| varchar	| Yes	| 	| 	|  |
-|| Scorer Name	| varchar	| Yes	| 	| 	|  |
+| Scorer Name	| varchar	| Yes	| 	| 	|  |
 | Leeds_Code	| char	| Yes	| 	| 	|  |
 | Std_entry_GCSE_English	| varchar	| Yes	| 	| 	|  |
 | Std_entry_GCSE_Maths	| varchar	| Yes	| 	| 	|  |

@@ -125,29 +125,32 @@ Data imported for the different GCSE scores. Full source [here](https://universi
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
 | PIDM	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
-| Scorer initials	| varchar	| 		| 	| 	|  |
-| Std_entry_GCSE_English	| char	| 	| 	| 	|  |
-| Std_entry_GCSE_Maths	| char	| 	| 	| 	|  |
-| Std_entry_GCSE_Biology_or_Science	| char	| 	| 	| 	|  |
-| Std_entry_GCSE_Chemistry_or_Science	| char	| 	| 	| 	|  |
-| Std_entry_GCSE_other_1	| char	| 	| 	| 	|  |
-| Std_entry_GCSE_other_2	| char	| 	| 	| 	|  |
-| Std_entry_GCSE_other_3	| char	| 	| 	| 	|  |
-| Std_entry_GCSE_other_4	| char	| 	| 	| 	|  |
-| Std_entry_GCSE_other_5	| char	| 	| 	| 	|  |
+| Scorer Name	| varchar	| 	| 	| 	|  |
+| Leeds_Code	| char	| 	| 	| 	|  |
+| Std_entry_GCSE_English	| varchar	| 	| 	| 	|  |
+| Std_entry_GCSE_Maths	| varchar	| 	| 	| 	|  |
+| Std_entry_GCSE_Biology_or_Science	| varchar	| 	| 	| 	|  |
+| Std_entry_GCSE_Chemistry_or_Science	| varchar	| 	| 	| 	|  |
+| Std_entry_GCSE_other_1	| varchar	| 	| 	| 	|  |
+| Std_entry_GCSE_other_2	| varchar	| 	| 	| 	|  |
+| Std_entry_GCSE_other_3	| varchar	| 	| 	| 	|  |
+| Std_entry_GCSE_other_4	| varchar	| 	| 	| 	|  |
+| Std_entry_GCSE_other_5	| varchar	| 	| 	| 	|  |
 | Std_entry_A2	| tinyint	| 	| 	| 	|  |
-| Grad_English_GCSE	| char	| 	| 	| 	|  |
-| Grad_Maths_GCSE	| char	| 	| 	| 	|  |
-| Grad_Biology_GCSE	| char	| 	| 	| 	|  |
-| Grad_Chemistry_GCSE	| char	| 	| 	| 	|  |
-| Grad_GCSE_any_1	| char	| 	| 	| 	|  |
-| Grad_GCSE_Any_2	| char	| 	| 	| 	|  |
-| Grad_GCSE_total	| varchar	| 	| 	| 	|  |
-| Grad_Degree_name	| char	| 	| 	| 	|  |
-| Grad_Degree_classification_Degree	| char	| 	| 	| 	|  |
-| total_GCSE	| tinyint	| 	| 	| 	|  |
-| Reference_statement?	| varchar	| 	| 	| 	|  |
-| Notes	| varchar	| 	| 	| 	|  |
+| Grad_English_GCSE	| varchar	| 	| 	| 	|  |
+| Grad_Maths_GCSE	| varchar	| 	| 	| 	|  |
+| Grad_Biology_GCSE	| varchar	| 	| 	| 	|  |
+| Grad_Chemistry_GCSE	| varchar	| 	| 	| 	|  |
+| Grad_GCSE_Any_1	| varchar	| 	| 	| 	|  |
+| Grad_GCSE_Any_2	| varchar	| 	| 	| 	|  |
+| Grad_A_Level_Biology	| varchar	| 	| 	| 	|  |
+| Grad_A_Level_Chemistry	| varchar	| 	| 	| 	|  |
+| Grad_3rd_Subject	| varchar	| 	| 	| 	|  |
+| Grad_Other_A_Level_1	| varchar	| 	| 	| 	|  |
+| Grad_Other_A_Level_2	| varchar	| 	| 	| 	|  |
+| Grad_Degree_Name	| varchar	| 	| 	| 	|  |
+| Grad_Degree_Classification_Degree	| varchar	| 	| 	| 	|  |
+| A2HE_DHDT_only	| varchar	| 	| 	| 	|  |
 | Total	| tinyint	| 	| 	| 	|  |
 
 ## All_MMI_Rankings

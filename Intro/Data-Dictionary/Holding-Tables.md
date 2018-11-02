@@ -167,7 +167,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 | Attribute | DataType | Allow Nulls? | Notes |
 |-----------|----------|--------------|--------------|
-| PIDM	| float	| Yes	| **NOT** by import routine |
+| PIDM	| float	| Yes	| **NOT** set by import routine |
 | Scorer initials	| nvarchar	| Yes	|
 | Standard entry - GCSE English	| nvarchar	| Yes	|
 | Standard entry - GCSE Maths	| nvarchar	| Yes	|

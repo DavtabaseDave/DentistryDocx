@@ -346,8 +346,8 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 ## MMI_Schedule$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FMMI_Schedule_.sql&version=GBmaster)
 
-| Attribute | DataType | Data Length | Allow Nulls? | Notes |
-|-----------|----------|--------------|--------------|--------------|
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|--------------|--------------|
 | Student ID	| nvarchar	| 255 | Yes	|
 | Firstname	| nvarchar	| 255 | Yes	|
 | Surname	| nvarchar	| 255 | Yes	|
@@ -358,33 +358,33 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## Practique_finalscores$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FPractique_finalscores_.sql&version=GBmaster)
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| ID	| float	| Yes	|
-| Student_ID	| nvarchar	| Yes	|
-| Name	| nvarchar	| Yes	|
-| LS_1stScorer	| float	| Yes	|
-| LS_2ndScorer	| nvarchar	| Yes	|
-| LS_Final	| float	| Yes	|
-| MI_1stScore	| float	| Yes	|
-| MI_2ndScorer	| nvarchar	| Yes	|
-| MI_Final	| float	| Yes	|
-| Ref_YesstScorer	| float	| Yes	|
-| Ref_2ndScorer	| nvarchar	| Yes	|
-| Ref_Final	| float	| Yes	|
-| IA_1stScorer	| float	| Yes	|
-| IA_2ndScorer	| nvarchar	| Yes	|
-| IA_Final	| float	| Yes	|
-| Admissions team total	| float	| Yes	|
-| MMI_Decision	| nvarchar	| Yes	|
-| Academic staff total	| float	| Yes	|
-| Accept final total for personal statement or rescreen?	| nvarchar	| Yes	|
-| Staff	| nvarchar	| Yes	|
-| Second scorer	| nvarchar	| Yes	|
-| Final checker	| nvarchar	| Yes	|
-| Checked against UCAS list	| nvarchar	| Yes	|
-| BMAT Overall score	| nvarchar	| Yes	|
-| BMAT Overall Rank	| nvarchar	| Yes	|
+
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|--------------|--------------|
+| Student_ID	| nvarchar	| 255 | Yes	|
+| Name	| nvarchar	| 255 | Yes	|
+| LS_1stScorer	| float	| | Yes	|
+| LS_2ndScorer	| nvarchar	| 255 | Yes	|
+| LS_Final	| float	| | Yes	|
+| MI_1stScore	| float	| | Yes	|
+| MI_2ndScorer	| nvarchar	| 255 | Yes	|
+| MI_Final	| float	| | Yes	|
+| Ref_YesstScorer	| float	| | Yes	|
+| Ref_2ndScorer	| nvarchar	| 255 | Yes	|
+| Ref_Final	| float	| | Yes	|
+| IA_1stScorer	| float	| | Yes	|
+| IA_2ndScorer	| nvarchar	| 255 | Yes	|
+| IA_Final	| float	| | Yes	|
+| Admissions team total	| float	| | Yes	|
+| MMI_Decision	| nvarchar	| 255 | Yes	|
+| Academic staff total	| float	| | Yes	|
+| Accept final total for personal statement or rescreen?	| nvarchar	| 255 | Yes	|
+| Staff	| nvarchar	| 255 | Yes	|
+| Second scorer	| nvarchar	| 255 | Yes	|
+| Final checker	| nvarchar	| 255 | Yes	|
+| Checked against UCAS list	| nvarchar	| 255 | Yes	|
+| BMAT Overall score	| nvarchar	| 255 | Yes	|
+| BMAT Overall Rank	| nvarchar	| 255 | Yes	|
 
 ## Reject_post_MMI$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FReject_post_MMI_.sql&version=GBmaster)

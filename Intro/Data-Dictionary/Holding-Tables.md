@@ -202,8 +202,8 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
+| Attribute | DataType | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|
 | Candidate_number	| nvarchar	| 255	| Yes	|
 | Candidate_Name	| nvarchar	| 255	| Yes	|
 | Course	| nvarchar	| 255	| Yes	|

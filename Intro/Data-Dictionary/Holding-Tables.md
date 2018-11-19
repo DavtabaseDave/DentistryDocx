@@ -294,8 +294,8 @@ XLSX import table for IFY applicants..  Also used for importing ISFY and PHE app
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-| Attribute | DataType | Allow Nulls? | Notes |
-|-----------|----------|--------------|--------------|
+| Attribute | DataType | Data Length | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|--------------|
 | PIDM_KEY	| float	| | Yes	|
 | TERM_CODE_KEY	| float	| | Yes	|
 | SELECTOR_CENTRE_CODE	| nvarchar	| 255 | Yes	|

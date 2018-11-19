@@ -100,7 +100,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 | Attribute | DataType | Data Length | Allow Nulls? |
 |-----------|----------|----------|--------------|
-| GURMAIL_PIDM	| numeric	| 	| 0	|
+| GURMAIL_PIDM	| numeric	| 	| 	|
 | GURMAIL_LETR_CODE	| nvarchar	| 15	| Yes	|
 | OFFER_LETTER	| nvarchar	| 1	| Yes	|
 | OFFER_CHOICE_NO	| nvarchar	| 1	| Yes	|

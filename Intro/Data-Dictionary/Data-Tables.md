@@ -319,7 +319,6 @@ Rejecttion post MMI after being imported and matched with an applicant record. F
 | Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|-------|-------|-------|
 | pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
-| StudentID	| varchar	| 	| 	| 	|  |
 | Station 1 Mean Percentile Rank	| float	| 	| 	| 	|  |
 | Station 2 Mean Percentile Rank	| float	| 	| 	| 	|  |
 | Station 3 Mean Percentile Rank	| float	| 	| 	| 	|  |

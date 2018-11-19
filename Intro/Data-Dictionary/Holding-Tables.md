@@ -149,16 +149,16 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 |-----------|----------|--------------|--------------|--------------|
 | First Name	| nvarchar	| 255 | Yes	|
 | Surname	| nvnvarchar	| 255 | Yes	|
-| UCAS ID	| float	| Yes	|
+| UCAS ID	| float	| |Yes	|
 | Banner ID	| nvnvarchar	| 255 | Yes	|
-| Route	| float	| Yes	|
+| Route	| float	| |Yes	|
 | Course Code	| nvnvarchar	| 255 | Yes	|
 | Programme	| nvnvarchar	| 255 | Yes	|
 | Offer status	| nvnvarchar	| 255 | Yes	|
 | Study Skills Pass	| nvnvarchar	| 255 | Yes	|
 | Subject Mark	| nvnvarchar	| 255 | Yes	|
 | A2L Pass	| nvnvarchar	| 255 | Yes	|
-| pidm	| int	| Yes	| set by import routine |
+| pidm	| int	| | Yes	| set by import routine |
 
 ## Academic_Scores$
 

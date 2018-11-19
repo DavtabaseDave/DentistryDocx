@@ -91,11 +91,10 @@ Populates the MMI Decision menu against the applicant's decision. Full source [h
 
 Populates the "Predicted Grade" menu on the Decisions tab. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Predicted_Grade.sql&version=GBmaster)
 
-
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
-| predicted_code	| tinyint	|  | Yes |  |
-| predicted_desc	| varchar	| Yes |  |  |
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? |
+|-----------|----------|--------------|--------------|-------|
+| predicted_code	| tinyint	| |  | Yes |  |
+| predicted_desc	| varchar	| 75 | Yes |  |  |
 
 
 ## l_Quartile_Rank

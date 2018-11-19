@@ -136,8 +136,8 @@ List Disability by Banner code. Full source [here](https://universityofleeds.vis
 
 List Ethnicity by Banner code. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_stvethn.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
-|-----------|----------|--------------|-------|-------|
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? | Description |
+|-----------|----------|--------------|--------------|-------|-------|
 | stvethn_code| varchar	|  | Yes | Banner code |
 | stvethn_desc| varchar	|  |  | Ethnicity|
 
@@ -154,7 +154,7 @@ List nations by Banner code. Full source [here](https://universityofleeds.visual
 
 Lists Banner codes for the different schools. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_stvsbgi.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
-|-----------|----------|--------------|-------|-------|
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? | Description |
+|-----------|----------|--------------|--------------|-------|-------|
 | stvsbgi_code	| int	|  | Yes | Banner Code |
 | stvsbgi_desc	| varchar	| Yes |  | School name |

@@ -53,10 +53,10 @@ Holds the *current* termcode and term dates (*NOT* the term of entry). The forme
 
 Denotes where the applicant data was derived from. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_data_source.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
-| data_source	| tinyint	| 	| Yes	| 	|
-| data_desc	| varchar	| 	| 	| 	|
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? |
+|-----------|----------|--------------|--------------|-------|
+| data_source	| tinyint	| |	| Yes	| 	|
+| data_desc	| varchar	| 75| 	| 	| 	|
 
 ## l_International_Agent
 

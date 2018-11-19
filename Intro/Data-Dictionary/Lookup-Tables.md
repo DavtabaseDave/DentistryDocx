@@ -147,8 +147,8 @@ List nations by Banner code. Full source [here](https://universityofleeds.visual
 
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? | Description |
 |-----------|----------|--------------|--------------|-------|-------|
-| skvssdt_sdat_code_opt_1	| varchar	|  | Yes | Banner code |
-| skvssdt_short_title	| varchar	|  |  | Nation |
+| skvssdt_sdat_code_opt_1	| varchar	| 4 | | Yes | Banner code |
+| skvssdt_short_title	| varchar	| 35 | |  | Nation |
 
 ## l_stvsbgi
 

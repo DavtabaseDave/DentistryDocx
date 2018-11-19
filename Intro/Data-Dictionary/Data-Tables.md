@@ -101,21 +101,24 @@ Contains mostly Banner derived decision data plus some local management data. Fu
 
 The only other Banner derived data - Access to Leeds Running Record. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_A2L_RR.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
-|-----------|----------|--------------|-------|-------|-------|
-| sarchrt_pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
-| spriden_id	| varchar	| 	| 	| 	|  |
-| skrsain_personalid	| varchar	| 	| 	| 	|  |
-| spriden_first_name	| nvarchar	| 	| 	| 	|  |
-| spriden_last_name	| nvarchar	| 	| 	| 	|  |
-| skruccr_ssdt_code_crse	| varchar	| 	| Yes	| 	|  |
-| Programme	| varchar	| 	| 	| 	|  |
-| A2L_Eligibility_Decision	| varchar	| 	| 	| 	|  |
-| saradap_term_code_entry	| varchar	| 	| 	| 	|  |
-| Number_Courses_Applied_For	| tinyint	| 	| 	| 	|  |
-| A2L_Route	| varchar	| 	| 	| 	|  |
-| A2L_Application_Received	| datetime	| Yes	| 	| 	|  |
-| A2L_Decision_Date	| datetime	| Yes	| 	| 	|  |
+| Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|--------------|-------|-------|-------|
+
+| sarchrt_pidm	| int	| 	| | Yes	| Yes	| t_Dntl_Applicants |
+| spriden_id	| varchar	| Yes0	| | | |  |
+| skrsain_personalid	| varchar	| Yes0	| | | |  |
+| spriden_first_name	| nvarchar	| 60	| | | |  |
+| spriden_last_name	| nvarchar	| 60	| | | |  |
+| skruccr_ssdt_code_crse	| varchar	| Yes0	| | Yes	| |  |
+| Programme	| varchar	| 40	| | | |  |
+| A2L_Eligibility_Decision	| varchar	| 25	| | | |  |
+| saradap_term_code_entry	| varchar	| 6	| | | |  |
+| Number_Courses_Applied_For	| tinyint	| 	| | | |  |
+| A2L_Route	| varchar	| Yes0	| | | |  |
+| A2L_Application_Received	| datetime	| 	| Yes	| | |  |
+| A2L_Decision_Date	| datetime	| 	| Yes	| | |  |
+| A2L_Mark	| varchar	| 3	| | | |  |
+| A2L_Pass	| bit	| 	| | | |  |
 
 ## Academic_Scores
 

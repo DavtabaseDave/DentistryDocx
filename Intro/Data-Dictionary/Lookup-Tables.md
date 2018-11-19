@@ -60,7 +60,9 @@ Denotes where the applicant data was derived from. Full source [here](https://un
 
 ## l_Dntl_Exceptions
 
-This permits the exclusion of applicants by PIDM. Typically this is only applicants who've ticked the live at home box and at college thus duplicating their record so that the merge fails. The statement at line 56 (near end of SProc) deletes the live at home dupe [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FStored%20Procedures%2Fpr_Dntl_Remove_Exceptions.sql&version=GBmaster)
+This permits the exclusion of applicants from the import from Banner by PIDM. Typically this is only applicants who've
+ticked the live at home box and at college thus duplicating their record so that the merge fails. The statement at line 56
+(near end of SProc) deletes the live at home dupe [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FStored%20Procedures%2Fpr_Dntl_Remove_Exceptions.sql&version=GBmaster)
 
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? | FKey? | Ref Table |
 |-----------|----------|--------------|--------------|-------|-------|-------|

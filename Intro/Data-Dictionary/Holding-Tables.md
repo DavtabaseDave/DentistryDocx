@@ -98,16 +98,16 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_Offers.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| GURMAIL_PIDM	| numeric	| 	| 
-| GURMAIL_LETR_CODE	| nvarchar	| Yes	|
-| OFFER_LETTER	| nvarchar	| Yes	|
-| OFFER_CHOICE_NO	| nvarchar	| Yes	|
-| GURMAIL_TERM_CODE	| nvarchar	| Yes	|
-| GURMAIL_DATE_PRINTED	| datetime2	| Yes	|
-| GURMAIL_USER	| nvarchar	| Yes	|
-| GURMAIL_CPLN_CODE	| nvarchar	| Yes	|
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|----------|--------------|
+| GURMAIL_PIDM	| numeric	| 	| 0	|
+| GURMAIL_LETR_CODE	| nvarchar	| 15	| Yes	|
+| OFFER_LETTER	| nvarchar	| 1	| Yes	|
+| OFFER_CHOICE_NO	| nvarchar	| 1	| Yes	|
+| GURMAIL_TERM_CODE	| nvarchar	| 6	| Yes	|
+| GURMAIL_DATE_PRINTED	| datetime2	| 	| Yes	|
+| GURMAIL_USER	| nvarchar	| 30	| Yes	|
+| GURMAIL_CPLN_CODE	| nvarchar	| 4	| Yes	|
 
 ## h_Results
 

@@ -348,13 +348,13 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 | Attribute | DataType | Data Length | Allow Nulls? | Notes |
 |-----------|----------|--------------|--------------|--------------|
-| Student ID	| nvarchar	| Yes	|
-| Firstname	| nvarchar	| Yes	|
-| Surname	| nvarchar	| Yes	|
-| Date	| datetime	| Yes	|
-| Time	| datetime	| Yes	|
-| Colour	| nvarchar	| Yes	|
-| Number	| float	| Yes	|
+| Student ID	| nvarchar	| 255 | Yes	|
+| Firstname	| nvarchar	| 255 | Yes	|
+| Surname	| nvarchar	| 255 | Yes	|
+| Date	| datetime |	| Yes	|
+| Time	| datetime |	| Yes	|
+| Colour	| nvarchar	| 255 | Yes	|
+| Number	| float |	| Yes	|
 
 ## Practique_finalscores$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FPractique_finalscores_.sql&version=GBmaster)

@@ -270,8 +270,8 @@ XLSX import table for DHDT_RejFdbkLetter$. Full source [here](https://university
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-| Attribute | DataType | Allow Nulls? | Notes |
-|-----------|----------|--------------|--------------|
+| Attribute | DataType | Data Length | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|--------------|
 | PERSONAL_ID	| nvarchar	| 255 | Yes	|
 | STUDENT_ID	| nvarchar	| 255 | Yes	|
 | STUDENT_FIRST_NAME	| nvarchar	| 255 | Yes	|

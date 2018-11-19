@@ -58,6 +58,18 @@ Denotes where the applicant data was derived from. Full source [here](https://un
 | data_source	| tinyint	| |	| Yes	| 	|
 | data_desc	| varchar	| 75| 	| 	| 	|
 
+## l_Dntl_Exceptions
+
+This controls the generation of different acknowledgement emails. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%l_course_email.sql&version=GBmaster)
+
+NB: the FK to the entry in x_Documents means that the entry must be present in that table before adding an equivalent here and that a row can't be deleted from x_Documents without 
+removing the corresponding one here first.
+
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? | FKey? | Ref Table |
+|-----------|----------|--------------|--------------|-------|-------|-------|
+| SPRIDEN_PIDM	| int	| 	| 	| Yes	| 	| not specifically specified as used to exclude from ETL |
+| Reason	| varchar	| 10	| 	| 	| 	|  |
+
 ## l_International_Agent
 
 Populates the "International Agent" menu in the status area. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_International_Agent.sql&version=GBmaster)

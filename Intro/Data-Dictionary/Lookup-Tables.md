@@ -127,10 +127,10 @@ Lists programme descriptions by Banner codes, e.g. "BA-ECON". Full source [here]
 
 List Disability by Banner code. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_stvdisa.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
-|-----------|----------|--------------|-------|-------|
-| stvdisa_code| varchar	|  | Yes | Banner code |
-| stvdisa_desc| varchar	|  |  | Disability |
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? | Description |
+|-----------|----------|--------------|--------------|-------|-------|
+| stvdisa_code| varchar	| 2 | | Yes | Banner code |
+| stvdisa_desc| varchar	| 30 | |  | Disability |
 
 ## l_stvethn
 

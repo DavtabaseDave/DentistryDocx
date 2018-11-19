@@ -204,10 +204,10 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
-| Candidate_number	| nvnvarchar	| 255 | Yes	|
-| Candidate_Name	| nvnvarchar	| 255 | Yes	|
-| Course	| nvnvarchar	| 255 | Yes	|
-| Cohort_Ranked_In	| nvnvarchar	| 255 | Yes	|
+| Candidate_number	| nvarchar	| 255 | Yes	|
+| Candidate_Name	| nvarchar	| 255 | Yes	|
+| Course	| nvarchar	| 255 | Yes	|
+| Cohort_Ranked_In	| nvarchar	| 255 | Yes	|
 | Mean_Task	| nvarchar	| | Yes	|
 | Mean_Rank_Task	| nvarchar	| | Yes	|
 | Offer_Cutoff	| nvarchar	| | Yes	|
@@ -215,21 +215,21 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Rank_Task_low_score_removed	| nvarchar	| | Yes	|
 | Rank_Difference	| nvarchar	| | Yes	|
 | Station_Yes_Mean_Percentile_Rank	| nvarchar	| | Yes	|
-| Station_Yes_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_Yes_Quartile_Rank	| nvarchar	| 255 | Yes	|
 | Station_2_Mean_Percentile_Rank	| nvarchar	| | Yes	|
-| Station_2_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_2_Quartile_Rank	| nvarchar	| 255 | Yes	|
 | Station_3_Mean_Percentile_Rank	| nvarchar	| | Yes	|
-| Station_3_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_3_Quartile_Rank	| nvarchar	| 255 | Yes	|
 | Station_4_Mean_Percentile_Rank	| nvarchar	| | Yes	|
-| Station_4_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_4_Quartile_Rank	| nvarchar	| 255 | Yes	|
 | Station_5_Mean_Percentile_Rank	| nvarchar	| | Yes	|
-| Station_5_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_5_Quartile_Rank	| nvarchar	| 255 | Yes	|
 | Station_6_Mean_Percentile_Rank	| nvarchar	| | Yes	|
-| Station_6_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_6_Quartile_Rank	| nvarchar	| 255 | Yes	|
 | Station_7_Mean_Percentile_Rank	| nvarchar	| | Yes	|
-| Station_7_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_7_Quartile_Rank	| nvarchar	| 255 | Yes	|
 | Station_8_Mean_Percentile_Rank	| nvarchar	| | Yes	|
-| Station_8_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_8_Quartile_Rank	| nvarchar	| 255 | Yes	|
 
 ## BMAT_Scores$
 

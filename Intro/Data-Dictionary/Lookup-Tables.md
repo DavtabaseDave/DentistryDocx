@@ -63,10 +63,10 @@ Denotes where the applicant data was derived from. Full source [here](https://un
 Populates the "International Agent" menu in the status area. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_International_Agent.sql&version=GBmaster)
 
 
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
-| agent_code	| tinyint	|  | Yes |  |
-| agent_desc	| varchar	|  |  |  |
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? |
+|-----------|----------|--------------|--------------|-------|
+| agent_code	| tinyint	| | | Yes |  |
+| agent_desc	| varchar	| 20 | |  |  |
 
 ## l_MMI_Decision
 

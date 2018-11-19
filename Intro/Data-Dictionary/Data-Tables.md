@@ -123,35 +123,35 @@ The only other Banner derived data - Access to Leeds Running Record. Full source
 
 Data imported for the different GCSE scores. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Academic_Scores.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
-|-----------|----------|--------------|-------|-------|-------|
+| Attribute | DataType | Data Length | Nullable? | PKey? | FKey? |
+|-----------|----------|--------------|--------------|-------|-------|
 | PIDM	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
-| Scorer Name	| varchar	| 	| 	| 	|  |
-| Leeds_Code	| char	| 	| 	| 	|  |
-| Std_entry_GCSE_English	| varchar	| 	| 	| 	|  |
-| Std_entry_GCSE_Maths	| varchar	| 	| 	| 	|  |
-| Std_entry_GCSE_Biology_or_Science	| varchar	| 	| 	| 	|  |
-| Std_entry_GCSE_Chemistry_or_Science	| varchar	| 	| 	| 	|  |
-| Std_entry_GCSE_other_1	| varchar	| 	| 	| 	|  |
-| Std_entry_GCSE_other_2	| varchar	| 	| 	| 	|  |
-| Std_entry_GCSE_other_3	| varchar	| 	| 	| 	|  |
-| Std_entry_GCSE_other_4	| varchar	| 	| 	| 	|  |
-| Std_entry_GCSE_other_5	| varchar	| 	| 	| 	|  |
-| Std_entry_A2	| tinyint	| 	| 	| 	|  |
-| Grad_English_GCSE	| varchar	| 	| 	| 	|  |
-| Grad_Maths_GCSE	| varchar	| 	| 	| 	|  |
-| Grad_Biology_GCSE	| varchar	| 	| 	| 	|  |
-| Grad_Chemistry_GCSE	| varchar	| 	| 	| 	|  |
-| Grad_GCSE_Any_1	| varchar	| 	| 	| 	|  |
-| Grad_GCSE_Any_2	| varchar	| 	| 	| 	|  |
-| Grad_A_Level_Biology	| varchar	| 	| 	| 	|  |
-| Grad_A_Level_Chemistry	| varchar	| 	| 	| 	|  |
-| Grad_3rd_Subject	| varchar	| 	| 	| 	|  |
-| Grad_Other_A_Level_1	| varchar	| 	| 	| 	|  |
-| Grad_Other_A_Level_2	| varchar	| 	| 	| 	|  |
-| Grad_Degree_Name	| varchar	| 	| 	| 	|  |
-| Grad_Degree_Classification_Degree	| varchar	| 	| 	| 	|  |
-| A2HE_DHDT_only	| varchar	| 	| 	| 	|  |
+| Scorer Name	| varchar	| 50 |	| 	| 	|  |
+| Leeds_Code	| char	| 5 |	| 	| 	|  |
+| Std_entry_GCSE_English	| varchar	| 2 |	| 	| 	|  |
+| Std_entry_GCSE_Maths	| varchar	| 2 |	| 	| 	|  |
+| Std_entry_GCSE_Biology_or_Science	| varchar	| 2 |	| 	| 	|  |
+| Std_entry_GCSE_Chemistry_or_Science	| varchar	| 2 |	| 	| 	|  |
+| Std_entry_GCSE_other_1	| varchar	| 2 |	| 	| 	|  |
+| Std_entry_GCSE_other_2	| varchar	| 2 |	| 	| 	|  |
+| Std_entry_GCSE_other_3	| varchar	| 2 |	| 	| 	|  |
+| Std_entry_GCSE_other_4	| varchar	| 2 |	| 	| 	|  |
+| Std_entry_GCSE_other_5	| varchar	| 2 |	| 	| 	|  |
+| Std_entry_A2	| tinyint	| |	| 	| 	|  |
+| Grad_English_GCSE	| varchar	| 2 |	| 	| 	|  |
+| Grad_Maths_GCSE	| varchar	| 2 |	| 	| 	|  |
+| Grad_Biology_GCSE	| varchar	| 2 |	| 	| 	|  |
+| Grad_Chemistry_GCSE	| varchar	| 2 |	| 	| 	|  |
+| Grad_GCSE_Any_1	| varchar	| 2 |	| 	| 	|  |
+| Grad_GCSE_Any_2	| varchar	| 2 |	| 	| 	|  |
+| Grad_A_Level_Biology	| varchar	| 2 |	| 	| 	|  |
+| Grad_A_Level_Chemistry	| varchar	| 2 |	| 	| 	|  |
+| Grad_3rd_Subject	| varchar	| 2 |	| 	| 	|  |
+| Grad_Other_A_Level_1	| varchar	| 2 |	| 	| 	|  |
+| Grad_Other_A_Level_2	| varchar	| 2 |	| 	| 	|  |
+| Grad_Degree_Name	| varchar	| 50 |	| 	| 	|  |
+| Grad_Degree_Classification_Degree	| varchar	| 10 |	| 	| 	|  |
+| A2HE_DHDT_only	| varchar	| 10 |	| 	| 	|  |
 | Total	| tinyint	| 	| 	| 	|  |
 
 ## All_MMI_Rankings

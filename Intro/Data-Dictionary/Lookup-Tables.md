@@ -73,7 +73,6 @@ ticked the live at home box and at college thus duplicating their record so that
 
 Populates the "International Agent" menu in the status area. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_International_Agent.sql&version=GBmaster)
 
-
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? |
 |-----------|----------|--------------|--------------|-------|
 | agent_code	| tinyint	| | | Yes |  |
@@ -83,9 +82,8 @@ Populates the "International Agent" menu in the status area. Full source [here](
 
 Populates the MMI Decision menu against the applicant's decision. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_MMI_Decision.sql&version=GBmaster)
 
-
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? |
+|-----------|----------|--------------|--------------|-------|
 | MMI_dec_code	| tinyint	| 	| Yes	|
 | MMI_dec_desc	| varchar	| 	| 	| 
 

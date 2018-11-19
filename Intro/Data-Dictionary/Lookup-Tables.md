@@ -156,5 +156,5 @@ Lists Banner codes for the different schools. Full source [here](https://univers
 
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? | Description |
 |-----------|----------|--------------|--------------|-------|-------|
-| stvsbgi_code	| int	|  | Yes | Banner Code |
-| stvsbgi_desc	| varchar	| Yes |  | School name |
+| stvsbgi_code	| int	| | | Yes | Banner Code |
+| stvsbgi_desc	| varchar	| 30 | Yes |  | School name |

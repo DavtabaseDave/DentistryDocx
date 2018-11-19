@@ -167,34 +167,34 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 | Attribute | DataType | Allow Nulls? | Notes |
 |-----------|----------|--------------|--------------|
-| PIDM	| float	| Yes	| **NOT** set by import routine |
-| Scorer Name	| nvarchar	| Yes	| |
-| Leeds Code	| nvarchar	| Yes	| |
-| Standard entry - GCSE English	| nvarchar	| Yes	| |
-| Standard entry - GCSE Maths	| nvarchar	| Yes	| |
-| Standard entry - GCSE Biology or Science	| nvarchar	| Yes	| |
-| Standard entry - GCSE Chemistry or Science	| nvarchar	| Yes	| |
-| Standard entry - GCSE other 1	| nvarchar	| Yes	| |
-| Standard entry - GCSE other 2	| nvarchar	| Yes	| |
-| Standard entry - GCSE other 3	| nvarchar	| Yes	| |
-| Standard entry - GCSE other 4	| nvarchar	| Yes	| |
-| Standard entry - GCSE other 5	| nvarchar	| Yes	| |
-| Standard entry - A2	| nvarchar	| Yes	| |
-| Graduate English GCSE	| nvarchar	| Yes	| |
-| Graduate Maths GCSE	| nvarchar	| Yes	| |
-| Graduate Biology GCSE	| nvarchar	| Yes	| |
-| Graduate Chemistry GCSE	| nvarchar	| Yes	| |
-| Graduate GCSE any 1	| nvarchar	| Yes	| |
-| Graduate GCSE Any 2	| nvarchar	| Yes	| |
-| Graduate A-level Biology	| nvarchar	| Yes	| |
-| Graduate A-level Chemistry	| nvarchar	| Yes	| |
-| Graduate Third Subject	| nvarchar	| Yes	| |
-| Graduate Other A-level 1	| nvarchar	| Yes	| |
-| Graduate Other A-level 2	| nvarchar	| Yes	| |
-| Graduate - Degree name	| nvarchar	| Yes	| |
-| Graduate - Degree classification Degree	| nvarchar	| Yes	| |
-| A2HE DHDT only	| nvarchar	| Yes	| |
-| Total	| float	| Yes	| |
+| PIDM	| float	| |Yes	| **NOT** set by import routine |
+| Scorer Name	| nvnvarchar	| 255 | Yes	| |
+| Leeds Code	| nvnvarchar	| 255 | Yes	| |
+| Standard entry - GCSE English	| nvnvarchar	| 255 | Yes	| |
+| Standard entry - GCSE Maths	| nvnvarchar	| 255 | Yes	| |
+| Standard entry - GCSE Biology or Science	| nvnvarchar	| 255 | Yes	| |
+| Standard entry - GCSE Chemistry or Science	| nvnvarchar	| 255 | Yes	| |
+| Standard entry - GCSE other 1	| nvnvarchar	| 255 | Yes	| |
+| Standard entry - GCSE other 2	| nvnvarchar	| 255 | Yes	| |
+| Standard entry - GCSE other 3	| nvnvarchar	| 255 | Yes	| |
+| Standard entry - GCSE other 4	| nvnvarchar	| 255 | Yes	| |
+| Standard entry - GCSE other 5	| nvnvarchar	| 255 | Yes	| |
+| Standard entry - A2	| nvnvarchar	| 255 | Yes	| |
+| Graduate English GCSE	| nvnvarchar	| 255 | Yes	| |
+| Graduate Maths GCSE	| nvnvarchar	| 255 | Yes	| |
+| Graduate Biology GCSE	| nvnvarchar	| 255 | Yes	| |
+| Graduate Chemistry GCSE	| nvnvarchar	| 255 | Yes	| |
+| Graduate GCSE any 1	| nvnvarchar	| 255 | Yes	| |
+| Graduate GCSE Any 2	| nvnvarchar	| 255 | Yes	| |
+| Graduate A-level Biology	| nvnvarchar	| 255 | Yes	| |
+| Graduate A-level Chemistry	| nvnvarchar	| 255 | Yes	| |
+| Graduate Third Subject	| nvnvarchar	| 255 | Yes	| |
+| Graduate Other A-level 1	| nvnvarchar	| 255 | Yes	| |
+| Graduate Other A-level 2	| nvnvarchar	| 255 | Yes	| |
+| Graduate - Degree name	| nvnvarchar	| 255 | Yes	| |
+| Graduate - Degree classification Degree	| nvnvarchar	| 255 | Yes	| |
+| A2HE DHDT only	| nvnvarchar	| 255 | Yes	| |
+| Total	| float	| | Yes	| |
 
 ## All MMI Rankings$
 

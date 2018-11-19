@@ -7,8 +7,8 @@
 The main applicants table containing Banner derived data and mutable
 local data. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Applicants.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
-|-----------|----------|--------------|-------|-------|-------|
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|--------------|-------|-------|-------|
 | spriden_pidm	| int	| 	| Yes	| 	|  |
 | skrsain_applicant_no	| varchar	| 	| 	| 	|  |
 | spriden_id	| varchar	| 	| 	| 	|  |

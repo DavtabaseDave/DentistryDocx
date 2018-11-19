@@ -29,8 +29,8 @@ This controls the generation of different acknowledgement emails. Full source [h
 NB: the FK to the entry in x_Documents means that the entry must be present in that table before adding an equivalent here and that a row can't be deleted from x_Documents without 
 removing the corresponding one here first.
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Ref Table |
-|-----------|----------|--------------|-------|-------|-------|
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? | FKey? | Ref Table |
+|-----------|----------|--------------|--------------|-------|-------|-------|
 | skvcrse_code	| char	| 	| Yes	| 	|  |
 | skvcrse_desc	| varchar	| 	| 	| 	|  |
 | fileID	| smallint	| 	| 	| Yes	| x_Documents |

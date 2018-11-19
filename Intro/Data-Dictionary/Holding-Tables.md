@@ -78,21 +78,21 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_A2L_RR.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| sarchrt_pidm	| int	| 	| 
-| spriden_id	| nvarchar	| 	| 
-| skrsain_personalid	| nvarchar	| 	| 
-| spriden_first_name	| nvarchar	| 	| 
-| spriden_last_name	| nvarchar	| 	| 
-| skruccr_ssdt_code_crse	| nvarchar	| 	| 
-| Programme	| nvarchar	| 	| 
-| A2L_Eligibility_Decision	| nvarchar	| 	| 
-| saradap_term_code_entry	| nvarchar	| 	| 
-| Number_Courses_Applied_For	| tinyint	| 	| 
-| A2L_Route	| nvarchar	| 	| 
-| A2L_Application_Received	| datetime	| Yes	| 
-| A2L_Decision_Date	| datetime	| Yes	| 
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|----------|--------------|
+| sarchrt_pidm	| int	| 	| 	|
+| spriden_id	| nvarchar	| 1	| 	|
+| skrsain_personalid	| nvarchar	| 1	| 	|
+| spriden_first_name	| nvarchar	| 35	| 	|
+| spriden_last_name	| nvarchar	| 35	| 	|
+| skruccr_ssdt_code_crse	| nvarchar	| 1	| 	|
+| Programme	| nvarchar	| 4	| 	|
+| A2L_Eligibility_Decision	| nvarchar	| 25	| 	|
+| saradap_term_code_entry	| nvarchar	| 6	| 	|
+| Number_Courses_Applied_For	| tinyint	| 	| 	|
+| A2L_Route	| nvarchar	| 1	| 	|
+| A2L_Application_Received	| datetime	| 	| Yes	
+| A2L_Decision_Date	| datetime	| 	| Yes	|
 
 ## h_Offers
 

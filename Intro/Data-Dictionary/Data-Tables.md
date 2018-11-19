@@ -333,8 +333,8 @@ Rejecttion post MMI after being imported and matched with an applicant record. F
 
 Data for reject with feedback emails. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_RejFdbkLetter.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
-|-----------|----------|--------------|-------|-------|-------|
+| Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|--------------|-------|-------|-------|
 | pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
 | Life_And_Social	| varchar	| 	| 	| 	|  |
 | Motivation_And_Insight	| varchar	| 	| 	| 	|  |
@@ -345,31 +345,31 @@ Data for reject with feedback emails. Full source [here](https://universityoflee
 
 Results sheet data after being imported and matched with an applicant's decision record. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Results_Sheet.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
-|-----------|----------|--------------|-------|-------|-------|
-| pidm	| int	| 	| Yes	| Yes	| t_Dntl_Decisions |
-| choice_type_no	| varchar	| 	| Yes	| Yes	| t_Dntl_Decisions |
-| prop_entry_yr	| smallint	| 	| Yes	| Yes	| t_Dntl_Decisions |
-| Full_Offer_Text	| varchar	| 	| 	| 	|  |
-| Condition_Code	| varchar	| 	| 	| 	|  |
-| Late_App	| bit	| 	| 	| 	|  |
-| IELTS	| bit	| 	| 	| 	|  |
-| RoP	| bit	| 	| 	| 	|  |
-| Full_Results	| varchar	| 	| 	| 	|  |
-| Decision	| varchar	| 	| 	| 	|  |
-| Result_Position	| varchar	| 	| 	| 	|  |
-| Quality	| varchar	| 	| 	| 	|  |
-| Notes	| varchar	| 	| 	| 	|  |
-| Received_as_CCO	| varchar	| 	| 	| 	|  |
-| Received_from	| varchar	| 	| 	| 	|  |
-| Old_Course_Code	| varchar	| 	| 	| 	|  |
+| Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|--------------|-------|-------|-------|
+| pidm	| int	| 	| 	| Yes	| Yes	| t_Dntl_Decisions |
+| choice_type_no	| varchar	| 2	| 	| Yes	| Yes	| t_Dntl_Decisions |
+| prop_entry_yr	| smallint	| 	| 	| Yes	| Yes	| t_Dntl_Decisions |
+| Full_Offer_Text	| varchar	| 1500	| 	| 	| 	|  |
+| Condition_Code	| varchar	| 30	| 	| 	| 	|  |
+| Late_App	| bit	| 	| 	| 	| 	|  |
+| IELTS	| bit	| 	| 	| 	| 	|  |
+| RoP	| bit	| 	| 	| 	| 	|  |
+| Full_Results	| varchar	| 500	| 	| 	| 	|  |
+| Decision	| varchar	| 20	| 	| 	| 	|  |
+| Result_Position	| varchar	| 30	| 	| 	| 	|  |
+| Quality	| varchar	| 30	| 	| 	| 	|  |
+| Notes	| varchar	| 255	| 	| 	| 	|  |
+| Received_as_CCO	| varchar	| 30	| 	| 	| 	|  |
+| Received_from	| varchar	| 30	| 	| 	| 	|  |
+| Old_Course_Code	| varchar	| 10	| 	| 	| 	|  |
 
 ## UCAS_Scores
 
 UCAS Score data after being imported and matched with an applicant record. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_UCAS_Scores.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
-|-----------|----------|--------------|-------|-------|-------|
+| Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|--------------|-------|-------|-------|
 | pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
 | Life_And_Social	| varchar	| 	| 	| 	|  |
 | Motivation_And_Insight	| varchar	| 	| 	| 	|  |

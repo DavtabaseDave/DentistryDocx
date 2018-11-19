@@ -31,10 +31,11 @@ removing the corresponding one here first.
 
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? | FKey? | Ref Table |
 |-----------|----------|--------------|--------------|-------|-------|-------|
-| skvcrse_code	| char	| 	| Yes	| 	|  |
-| skvcrse_desc	| varchar	| 	| 	| 	|  |
-| fileID	| smallint	| 	| 	| Yes	| x_Documents |
-| subject_line	| varchar	| 	| 	| 	|  |
+| skvcrse_code	| char	| 4| 	| Yes	| 	|  |
+| skvcrse_desc	| varchar	| 30| 	| 	| 	|  |
+| fileID	| smallint	| | 	| 	| Yes	| x_Documents |
+| subject_line	| varchar	| 100| 	| 	| 	|  |
+| from_email	| varchar	| 60 | | | 
 
 
 ## l_Current_Year_Dates

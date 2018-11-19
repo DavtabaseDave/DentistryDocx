@@ -203,87 +203,82 @@ Instead of keeping separate tables for each of the previous year's applicant dat
 As the t_Dntl_All_MMI_Rankings table may contain multiple entries for an applicant that has applied for both courses a compromise had to be implemented that took only the "minimum" course code. This is to enable the t_Dntl_Definitive_List_Prev to be directly linked to the Previous Applicant and thus be able to be displayed properly in the .NET client application.
 
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Definitive_List_Prev.sql&version=GBmaster)
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
-|-----------|----------|--------------|-------|-------|-------|
-| spriden_pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants_Prev |
-| A2L_Eligibility_Decision	| varchar	| 	| 	| 	|  |
-| A2L_Mark	| varchar	| 	| 	| 	|  |
-| A2L_Pass	| varchar	| 	| 	| 	|  |
-| hasBMAT	| varchar	| 	| 	| 	|  |
-| LS_1stScorer	| tinyint	| Yes	| 	| 	|  |
-| LS_2ndScorer	| tinyint	| Yes	| 	| 	|  |
-| LS_Final	| tinyint	| Yes	| 	| 	|  |
-| MI_1stScore	| tinyint	| Yes	| 	| 	|  |
-| MI_2ndScorer	| tinyint	| Yes	| 	| 	|  |
-| MI_Final	| tinyint	| Yes	| 	| 	|  |
-| Ref_1stScorer	| tinyint	| Yes	| 	| 	|  |
-| Ref_2ndScorer	| tinyint	| Yes	| 	| 	|  |
-| Ref_Final	| tinyint	| Yes	| 	| 	|  |
-| IA_1stScorer	| tinyint	| Yes	| 	| 	|  |
-| IA_2ndScorer	| tinyint	| Yes	| 	| 	|  |
-| IA_Final	| tinyint	| Yes	| 	| 	|  |
-| Section 1 Score	| float	| Yes	| 	| 	|  |
-| Section 2 Score	| float	| Yes	| 	| 	|  |
-| Essay Answered	| varchar	| 	| 	| 	|  |
-| Section 3 Content	| float	| Yes	| 	| 	|  |
-| Section 3 English	| varchar	| 	| 	| 	|  |
-| Section 3 English Score	| float	| Yes	| 	| 	|  |
-| Overall Rank	| float	| Yes	| 	| 	|  |
-| Mean_Rank_Task	| float	| Yes	| 	| 	|  |
-| Offer_Cutoff	| float	| Yes	| 	| 	|  |
-| Station_1_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_1_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_2_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_2_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_3_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_3_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_4_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_4_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_5_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_5_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_6_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_6_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_7_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_7_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_8_Mean_Percentile_Rank	| tinyint	| Yes	| 	| 	|  |
-| Station_8_Quartile_Rank	| tinyint	| Yes	| 	| 	|  |
-| MMI_Date	| datetime	| Yes	| 	| 	|  |
-| MMI_Time	| time	| Yes	| 	| 	|  |
-| MMI_Colour	| varchar	| Yes	| 	| 	|  |
-| MMI_Number	| tinyint	| Yes	| 	| 	|  |
-| Life_And_Social	| varchar	| Yes	| 	| 	|  |
-| Motivation_And_Insight	| varchar	| Yes	| 	| 	|  |
-| Reflective_Skills	| varchar	| Yes	| 	| 	|  |
-| Interests_And_Achievements	| varchar	| Yes	| 	| 	|  |
-| GLOBAL	| varchar	| Yes	| 	| 	|  |
-| Overall_Score	| varchar	| Yes	| 	| 	|  |
-| Scorer Name	| varchar	| Yes	| 	| 	|  |
-| Leeds_Code	| char	| Yes	| 	| 	|  |
-| Std_entry_GCSE_English	| varchar	| Yes	| 	| 	|  |
-| Std_entry_GCSE_Maths	| varchar	| Yes	| 	| 	|  |
-| Std_entry_GCSE_Biology_or_Science	| varchar	| Yes	| 	| 	|  |
-| Std_entry_GCSE_Chemistry_or_Science	| varchar	| Yes	| 	| 	|  |
-| Std_entry_GCSE_other_1	| varchar	| Yes	| 	| 	|  |
-| Std_entry_GCSE_other_2	| varchar	| Yes	| 	| 	|  |
-| Std_entry_GCSE_other_3	| varchar	| Yes	| 	| 	|  |
-| Std_entry_GCSE_other_4	| varchar	| Yes	| 	| 	|  |
-| Std_entry_GCSE_other_5	| varchar	| Yes	| 	| 	|  |
-| Std_entry_A2	| tinyint	| Yes	| 	| 	|  |
-| Grad_English_GCSE	| varchar	| Yes	| 	| 	|  |
-| Grad_Maths_GCSE	| varchar	| Yes	| 	| 	|  |
-| Grad_Biology_GCSE	| varchar	| Yes	| 	| 	|  |
-| Grad_Chemistry_GCSE	| varchar	| Yes	| 	| 	|  |
-| Grad_GCSE_Any_1	| varchar	| Yes	| 	| 	|  |
-| Grad_GCSE_Any_2	| varchar	| Yes	| 	| 	|  |
-| Grad_A_Level_Biology	| varchar	| Yes	| 	| 	|  |
-| Grad_A_Level_Chemistry	| varchar	| Yes	| 	| 	|  |
-| Grad_3rd_Subject	| varchar	| Yes	| 	| 	|  |
-| Grad_Other_A_Level_1	| varchar	| Yes	| 	| 	|  |
-| Grad_Other_A_Level_2	| varchar	| Yes	| 	| 	|  |
-| Grad_Degree_name	| varchar	| Yes	| 	| 	|  |
-| Grad_Degree_classification_Degree	| varchar	| Yes	| 	| 	|  |
-| A2HE_DHDT_only	| varchar	| Yes	| 	| 	|  |
-| Total	| tinyint	| Yes	| 	| 	|  |
+| Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|--------------|-------|-------|-------|
+| spriden_pidm	| int	| 	| 	| Yes	| Yes	| t_Dntl_Applicants_Prev |
+| A2L_Eligibility_Decision	| varchar	| 25	| 	| 	| 	|  |
+| A2L_Mark	| varchar	| 3	| 	| 	| 	|  |
+| A2L_Pass	| varchar	| 1	| 	| 	| 	|  |
+| hasBMAT	| varchar	| 16	| 	| 	| 	|  |
+| LS_1stScorer	| tinyint	| 	| Yes	| 	| 	|  |
+| LS_2ndScorer	| tinyint	| 	| Yes	| 	| 	|  |
+| LS_Final	| tinyint	| 	| Yes	| 	| 	|  |
+| MI_1stScore	| tinyint	| 	| Yes	| 	| 	|  |
+| MI_2ndScorer	| tinyint	| 	| Yes	| 	| 	|  |
+| MI_Final	| tinyint	| 	| Yes	| 	| 	|  |
+| Ref_1stScorer	| tinyint	| 	| Yes	| 	| 	|  |
+| Ref_2ndScorer	| tinyint	| 	| Yes	| 	| 	|  |
+| Ref_Final	| tinyint	| 	| Yes	| 	| 	|  |
+| IA_1stScorer	| tinyint	| 	| Yes	| 	| 	|  |
+| IA_2ndScorer	| tinyint	| 	| Yes	| 	| 	|  |
+| IA_Final	| tinyint	| 	| Yes	| 	| 	|  |
+| Section 1 Score	| float	| 	| Yes	| 	| 	|  |
+| Section 2 Score	| float	| 	| Yes	| 	| 	|  |
+| Essay Answered	| varchar	| 10	| 	| 	| 	|  |
+| Section 3 Content	| float	| 	| Yes	| 	| 	|  |
+| Section 3 English	| varchar	| 10	| 	| 	| 	|  |
+| Section 3 English Score	| float	| 	| Yes	| 	| 	|  |
+| Overall Rank	| float	| 	| Yes	| 	| 	|  |
+| Mean_Rank_Task	| float	| 	| Yes	| 	| 	|  |
+| Offer_Cutoff	| float	| 	| Yes	| 	| 	|  |
+| Station_1_Mean_Percentile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_1_Quartile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_2_Mean_Percentile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_2_Quartile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_3_Mean_Percentile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_3_Quartile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_4_Mean_Percentile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_4_Quartile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_5_Mean_Percentile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_5_Quartile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_6_Mean_Percentile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_6_Quartile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_7_Mean_Percentile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_7_Quartile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_8_Mean_Percentile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| Station_8_Quartile_Rank	| tinyint	| 	| Yes	| 	| 	|  |
+| MMI_Date	| datetime	| 	| Yes	| 	| 	|  |
+| MMI_Time	| time	| 	| Yes	| 	| 	|  |
+| MMI_Colour	| varchar	| 10	| Yes	| 	| 	|  |
+| MMI_Number	| tinyint	| 	| Yes	| 	| 	|  |
+| Life_And_Social	| varchar	| 25	| Yes	| 	| 	|  |
+| Motivation_And_Insight	| varchar	| 25	| Yes	| 	| 	|  |
+| Reflective_Skills	| varchar	| 25	| Yes	| 	| 	|  |
+| Interests_And_Achievements	| varchar	| 25	| Yes	| 	| 	|  |
+| GLOBAL	| varchar	| 25	| Yes	| 	| 	|  |
+| Overall_Score	| varchar	| 25	| Yes	| 	| 	|  |
+| Scorer Name	| varchar	| 50	| Yes	| 	| 	|  |
+| Leeds_Code	| char	| 5	| Yes	| 	| 	|  |
+| Std_entry_GCSE_English	| varchar	| 2	| Yes	| 	| 	|  |
+| Std_entry_GCSE_Maths	| varchar	| 2	| Yes	| 	| 	|  |
+| Std_entry_GCSE_Biology_or_Science	| varchar	| 2	| Yes	| 	| 	|  |
+| Std_entry_GCSE_Chemistry_or_Science	| varchar	| 2	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_1	| varchar	| 2	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_2	| varchar	| 2	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_3	| varchar	| 2	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_4	| varchar	| 2	| Yes	| 	| 	|  |
+| Std_entry_GCSE_other_5	| varchar	| 2	| Yes	| 	| 	|  |
+| Std_entry_A2	| tinyint	| 	| Yes	| 	| 	|  |
+| Grad_English_GCSE	| varchar	| 2	| Yes	| 	| 	|  |
+| Grad_Maths_GCSE	| varchar	| 2	| Yes	| 	| 	|  |
+| Grad_Biology_GCSE	| varchar	| 2	| Yes	| 	| 	|  |
+| Grad_Chemistry_GCSE	| varchar	| 2	| Yes	| 	| 	|  |
+| Grad_GCSE_Any_1	| varchar	| 2	| Yes	| 	| 	|  |
+| Grad_GCSE_Any_2	| varchar	| 2	| Yes	| 	| 	|  |
+| Grad_A_Level_Biology	| varchar	| 2	| Yes	| 	| 	|  |
+| Grad_A_Level_Chemistry	| varchar	| 2	| Yes	| 	| 	|  |
+| Grad_3rd_Subject	| varchar	| 2	| Yes	| 	| 	|  |
+| Grad_Other_A_Level_1	| varchar	| 2	| Yes	| 	| 	|  |
 
 ## MMI_Schedule
 

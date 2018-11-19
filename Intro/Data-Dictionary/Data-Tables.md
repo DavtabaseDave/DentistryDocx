@@ -103,7 +103,6 @@ The only other Banner derived data - Access to Leeds Running Record. Full source
 
 | Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|--------------|-------|-------|-------|
-
 | sarchrt_pidm	| int	| 	| | Yes	| Yes	| t_Dntl_Applicants |
 | spriden_id	| varchar	| Yes0	| | | |  |
 | skrsain_personalid	| varchar	| Yes0	| | | |  |
@@ -114,7 +113,7 @@ The only other Banner derived data - Access to Leeds Running Record. Full source
 | A2L_Eligibility_Decision	| varchar	| 25	| | | |  |
 | saradap_term_code_entry	| varchar	| 6	| | | |  |
 | Number_Courses_Applied_For	| tinyint	| 	| | | |  |
-| A2L_Route	| varchar	| Yes0	| | | |  |
+| A2L_Route	| varchar	| 10	| | | |  |
 | A2L_Application_Received	| datetime	| 	| Yes	| | |  |
 | A2L_Decision_Date	| datetime	| 	| Yes	| | |  |
 | A2L_Mark	| varchar	| 3	| | | |  |

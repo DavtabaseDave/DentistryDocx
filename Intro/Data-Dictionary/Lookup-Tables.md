@@ -5,10 +5,10 @@ When using the lookup tables in a query, they should be joined by the PK field t
 ## l_Achieved_Grade
 
 Populates the "Achieved Grade" menu on the Decisions tab. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Achieved_Grade.sql&version=GBmaster)
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
-| achieved_code	| tinyint	|  | Yes |
-| achieved_desc	| varchar	| |  |
+| Attribute | DataType | Data Legnth | Allow Nulls? | PKey? |
+|-----------|----------|--------------|--------------|-------|
+| achieved_code	| tinyint	| |  | Yes |
+| achieved_desc	| varchar	| 75| |  |
 
 ## x_Documents
 

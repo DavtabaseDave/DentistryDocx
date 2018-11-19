@@ -370,10 +370,10 @@ UCAS Score data after being imported and matched with an applicant record. Full 
 
 | Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|--------------|-------|-------|-------|
-| pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
-| Life_And_Social	| varchar	| 	| 	| 	|  |
-| Motivation_And_Insight	| varchar	| 	| 	| 	|  |
-| Reflective_Skills	| varchar	| 	| 	| 	|  |
-| Interests_And_Achievements	| varchar	| 	| 	| 	|  |
-| GLOBAL	| varchar	| 	| 	| 	|  |
-| Overall_Score	| varchar	| 	| 	| 	|  |
+| pidm	| int	| 	| 	| Yes	| Yes	| t_Dntl_Applicants |
+| Life_And_Social	| varchar	| 25	| 	| 	| 	|  |
+| Motivation_And_Insight	| varchar	| 25	| 	| 	| 	|  |
+| Reflective_Skills	| varchar	| 25	| 	| 	| 	|  |
+| Interests_And_Achievements	| varchar	| 25	| 	| 	| 	|  |
+| GLOBAL	| varchar	| 25	| 	| 	| 	|  |
+| Overall_Score	| varchar	| 25	| 	| 	| 	|  |

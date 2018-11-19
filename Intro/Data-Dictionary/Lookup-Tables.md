@@ -44,10 +44,10 @@ Holds the *current* termcode and term dates (*NOT* the term of entry). The forme
 
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? |
 |-----------|----------|--------------|--------------|-------|
-| Active	| bit	| 	| Yes	| 	|
-| term_code	| varchar	| 	| 	| 	|
-| start_date	| datetime	| 	| 	| 	|
-| end_date	| datetime	| 	| 	| 	|
+| Active	| bit	| |	| Yes	| 	|
+| term_code	| varchar	| 6 |	| 	| 	|
+| start_date	| datetime	| |	| 	| 	|
+| end_date	| datetime	| |	| 	| 	|
 
 ## l_data_source
 

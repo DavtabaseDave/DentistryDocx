@@ -20,7 +20,7 @@ This holds the actual documents that can either be customized by the client prog
 | filename	| varchar	| 127 |	| 	| 	|
 | customize	| bit	| |	| 	| 	|
 | thefile	| varbinary	| |Yes	| 	| binary representation of<br /> the file in text	|
-| LastModified	| datetime	| | | |
+| Last Modified	| datetime	| | | |
 
 ## l_course_email
 

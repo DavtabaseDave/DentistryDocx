@@ -388,28 +388,29 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## Reject_post_MMI$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FReject_post_MMI_.sql&version=GBmaster)
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| Candidate number	| nvarchar	| Yes	| 	| 	|
-| Candidate Name	| nvarchar	| Yes	| 	| 	|
-| Course	| nvarchar	| Yes	| 	| 	|
-| Mean Task	| float	| Yes	| 	| 	|
-| Mean Task (+KAT)	| float	| Yes	| 	| 	|
-| Mean Global Score	| float	| Yes	| 	| 	|
-| Mean Rank (Task including KAT)	| float	| Yes	| 	| 	|
-| Mean Rank (Task, KAT and Global)	| float	| Yes	| 	| 	|
-| Mean Rank (Task- Not including KAT)	| float	| Yes	| 	| 	|
-| Rank (low score removed)	| float	| Yes	| 	| 	|
-| Rank (low scored removed- including KAT)	| float	| Yes	| 	| 	|
-| Station 1 Mean Percentile Rank	| float	| Yes	| 	| 	|
-| Station 2 Mean Percentile Rank	| float	| Yes	| 	| 	|
-| Station 3 Mean Percentile Rank	| float	| Yes	| 	| 	|
-| Station 4 Mean Percentile Rank	| float	| Yes	| 	| 	|
-| Station 5 Mean Percentile Rank	| float	| Yes	| 	| 	|
-| Station 6 Mean Percentile Rank	| float	| Yes	| 	| 	|
-| Station 7 Mean Percentile Rank	| float	| Yes	| 	| 	|
-| Station 8 Mean Percentile Rank	| float	| Yes	| 	| 	|
-| KAT Mean Percentile Rank	| float	| yes| | |
+
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|--------------|--------------|
+| Candidate number	| nvarchar	| 255 | Yes	| 	| 	|
+| Candidate Name	| nvarchar	| 255 | Yes	| 	| 	|
+| Course	| nvarchar	| 255 | Yes	| 	| 	|
+| Mean Task	| float	| | Yes	| 	| 	|
+| Mean Task (+KAT)	| float	| | Yes	| 	| 	|
+| Mean Global Score	| float	| | Yes	| 	| 	|
+| Mean Rank (Task including KAT)	| float	| | Yes	| 	| 	|
+| Mean Rank (Task, KAT and Global)	| float	| | Yes	| 	| 	|
+| Mean Rank (Task- Not including KAT)	| float	| | Yes	| 	| 	|
+| Rank (low score removed)	| float	| | Yes	| 	| 	|
+| Rank (low scored removed- including KAT)	| float	| | Yes	| 	| 	|
+| Station 1 Mean Percentile Rank	| float	| | Yes	| 	| 	|
+| Station 2 Mean Percentile Rank	| float	| | Yes	| 	| 	|
+| Station 3 Mean Percentile Rank	| float	| | Yes	| 	| 	|
+| Station 4 Mean Percentile Rank	| float	| | Yes	| 	| 	|
+| Station 5 Mean Percentile Rank	| float	| | Yes	| 	| 	|
+| Station 6 Mean Percentile Rank	| float	| | Yes	| 	| 	|
+| Station 7 Mean Percentile Rank	| float	| | Yes	| 	| 	|
+| Station 8 Mean Percentile Rank	| float	| | Yes	| 	| 	|
+| KAT Mean Percentile Rank	| float	| | Yes| | |
 
 ## ResultsSheet$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FResultsSheet_.sql&version=GBmaster)

@@ -122,17 +122,17 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_stvethn.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| stvethn_code	| nvarchar	| |
-| stvethn_desc	| nvarchar	| |
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|----------|--------------|
+| stvethn_code	| nvarchar	| 2 | |
+| stvethn_desc	| nvarchar	| 30 ||
 
 ## h_stvnatn
 
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_stvnatn.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|----------|--------------|
 | SKVSSDT_SDAT_CODE_OPT_1	| nvarchar	| |
 | SKVSSDT_SHORT_TITLE	| nvarchar	| |
 

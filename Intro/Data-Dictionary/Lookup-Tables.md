@@ -96,7 +96,6 @@ Populates the "Predicted Grade" menu on the Decisions tab. Full source [here](ht
 | predicted_code	| tinyint	| |  | Yes |
 | predicted_desc	| varchar	| 75 | Yes |  |
 
-
 ## l_Quartile_Rank
 
 Holds common text for repeating fields in MMI common rankings. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Quartile_Rank.sql&version=GBmaster)

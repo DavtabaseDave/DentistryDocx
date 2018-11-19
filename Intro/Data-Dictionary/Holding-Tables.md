@@ -133,8 +133,8 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 | Attribute | DataType | Data Length | Allow Nulls? |
 |-----------|----------|----------|--------------|
-| SKVSSDT_SDAT_CODE_OPT_1	| nvarchar	| |
-| SKVSSDT_SHORT_TITLE	| nvarchar	| |
+| SKVSSDT_SDAT_CODE_OPT_1	| nvarchar	| 8||
+| SKVSSDT_SHORT_TITLE	| nvarchar	| 35 ||
 
 # XSLX Import Holding Tables
 

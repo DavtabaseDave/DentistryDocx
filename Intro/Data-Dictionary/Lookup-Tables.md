@@ -109,9 +109,8 @@ Holds common text for repeating fields in MMI common rankings. Full source [here
 
 Populates the "Reason for Rejection" menu on the Decisions tab. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Reason_Rej.sql&version=GBmaster)
 
-
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? |
+|-----------|----------|--------------|--------------|-------|
 | rej_code	| tinyint	|  | Yes |  |
 | Reason	| varchar	| |  |  |
 

@@ -108,7 +108,7 @@ The only other Banner derived data - Access to Leeds Running Record. Full source
 | skrsain_personalid	| varchar	| Yes0	| | | |  |
 | spriden_first_name	| nvarchar	| 60	| | | |  |
 | spriden_last_name	| nvarchar	| 60	| | | |  |
-| skruccr_ssdt_code_crse	| varchar	| Yes0	| | Yes	| |  |
+| skruccr_ssdt_code_crse	| varchar	| 10	| | Yes	| |  |
 | Programme	| varchar	| 40	| | | |  |
 | A2L_Eligibility_Decision	| varchar	| 25	| | | |  |
 | saradap_term_code_entry	| varchar	| 6	| | | |  |

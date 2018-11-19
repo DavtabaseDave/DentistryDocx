@@ -345,8 +345,9 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## MMI_Schedule$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FMMI_Schedule_.sql&version=GBmaster)
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
+
+| Attribute | DataType | Data Length | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|--------------|
 | Student ID	| nvarchar	| Yes	|
 | Firstname	| nvarchar	| Yes	|
 | Surname	| nvarchar	| Yes	|

@@ -294,42 +294,42 @@ XLSX import table for IFY applicants..  Also used for importing ISFY and PHE app
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| PIDM_KEY	| float	| Yes	|
-| TERM_CODE_KEY	| float	| Yes	|
-| SELECTOR_CENTRE_CODE	| nvarchar	| Yes	|
-| LEVEL_CODE	| nvarchar	| Yes	|
-| PERSONAL_ID	| nvarchar	| Yes	|
-| SCHEME_CODE	| nvarchar	| Yes	|
-| UCAS_ID_KEY	| nvarchar	| Yes	|
-| STUDENT_ID	| nvarchar	| Yes	|
-| STUDENT_LAST_NAME	| nvarchar	| Yes	|
-| STUDENT_FIRST_NAME	| nvarchar	| Yes	|
-| EMAIL_ADDRESS	| nvarchar	| Yes	|
-| STREET_ADDRESS_PH_LINE1	| nvarchar	| Yes	|
-| STREET_ADDRESS_PH_LINE2	| nvarchar	| Yes	|
-| STREET_ADDRESS_PH_LINE3	| nvarchar	| Yes	|
-| CITY_PH	| nvarchar	| Yes	|
-| POSTCODE_PH	| nvarchar	| Yes	|
-| NATION_DESCRIPTION_PH	| nvarchar	| Yes	|
-| RESIDENCY_CODE	| nvarchar	| Yes	|
-| RESIDENCY_DESC	| nvarchar	| Yes	|
-| UCAS_COURSE_CODE	| nvarchar	| Yes	|
-| PROGRAM_CODE	| nvarchar	| Yes	|
-| DECISION_CODE	| nvarchar	| Yes	|
-| APPLICANT_REPLY	| nvarchar	| Yes	|
-| CONFIRMATION_DECISION	| nvarchar	| Yes	|
-| APPLICANT_RESPONSE	| nvarchar	| Yes	|
-| DECISION_STATUS	| nvarchar	| Yes	|
-| YEAR_OF_ENTRY	| float	| Yes	|
-| DECEASED_INDICATOR	| nvarchar	| Yes	|
-| INSTITUITION_CODE	| nvarchar	| Yes	|
-| CWD_FLG	| nvarchar	| Yes	|
-| BIRTH_DATE	| datetime	| Yes	|
-| CURRENT_AGE	| float	| Yes	|
-| BEEN_IN_CARE	| nvarchar	| Yes	|
-| PARENTAL_EDUCATION	| nvarchar	| Yes	|
+| Attribute | DataType | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|
+| PIDM_KEY	| float	| | Yes	|
+| TERM_CODE_KEY	| float	| | Yes	|
+| SELECTOR_CENTRE_CODE	| nvarchar	| 255 | Yes	|
+| LEVEL_CODE	| nvarchar	| 255 | Yes	|
+| PERSONAL_ID	| nvarchar	| 255 | Yes	|
+| SCHEME_CODE	| nvarchar	| 255 | Yes	|
+| UCAS_ID_KEY	| nvarchar	| 255 | Yes	|
+| STUDENT_ID	| nvarchar	| 255 | Yes	|
+| STUDENT_LAST_NAME	| nvarchar	| 255 | Yes	|
+| STUDENT_FIRST_NAME	| nvarchar	| 255 | Yes	|
+| EMAIL_ADDRESS	| nvarchar	| 255 | Yes	|
+| STREET_ADDRESS_PH_LINE1	| nvarchar	| 255 | Yes	|
+| STREET_ADDRESS_PH_LINE2	| nvarchar	| 255 | Yes	|
+| STREET_ADDRESS_PH_LINE3	| nvarchar	| 255 | Yes	|
+| CITY_PH	| nvarchar	| 255 | Yes	|
+| POSTCODE_PH	| nvarchar	| 255 | Yes	|
+| NATION_DESCRIPTION_PH	| nvarchar	| 255 | Yes	|
+| RESIDENCY_CODE	| nvarchar	| 255 | Yes	|
+| RESIDENCY_DESC	| nvarchar	| 255 | Yes	|
+| UCAS_COURSE_CODE	| nvarchar	| 255 | Yes	|
+| PROGRAM_CODE	| nvarchar	| 255 | Yes	|
+| DECISION_CODE	| nvarchar	| 255 | Yes	|
+| APPLICANT_REPLY	| nvarchar	| 255 | Yes	|
+| CONFIRMATION_DECISION	| nvarchar	| 255 | Yes	|
+| APPLICANT_RESPONSE	| nvarchar	| 255 | Yes	|
+| DECISION_STATUS	| nvarchar	| 255 | Yes	|
+| YEAR_OF_ENTRY	| float	| | Yes	|
+| DECEASED_INDICATOR	| nvarchar	| 255 | Yes	|
+| INSTITUITION_CODE	| nvarchar	| 255 | Yes	|
+| CWD_FLG	| nvarchar	| 255 | Yes	|
+| BIRTH_DATE	| datetime	|| Yes	|
+| CURRENT_AGE	| float	| | Yes	|
+| BEEN_IN_CARE	| nvarchar	| 255 | Yes	|
+| PARENTAL_EDUCATION	| nvarchar	| 255 | Yes	|
 
 ## MMI_Decisions$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FMMI_Decisions_.sql&version=GBmaster)

@@ -198,11 +198,16 @@ BMAT scores after being imported and matched with an applicant record. Full sour
 
 ## Definitive_List_Prev
 
-Instead of keeping separate tables for each of the previous year's applicant data that has been uploaded a single table has been put together to store all this data in one location. This aggregates the different scores etc and as a consequence many of the fields are null-able.
+Instead of keeping separate tables for each of the previous year's applicant data that has been uploaded a single
+table has been put together to store all this data in one location. This aggregates the different scores etc and as
+a consequence many of the fields are null-able.
 
-As the t_Dntl_All_MMI_Rankings table may contain multiple entries for an applicant that has applied for both courses a compromise had to be implemented that took only the "minimum" course code. This is to enable the t_Dntl_Definitive_List_Prev to be directly linked to the Previous Applicant and thus be able to be displayed properly in the .NET client application.
+As the t_Dntl_All_MMI_Rankings table may contain multiple entries for an applicant that has applied for both
+courses a compromise had to be implemented that took only the "minimum" course code. This is to enable the t_Dntl_Definitive_List_Prev to be directly linked to the Previous Applicant and thus be able to be displayed
+properly in the .NET client application.
 
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Definitive_List_Prev.sql&version=GBmaster)
+
 | Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|--------------|-------|-------|-------|
 | spriden_pidm	| int	| 	| 	| Yes	| Yes	| t_Dntl_Applicants_Prev |

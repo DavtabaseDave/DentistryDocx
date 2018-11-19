@@ -187,7 +187,7 @@ BMAT scores after being imported and matched with an applicant record. Full sour
 
 | Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|--------------|-------|-------|-------|
-|| pidm	| int	| 	| Yes	| 	Yes	| t_Dntl_Applicants |
+| pidm	| int	 | | 	| Yes	| 	Yes	| t_Dntl_Applicants |
 | Section Yes Score	| float	| 	| 	| 	|  |
 | Section 2 Score	| float	| 	| 	| 	|  |
 | Essay Answered	| varchar	| 	| 	| 	|  |

@@ -104,8 +104,8 @@ The only other Banner derived data - Access to Leeds Running Record. Full source
 | Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
 |-----------|----------|--------------|--------------|-------|-------|-------|
 | sarchrt_pidm	| int	| 	| | Yes	| Yes	| t_Dntl_Applicants |
-| spriden_id	| varchar	| Yes0	| | | |  |
-| skrsain_personalid	| varchar	| Yes0	| | | |  |
+| spriden_id	| varchar	| 10	| | | |  |
+| skrsain_personalid	| varchar	| 10	| | | |  |
 | spriden_first_name	| nvarchar	| 60	| | | |  |
 | spriden_last_name	| nvarchar	| 60	| | | |  |
 | skruccr_ssdt_code_crse	| varchar	| 10	| | Yes	| |  |

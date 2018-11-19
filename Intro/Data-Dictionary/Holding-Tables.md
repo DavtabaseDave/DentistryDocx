@@ -9,45 +9,45 @@ As they permit duplicates they have to be cleared before and after use.
 
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_Applicants.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| SPRIDEN_PIDM	| numeric	| 	| 
-| SARADAP_TERM_CODE_ENTRY	| nvarchar	| 	| 
-| SKRSAIN_APPLICANT_NO	| nvarchar	| 	| 
-| SPRIDEN_ID	| nvarchar	| 	| 
-| SARADAP_APPL_NO	| numeric	| 	| 
-| SKRSAIN_PERSONALID	| nvarchar	| Yes	|
-| SPRIDEN_LAST_NAME	| nvarchar	| 	| 
-| SPRIDEN_FIRST_NAME	| nvarchar	| Yes	| 
-| SPRIDEN_MI	| nvarchar	| Yes	|
-| STUDENT_INITIALS	| nvarchar	| Yes	|
-| SPBPERS_NAME_PREFIX	| nvarchar	| Yes	|
-| SPBPERS_BIRTH_DATE	| datetime2	| Yes	|
-| CURRENT_AGE	| nvarchar	| Yes	|
-| AGE_AT_ENTRY	| nvarchar	| Yes	|
-| SPBPERS_SEX	| nvarchar	| Yes	|
-| SPRMEDI_DISA_CODE	| nvarchar	| Yes	|
-| SKRSAIN_CRIMINAL_CONV	| nvarchar	| Yes	|
-| SKRUCCR_SSDT_CODE_HOME	| nvarchar	| Yes	|
-| STREET_ADDRESS_PH_LINE1	| nvarchar	| Yes	|
-| STREET_ADDRESS_PH_LINE2	| nvarchar	| Yes	|
-| STREET_ADDRESS_PH_LINE3	| nvarchar	| Yes	|
-| SPRADDR_CITY	| nvarchar	| Yes	|
-| SPRADDR_ZIP	| nvarchar	| Yes	|
-| NATION_DESCRIPTION_PH	| nvarchar	| Yes	|
-| TELEPHONE_NUMBER_PH	| nvarchar	| Yes	|
-| SKBSPIN_NATN_CODE_LEGAL	| nvarchar	| Yes	|
-| SARADAP_RESD_CODE	| nvarchar	| 	| 
-| SKRSAIN_APPL_DATE	| datetime2	| Yes	|
-| EMAIL_ADDRESS	| nvarchar	| Yes	|
-| SKBUARF_PREDICTEDGRADES	| nvarchar	| Yes	|
-| SKBUARF_ACTIVITY_DATE	| datetime2	| Yes	|
-| SORHSCH_SBGI_CODE	| nvarchar	| Yes	|
-| HIGH_SCHOOL_NAME	| nvarchar	| Yes	|
-| ETH_CODE	| nvarchar	| Yes	|
-| STVDISA_DESC	| nvarchar	| Yes	|
-| SKRSAIN_SSDT_CODE_PARED	| nvarchar	| Yes	|
-| skrsain_care	| nvarchar	| Yes	|
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|----------|--------------|
+| SPRIDEN_PIDM	| numeric	| 	| 	|
+| SARADAP_TERM_CODE_ENTRY	| nvarchar	| 6	| 	|
+| SKRSAIN_APPLICANT_NO	| nvarchar	| 9	| 	|
+| SPRIDEN_ID	| nvarchar	| 9	| 	|
+| SARADAP_APPL_NO	| numeric	| 	| 	|
+| SKRSAIN_PERSONALID	| nvarchar	| 10	| Yes |
+| SPRIDEN_LAST_NAME	| nvarchar	| 60	| 	|
+| SPRIDEN_FIRST_NAME	| nvarchar	| 60	| Yes |
+| SPRIDEN_MI	| nvarchar	| 60	| Yes |
+| STUDENT_INITIALS	| nvarchar	| 2	| Yes |
+| SPBPERS_NAME_PREFIX	| nvarchar	| 20	| Yes |
+| SPBPERS_BIRTH_DATE	| datetime2	| 	| Yes |
+| CURRENT_AGE	| nvarchar	| 384	| Yes |
+| AGE_AT_ENTRY	| nvarchar	| 384	| Yes |
+| SPBPERS_SEX	| nvarchar	| Yes | Yes |
+| SPRMEDI_DISA_CODE	| nvarchar	| 2	| Yes |
+| SKRSAIN_CRIMINAL_CONV	| nvarchar	| Yes | Yes |
+| SKRUCCR_SSDT_CODE_HOME	| nvarchar	| Yes | Yes |
+| STREET_ADDRESS_PH_LINE1	| nvarchar	| 75	| Yes |
+| STREET_ADDRESS_PH_LINE2	| nvarchar	| 75	| Yes |
+| STREET_ADDRESS_PH_LINE3	| nvarchar	| 75	| Yes |
+| SPRADDR_CITY	| nvarchar	| 50	| Yes |
+| SPRADDR_ZIP	| nvarchar	| 30	| Yes |
+| NATION_DESCRIPTION_PH	| nvarchar	| 30	| Yes |
+| TELEPHONE_NUMBER_PH	| nvarchar	| 4000	| Yes |
+| SKBSPIN_NATN_CODE_LEGAL	| nvarchar	| 50	| Yes |
+| SARADAP_RESD_CODE	| nvarchar	| Yes | 	|
+| SKRSAIN_APPL_DATE	| datetime2	| 	| Yes |
+| EMAIL_ADDRESS	| nvarchar	| 4000	| Yes |
+| SKBUARF_PREDICTEDGRADES	| nvarchar	| 1000	| Yes |
+| SKBUARF_ACTIVITY_DATE	| datetime2	| 	| Yes |
+| SORHSCH_SBGI_CODE	| nvarchar	| 6	| Yes |
+| HIGH_SCHOOL_NAME	| nvarchar	| 30	| Yes |
+| ETH_CODE	| nvarchar	| 2	| Yes |
+| STVDISA_DESC	| nvarchar	| 30	| Yes |
+| SKRSAIN_SSDT_CODE_PARED	| nvarchar	| Yes | Yes |
+| skrsain_care	| nvarchar	| 10	| Yes |
 
 ## h_Decisions
 

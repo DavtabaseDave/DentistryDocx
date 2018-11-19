@@ -53,26 +53,26 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_Decisions.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| SKRUCCR_PIDM	| numeric	| 	| 
-| SKRUCCR_APPLICANT_NO	| nvarchar	| 	| 
-| SKRUCCR_CHOICE_TYPE_NO	| nvarchar	| 	| 
-| SKRUCCR_SSDT_CODE_CRSE	| nvarchar	| Yes	|
-| PROGRAM_CODE	| nvarchar	| Yes	|
-| PROGRAM_DESC	| nvarchar	| Yes	|
-| SKRSAIN_SSDT_CODE_CWD_FLG	| nvarchar	| Yes	|
-| SKRUCCR_SSDT_CODE_DECN	| nvarchar	| Yes	|
-| SKRUCCR_DECISION_DATE	| datetime2	| Yes	|
-| SKRUDEC_TRANS_STATUS	| nvarchar	| Yes	|
-| SKRUCCR_SSDT_CODE_REPLY	| nvarchar	| Yes	|
-| SKRUCCR_SSDT_CODE_CF_DECN	| nvarchar	| Yes	|
-| SKRUCCR_SSDT_CODE_AP_RESP	| nvarchar	| Yes	|
-| SKRUCCR_PROP_ENTRY_YR	| numeric	| Yes	|
-| SKRUCCR_PROP_ENTRY_MTH	| numeric	| Yes	|
-| SKRUCCR_CONDITIONS	| nvarchar	| Yes	|
-| SKRUCCR_SSDT_CODE_ENTRY	| nvarchar	| Yes	|
-| isDeferred	| bit	| Yes	|
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|----------|--------------|
+| SKRUCCR_PIDM	| numeric	| 	| |
+| SKRUCCR_APPLICANT_NO	| nvarchar	| 9	| |
+| SKRUCCR_CHOICE_TYPE_NO	| nvarchar	| 2	| |
+| SKRUCCR_SSDT_CODE_CRSE	| nvarchar	| 12	| Yes |
+| PROGRAM_CODE	| nvarchar	| 12	| Yes |
+| PROGRAM_DESC	| nvarchar	| 255	| Yes |
+| SKRSAIN_SSDT_CODE_CWD_FLG	| nvarchar	| 1 | Yes |
+| SKRUCCR_SSDT_CODE_DECN	| nvarchar	| 3	| Yes |
+| SKRUCCR_DECISION_DATE	| datetime2	| 	| Yes |
+| SKRUDEC_TRANS_STATUS	| nvarchar	| 2	| Yes |
+| SKRUCCR_SSDT_CODE_REPLY	| nvarchar	| 3	| Yes |
+| SKRUCCR_SSDT_CODE_CF_DECN	| nvarchar	| 1 | Yes |
+| SKRUCCR_SSDT_CODE_AP_RESP	| nvarchar	| 1 | Yes |
+| SKRUCCR_PROP_ENTRY_YR	| numeric	| 	| Yes |
+| SKRUCCR_PROP_ENTRY_MTH	| numeric	| 	| Yes |
+| SKRUCCR_CONDITIONS	| nvarchar	| 6	| Yes |
+| SKRUCCR_SSDT_CODE_ENTRY	| nvarchar	| 1 | Yes |
+| isDeferred	| bit	| 	| Yes |
 
 ## h_A2L_RR
 

@@ -284,13 +284,13 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 MMI Schedule after being imported and matched with an applicant record. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_MMI_Schedule.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
-|-----------|----------|--------------|-------|-------|-------|
-| pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
-| Date	| datetime	| 	| 	| 	|  |
-| Time	| datetime	| 	| 	| 	|  |
-| Colour	| varchar	| 	| 	| 	|  |
-| Number	| tinyint	| Yes	| 	| 	|  |
+| Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|--------------|-------|-------|-------|
+| pidm	| int	|| 	| Yes	| Yes	| t_Dntl_Applicants |
+| Date	| datetime	|| 	| 	| 	|  |
+| Time	| datetime	| |	| 	| 	|  |
+| Colour	| varchar	| 10|	| 	| 	|  |
+| Number	| tinyint	| Yes |	| 	| 	|  |
 
 ## Practique_finalscores
 

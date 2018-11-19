@@ -270,23 +270,23 @@ XLSX import table for DHDT_RejFdbkLetter$. Full source [here](https://university
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| PERSONAL_ID	| nvarchar	| Yes	|
-| STUDENT_ID	| nvarchar	| Yes	|
-| STUDENT_FIRST_NAME	| nvarchar	| Yes	|
-| STUDENT_LAST_NAME	| nvarchar	| Yes	|
-| EMAIL_ADDRESS	| nvarchar	| Yes	|
-| STREET_ADDRESS_PH_LINEYes	| nvarchar	| Yes	|
-| STREET_ADDRESS_PH_LINE2	| nvarchar	| Yes	|
-| STREET_ADDRESS_PH_LINE3	| nvarchar	| Yes	|
-| CITY_PH	| nvarchar	| Yes	|
-| POSTCODE_PH	| nvarchar	| Yes	|
-| NATION_DESCRIPTION_PH	| nvarchar	| Yes	|
-| Life Experience and Social Awareness:	| nvarchar	| Yes	|
-| Motivation And Insight	| nvarchar	| Yes	|
-| Reflective Skills	| nvarchar	| Yes	|
-| Interests and Achievements	| nvarchar	| Yes	|
+| Attribute | DataType | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|
+| PERSONAL_ID	| nvarchar	| 255 | Yes	|
+| STUDENT_ID	| nvarchar	| 255 | Yes	|
+| STUDENT_FIRST_NAME	| nvarchar	| 255 | Yes	|
+| STUDENT_LAST_NAME	| nvarchar	| 255 | Yes	|
+| EMAIL_ADDRESS	| nvarchar	| 255 | Yes	|
+| STREET_ADDRESS_PH_LINEYes	| nvarchar	| 255 | Yes	|
+| STREET_ADDRESS_PH_LINE2	| nvarchar	| 255 | Yes	|
+| STREET_ADDRESS_PH_LINE3	| nvarchar	| 255 | Yes	|
+| CITY_PH	| nvarchar	| 255 | Yes	|
+| POSTCODE_PH	| nvarchar	| 255 | Yes	|
+| NATION_DESCRIPTION_PH	| nvarchar	| 255 | Yes	|
+| Life Experience and Social Awareness:	| nvarchar	| 255 | Yes	|
+| Motivation And Insight	| nvarchar	| 255 | Yes	|
+| Reflective Skills	| nvarchar	| 255 | Yes	|
+| Interests and Achievements	| nvarchar	| 255 | Yes	|
 
 ## IFY$
 

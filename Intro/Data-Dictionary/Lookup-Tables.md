@@ -84,8 +84,8 @@ Populates the MMI Decision menu against the applicant's decision. Full source [h
 
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? |
 |-----------|----------|--------------|--------------|-------|
-| MMI_dec_code	| tinyint	| 	| Yes	|
-| MMI_dec_desc	| varchar	| 	| 	| 
+| MMI_dec_code	| tinyint	| |	| Yes	|
+| MMI_dec_desc	| varchar	| 35 |	| 	| 
 
 ## l_Predicted_Grade
 

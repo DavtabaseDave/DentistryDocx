@@ -414,42 +414,43 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## ResultsSheet$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FResultsSheet_.sql&version=GBmaster)
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| Selector Centre	| nvarchar	| Yes	| 	| 	|  |
-| Faculty	| nvarchar	| Yes	| 		| 	|  |
-| School	| nvarchar	| Yes	| 	| 	|  |
-| Year	| nvarchar	| Yes	| 	| 	|  |
-| Level	| nvarchar	| Yes	| 	| 	|  |
-| Fee Code	| nvarchar	| Yes	| 	| 	|  |
-| Surname	| nvarchar	| Yes	| 	| 	|  |
-| First Name	| nvarchar	| Yes	| 	| 	|  |
-| DoB	| datetime	| Yes	| 	| 	|  |
-| Student ID	| nvarchar	| Yes	| 	| 	|  |
-| UCAS ID	| nvarchar	| Yes	| 	| 	|  |
-| App Number	| nvarchar	| Yes	| 	| 	|  |
-| Course	| nvarchar	| Yes	| 	| 	|  |
-| Course Desc	| nvarchar	| Yes	| 	| 	|  |
-| Dec Code	| nvarchar	| Yes	| 	| 	|  |
-| App Reply	| nvarchar	| Yes	| 	| 	|  |
-| Conf Dec	| nvarchar	| Yes	| 	| 	|  |
-| Conf Rep	| nvarchar	| Yes	| 	| 	|  |
-| Full Offer Text	| nvarchar	| Yes	| 	| 	|  |
-| Condition Code	| nvarchar	| Yes	| 	| 	|  |
-| App date	| datetime	| Yes	| 	| 	|  |
-| Age Yesst Oct	| nvarchar	| Yes	| 	| 	|  |
-| Late App	| nvarchar	| Yes	| 	| 	|  |
-| IELTS	| nvarchar	| Yes	| 	| 	|  |
-| A2L	| nvarchar	| Yes	| 	| 	|  |
-| RoP	| nvarchar	| Yes	| 	| 	|  |
-| Full Results	| nvarchar	| Yes	| 	| 	|  |
-| Decision	| nvarchar	| Yes	| 	| 	|  |
-| Result Position	| nvarchar	| Yes	| 	| 	|  |
-| Quality	| nvarchar	| Yes	| 	| 	|  |
-| Notes	| nvarchar	| Yes	| 	| 	|  |
-| Received as CCO	| nvarchar	| Yes	| 	| 	|  |
-| Received from	| nvarchar	| Yes	| 	| 	|  |
-| Old Course Code	| nvarchar	| Yes	| 	| 	|  |
+
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|--------------|--------------|
+| Selector Centre	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Faculty	| nvarchar	| 255 | Yes	| 		| 	|  |
+| School	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Year	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Level	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Fee Code	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Surname	| nvarchar	| 255 | Yes	| 	| 	|  |
+| First Name	| nvarchar	| 255 | Yes	| 	| 	|  |
+| DoB	| datetime |	| Yes	| 	| 	|  |
+| Student ID	| nvarchar	| 255 | Yes	| 	| 	|  |
+| UCAS ID	| nvarchar	| 255 | Yes	| 	| 	|  |
+| App Number	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Course	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Course Desc	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Dec Code	| nvarchar	| 255 | Yes	| 	| 	|  |
+| App Reply	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Conf Dec	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Conf Rep	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Full Offer Text	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Condition Code	| nvarchar	| 255 | Yes	| 	| 	|  |
+| App date	| datetime |	| Yes	| 	| 	|  |
+| Age Yesst Oct	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Late App	| nvarchar	| 255 | Yes	| 	| 	|  |
+| IELTS	| nvarchar	| 255 | Yes	| 	| 	|  |
+| A2L	| nvarchar	| 255 | Yes	| 	| 	|  |
+| RoP	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Full Results	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Decision	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Result Position	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Quality	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Notes	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Received as CCO	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Received from	| nvarchar	| 255 | Yes	| 	| 	|  |
+| Old Course Code	| nvarchar	| 255 | Yes	| 	| 	|  |
 
 ## UCAS_Scores$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FUCAS_Scores_.sql&version=GBmaster)

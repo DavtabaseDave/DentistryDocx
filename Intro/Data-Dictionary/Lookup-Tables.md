@@ -145,8 +145,8 @@ List Ethnicity by Banner code. Full source [here](https://universityofleeds.visu
 
 List nations by Banner code. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_stvnatn.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
-|-----------|----------|--------------|-------|-------|
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? | Description |
+|-----------|----------|--------------|--------------|-------|-------|
 | skvssdt_sdat_code_opt_1	| varchar	|  | Yes | Banner code |
 | skvssdt_short_title	| varchar	|  |  | Nation |
 

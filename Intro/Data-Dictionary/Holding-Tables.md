@@ -454,18 +454,19 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 ## UCAS_Scores$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FUCAS_Scores_.sql&version=GBmaster)
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| STUDENT_LAST_NAME	| nvarchar	| Yes	| 	| 	|
-| STUDENT_FIRST_NAME	| nvarchar	| Yes	| 	| 	|
-| PERSONAL_ID	| float	| Yes	| 	| 	|
-| STUDENT_ID	| nvarchar	| Yes	| 	| 	|
-| ETHNICITY_DESCRIPTION	| nvarchar	| Yes	| 	| 	|
-| GENDER	| nvarchar	| Yes	| 	| 	|
-| Life Experience and Social Awareness	| nvarchar	| Yes	| 	| 	|
-| Motivation and Insight	| nvarchar	| Yes	| 	| 	|
-| Reflective Skills	| nvarchar	| Yes	| 	| 	|
-| Interests and Achievements	| nvarchar	| Yes	| 	| 	|
-| GLOBAL	| nvarchar	| Yes	| 	| 	|
-| Overall Score (minus Global)	| nvarchar	| Yes	| 	| 	|
-| F13	| nvarchar	| Yes	| 	| 	|
+
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|--------------|--------------|
+| STUDENT_LAST_NAME	| nvarchar	| 255 | Yes	| 	| 	|
+| STUDENT_FIRST_NAME	| nvarchar	| 255 | Yes	| 	| 	|
+| PERSONAL_ID	| float	| | Yes	| 	| 	|
+| STUDENT_ID	| nvarchar	| 255 | Yes	| 	| 	|
+| ETHNICITY_DESCRIPTION	| nvarchar	| 255 | Yes	| 	| 	|
+| GENDER	| nvarchar	| 255 | Yes	| 	| 	|
+| Life Experience and Social Awareness	| nvarchar	| 255 | Yes	| 	| 	|
+| Motivation and Insight	| nvarchar	| 255 | Yes	| 	| 	|
+| Reflective Skills	| nvarchar	| 255 | Yes	| 	| 	|
+| Interests and Achievements	| nvarchar	| 255 | Yes	| 	| 	|
+| GLOBAL	| nvarchar	| 255 | Yes	| 	| 	|
+| Overall Score (minus Global)	| nvarchar	| 255 | Yes	| 	| 	|
+| F13	| nvarchar	| 255 | Yes	| 	| 	|

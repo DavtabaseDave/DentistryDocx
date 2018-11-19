@@ -158,28 +158,28 @@ Data imported for the different GCSE scores. Full source [here](https://universi
 
 Data imported for the different MMI rankings. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_All_MMI_Rankings.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
-|-----------|----------|--------------|-------|-------|-------|
-| pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
-| prog_code	| varchar	| 	| Yes	| 	|  |
-| Mean_Rank_Task	| float	| 	| 	| 	|  |
-| Offer_Cutoff	| float	| 	| 	| 	|  |
-| Station_1_Mean_Percentile_Rank	| tinyint	| 	| 	| 	|  |
-| Station_1_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
-| Station_2_Mean_Percentile_Rank	| tinyint	| 	| 	| 	|  |
-| Station_2_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
-| Station_3_Mean_Percentile_Rank	| tinyint	| 	| 	| 	|  |
-| Station_3_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
-| Station_4_Mean_Percentile_Rank	| tinyint	| 	| 	| 	|  |
-| Station_4_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
-| Station_5_Mean_Percentile_Rank	| tinyint	| 	| 	| 	|  |
-| Station_5_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
-| Station_6_Mean_Percentile_Rank	| tinyint	| 	| 	| 	|  |
-| Station_6_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
-| Station_7_Mean_Percentile_Rank	| tinyint	| 	| 	| 	|  |
-| Station_7_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
-| Station_8_Mean_Percentile_Rank	| tinyint	| 	| 	| 	|  |
-| Station_8_Quartile_Rank	| tinyint	| 	| 	| Yes	| l_Quartile_Rank |
+| Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|--------------|-------|-------|-------|
+| pidm	| int	| |	| Yes	| Yes	| t_Dntl_Applicants |
+| prog_code	| varchar	| 12 |	| Yes	| 	|  |
+| Mean_Rank_Task	| float |	| 	| 	| 	|  |
+| Offer_Cutoff	| float |	| 	| 	| 	|  |
+| Station_1_Mean_Percentile_Rank	| tinyint	| | 	| 	| 	|  |
+| Station_1_Quartile_Rank	| tinyint	| | |	| 	| Yes	| l_Quartile_Rank |
+| Station_2_Mean_Percentile_Rank	| tinyint	| | 	| 	| 	|  |
+| Station_2_Quartile_Rank	| tinyint	| | 	| 	| Yes	| l_Quartile_Rank |
+| Station_3_Mean_Percentile_Rank	| tinyint	| | 	| 	| 	|  |
+| Station_3_Quartile_Rank	| tinyint	| | 	| 	| Yes	| l_Quartile_Rank |
+| Station_4_Mean_Percentile_Rank	| tinyint	| | 	| 	| 	|  |
+| Station_4_Quartile_Rank	| tinyint	| | 	| 	| Yes	| l_Quartile_Rank |
+| Station_5_Mean_Percentile_Rank	| tinyint	| | 	| 	| 	|  |
+| Station_5_Quartile_Rank	| tinyint	| | 	| 	| Yes	| l_Quartile_Rank |
+| Station_6_Mean_Percentile_Rank	| tinyint	| | 	| 	| 	|  |
+| Station_6_Quartile_Rank	| tinyint	| | 	| 	| Yes	| l_Quartile_Rank |
+| Station_7_Mean_Percentile_Rank	| tinyint	| | 	| 	| 	|  |
+| Station_7_Quartile_Rank	| tinyint	| | 	| 	| Yes	| l_Quartile_Rank |
+| Station_8_Mean_Percentile_Rank	| tinyint	| | 	| 	| 	|  |
+| Station_8_Quartile_Rank	| tinyint	| | 	| 	| Yes	| l_Quartile_Rank |
 
 ## BMAT_Scores
 

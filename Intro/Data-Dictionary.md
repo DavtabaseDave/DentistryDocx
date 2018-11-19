@@ -1,5 +1,7 @@
 # Data Dictionary
 
+**NB: all character column lengths are listed by characters NOT number of bytes**
+
 ## [Lookup Tables](/Intro/Data-Dictionary/Lookup-Tables)
 
 ## [Holding Tables](/Intro/Data-Dictionary/Holding-Tables)

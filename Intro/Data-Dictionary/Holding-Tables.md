@@ -113,10 +113,10 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fh_Results.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| SORTEST_PIDM	| numeric	| Yes	|
-| ACTUAL_RESULTS	| nvarchar	| Yes	|
+| Attribute | DataType | Data Length | Allow Nulls? |
+|-----------|----------|----------|--------------|
+| SORTEST_PIDM	|numeric	|| Yes	|
+| ACTUAL_RESULTS	| nvarchar	| 1000 | Yes	|
 
 ## h_stvethn
 

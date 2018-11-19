@@ -118,8 +118,8 @@ Populates the "Reason for Rejection" menu on the Decisions tab. Full source [her
 
 Lists programme descriptions by Banner codes, e.g. "BA-ECON". Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_smrprle.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | 
-|-----------|----------|--------------|-------|-------|
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? |
+|-----------|----------|--------------|--------------|-------|
 | smrprle_program	| varchar	|  | Yes | Prog Code |
 | smrprle_program_desc	| varchar	|  |  | Programme |
 

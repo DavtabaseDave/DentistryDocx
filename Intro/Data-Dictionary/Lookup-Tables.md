@@ -100,11 +100,10 @@ Populates the "Predicted Grade" menu on the Decisions tab. Full source [here](ht
 
 Holds common text for repeating fields in MMI common rankings. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fl_Quartile_Rank.sql&version=GBmaster)
 
-
-| Attribute | DataType | Allow Nulls? | PKey? |
-|-----------|----------|--------------|-------|
-| rank_code	| tinyint	| 	| Yes	|
-| rank_desc	| varchar	| 	| 	|
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? |
+|-----------|----------|--------------|--------------|-------|
+| rank_code	| tinyint	| |	| Yes	|
+| rank_desc	| varchar	| 30 | 	| 	|
 
 ## l_Reason_Rej
 

@@ -333,13 +333,14 @@ XLSX import table for IFY applicants..  Also used for importing ISFY and PHE app
 
 ## MMI_Decisions$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FMMI_Decisions_.sql&version=GBmaster)
-| Attribute | DataType | Allow Nulls? | Notes |
-|-----------|----------|--------------|--------------|
+
+| Attribute | DataType | Data Length | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|--------------|
 | ID	| float	| Yes	| 	| 
-| Student ID	| nvarchar	| Yes	| 	
-| Applicant Name	| nvarchar	| Yes	| 	| 
-| MMI Decision	| nvarchar	| Yes	| 	| 
-| CourseFor	| nvarchar	| Yes	| 	| 
+| Student ID	| nvarchar	| 255 | Yes	| 	
+| Applicant Name	| nvarchar	| 255 | Yes	| 	| 
+| MMI Decision	| nvarchar	| 255 | Yes	| 	| 
+| CourseFor	| nvarchar	| 255 | Yes	| 	| 
 | pidm	| int	| Yes	| set by importing script	| 
 
 ## MMI_Schedule$

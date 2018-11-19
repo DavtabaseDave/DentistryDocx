@@ -138,8 +138,8 @@ List Ethnicity by Banner code. Full source [here](https://universityofleeds.visu
 
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? | Description |
 |-----------|----------|--------------|--------------|-------|-------|
-| stvethn_code| varchar	|  | Yes | Banner code |
-| stvethn_desc| varchar	|  |  | Ethnicity|
+| stvethn_code| varchar	| 2 |  | Yes | Banner code |
+| stvethn_desc| varchar	| 30 | |  | Ethnicity|
 
 ## l_stvnatn
 

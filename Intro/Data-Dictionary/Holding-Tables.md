@@ -145,8 +145,8 @@ These table are *NOT* standard user visible, they are for administrative use onl
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FA2L_Passlist_.sql&version=GBmaster)
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-| Attribute | DataType | Allow Nulls? | Notes |
-|-----------|----------|--------------|--------------|
+| Attribute | DataType | Data Length | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|--------------|
 | First Name	| nvarchar	| Yes	|
 | Surname	| nvarchar	| Yes	|
 | UCAS ID	| float	| Yes	|

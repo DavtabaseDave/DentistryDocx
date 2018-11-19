@@ -237,32 +237,32 @@ XLSX import table for BMAT Scores. Full source [here](https://universityofleeds.
 
 *ALL* of these columns must be present in the spreadsheet otherwise the import will fail
 
-| Attribute | DataType | Allow Nulls? |
-|-----------|----------|--------------|
-| Centre Number	| nvarchar	| Yes	|
-| Centre Name	| nvarchar	| Yes	|
-| CandidateID	| float	| Yes	|
-| BannerID	| nvarchar	| Yes	|
-| Forenames	| nvarchar	| Yes	|
-| Surname	| nvarchar	| Yes	|
-| Test	| nvarchar	| Yes	|
-| Date of Birth	| datetime	| Yes	|
-| Gender	| nvarchar	| Yes	|
-| Special Considerations	| nvarchar	| Yes	|
-| Section Yes Score	| float	| Yes	|
-| Section 2 Score	| float	| Yes	|
-| Essay Answered	| nvarchar	| Yes	|
-| Section 3 Content	| float	| Yes	|
-| Section 3 English	| nvarchar	| Yes	|
-| Section 3 English Score	| float	| Yes	|
-| Overall Score	| float	| Yes	|
-| Overall Rank	| float	| Yes	|
-| Absent Flag	| nvarchar	| Yes	|
-| UCASID	| float	| Yes	|
-| Institution	| nvarchar	| Yes	|
-| Course Code	| nvarchar	| Yes	|
-| Time Zone	| float	| Yes	|
-| OptionalID	| nvarchar	| Yes	|
+| Attribute | DataType | Allow Nulls? | Notes |
+|-----------|----------|--------------|--------------|
+| Centre Number	| nvarchar	| 255 | Yes	|
+| Centre Name	| nvarchar	| 255 | Yes	|
+| CandidateID	| float	| | Yes	|
+| BannerID	| nvarchar	| 255 | Yes	|
+| Forenames	| nvarchar	| 255 | Yes	|
+| Surname	| nvarchar	| 255 | Yes	|
+| Test	| nvarchar	| 255 | Yes	|
+| Date of Birth	| datetime |	| Yes	|
+| Gender	| nvarchar	| 255 | Yes	|
+| Special Considerations	| nvarchar	| 255 | Yes	|
+| Section Yes Score	| float	| | Yes	|
+| Section 2 Score	| float	| | Yes	|
+| Essay Answered	| nvarchar	| 255 | Yes	|
+| Section 3 Content	| float	| | Yes	|
+| Section 3 English	| nvarchar	| 255 | Yes	|
+| Section 3 English Score	| float	| | Yes	|
+| Overall Score	| float	| | Yes	|
+| Overall Rank	| float	| | Yes	|
+| Absent Flag	| nvarchar	| 255 | Yes	|
+| UCASID	| float	| | Yes	|
+| Institution	| nvarchar	| 255 | Yes	|
+| Course Code	| nvarchar	| 255 | Yes	|
+| Time Zone	| float	| | Yes	|
+| OptionalID	| nvarchar	| 255 | Yes	|
 
 ## DHDT_RejFdbkLetter$
 

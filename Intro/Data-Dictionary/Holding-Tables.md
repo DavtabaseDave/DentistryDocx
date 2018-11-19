@@ -341,7 +341,7 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Applicant Name	| nvarchar	| 255 | Yes	| 	| 
 | MMI Decision	| nvarchar	| 255 | Yes	| 	| 
 | CourseFor	| nvarchar	| 255 | Yes	| 	| 
-| pidm	| int	| Yes	| set by importing script	| 
+| pidm	| int	|| Yes	| set by importing script	| 
 
 ## MMI_Schedule$
 Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2FMMI_Schedule_.sql&version=GBmaster)

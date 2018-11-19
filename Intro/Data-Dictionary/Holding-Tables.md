@@ -148,16 +148,16 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Attribute | DataType | Data Length | Allow Nulls? | Notes |
 |-----------|----------|--------------|--------------|--------------|
 | First Name	| nvarchar	| 255 | Yes	|
-| Surname	| nvnvarchar	| 255 | Yes	|
+| Surname	| nvarchar	| 255 | Yes	|
 | UCAS ID	| float	| |Yes	|
-| Banner ID	| nvnvarchar	| 255 | Yes	|
+| Banner ID	| nvarchar	| 255 | Yes	|
 | Route	| float	| |Yes	|
-| Course Code	| nvnvarchar	| 255 | Yes	|
-| Programme	| nvnvarchar	| 255 | Yes	|
-| Offer status	| nvnvarchar	| 255 | Yes	|
-| Study Skills Pass	| nvnvarchar	| 255 | Yes	|
-| Subject Mark	| nvnvarchar	| 255 | Yes	|
-| A2L Pass	| nvnvarchar	| 255 | Yes	|
+| Course Code	| nvarchar	| 255 | Yes	|
+| Programme	| nvarchar	| 255 | Yes	|
+| Offer status	| nvarchar	| 255 | Yes	|
+| Study Skills Pass	| nvarchar	| 255 | Yes	|
+| Subject Mark	| nvarchar	| 255 | Yes	|
+| A2L Pass	| nvarchar	| 255 | Yes	|
 | pidm	| int	| | Yes	| set by import routine |
 
 ## Academic_Scores$
@@ -168,32 +168,32 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 | Attribute | DataType | Allow Nulls? | Notes |
 |-----------|----------|--------------|--------------|
 | PIDM	| float	| |Yes	| **NOT** set by import routine |
-| Scorer Name	| nvnvarchar	| 255 | Yes	| |
-| Leeds Code	| nvnvarchar	| 255 | Yes	| |
-| Standard entry - GCSE English	| nvnvarchar	| 255 | Yes	| |
-| Standard entry - GCSE Maths	| nvnvarchar	| 255 | Yes	| |
-| Standard entry - GCSE Biology or Science	| nvnvarchar	| 255 | Yes	| |
-| Standard entry - GCSE Chemistry or Science	| nvnvarchar	| 255 | Yes	| |
-| Standard entry - GCSE other 1	| nvnvarchar	| 255 | Yes	| |
-| Standard entry - GCSE other 2	| nvnvarchar	| 255 | Yes	| |
-| Standard entry - GCSE other 3	| nvnvarchar	| 255 | Yes	| |
-| Standard entry - GCSE other 4	| nvnvarchar	| 255 | Yes	| |
-| Standard entry - GCSE other 5	| nvnvarchar	| 255 | Yes	| |
-| Standard entry - A2	| nvnvarchar	| 255 | Yes	| |
-| Graduate English GCSE	| nvnvarchar	| 255 | Yes	| |
-| Graduate Maths GCSE	| nvnvarchar	| 255 | Yes	| |
-| Graduate Biology GCSE	| nvnvarchar	| 255 | Yes	| |
-| Graduate Chemistry GCSE	| nvnvarchar	| 255 | Yes	| |
-| Graduate GCSE any 1	| nvnvarchar	| 255 | Yes	| |
-| Graduate GCSE Any 2	| nvnvarchar	| 255 | Yes	| |
-| Graduate A-level Biology	| nvnvarchar	| 255 | Yes	| |
-| Graduate A-level Chemistry	| nvnvarchar	| 255 | Yes	| |
-| Graduate Third Subject	| nvnvarchar	| 255 | Yes	| |
-| Graduate Other A-level 1	| nvnvarchar	| 255 | Yes	| |
-| Graduate Other A-level 2	| nvnvarchar	| 255 | Yes	| |
-| Graduate - Degree name	| nvnvarchar	| 255 | Yes	| |
-| Graduate - Degree classification Degree	| nvnvarchar	| 255 | Yes	| |
-| A2HE DHDT only	| nvnvarchar	| 255 | Yes	| |
+| Scorer Name	| nvarchar	| 255 | Yes	| |
+| Leeds Code	| nvarchar	| 255 | Yes	| |
+| Standard entry - GCSE English	| nvarchar	| 255 | Yes	| |
+| Standard entry - GCSE Maths	| nvarchar	| 255 | Yes	| |
+| Standard entry - GCSE Biology or Science	| nvarchar	| 255 | Yes	| |
+| Standard entry - GCSE Chemistry or Science	| nvarchar	| 255 | Yes	| |
+| Standard entry - GCSE other 1	| nvarchar	| 255 | Yes	| |
+| Standard entry - GCSE other 2	| nvarchar	| 255 | Yes	| |
+| Standard entry - GCSE other 3	| nvarchar	| 255 | Yes	| |
+| Standard entry - GCSE other 4	| nvarchar	| 255 | Yes	| |
+| Standard entry - GCSE other 5	| nvarchar	| 255 | Yes	| |
+| Standard entry - A2	| nvarchar	| 255 | Yes	| |
+| Graduate English GCSE	| nvarchar	| 255 | Yes	| |
+| Graduate Maths GCSE	| nvarchar	| 255 | Yes	| |
+| Graduate Biology GCSE	| nvarchar	| 255 | Yes	| |
+| Graduate Chemistry GCSE	| nvarchar	| 255 | Yes	| |
+| Graduate GCSE any 1	| nvarchar	| 255 | Yes	| |
+| Graduate GCSE Any 2	| nvarchar	| 255 | Yes	| |
+| Graduate A-level Biology	| nvarchar	| 255 | Yes	| |
+| Graduate A-level Chemistry	| nvarchar	| 255 | Yes	| |
+| Graduate Third Subject	| nvarchar	| 255 | Yes	| |
+| Graduate Other A-level 1	| nvarchar	| 255 | Yes	| |
+| Graduate Other A-level 2	| nvarchar	| 255 | Yes	| |
+| Graduate - Degree name	| nvarchar	| 255 | Yes	| |
+| Graduate - Degree classification Degree	| nvarchar	| 255 | Yes	| |
+| A2HE DHDT only	| nvarchar	| 255 | Yes	| |
 | Total	| float	| | Yes	| |
 
 ## All MMI Rankings$
@@ -204,32 +204,32 @@ Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_gi
 
 | Attribute | DataType | Allow Nulls? |
 |-----------|----------|--------------|
-| Candidate_number	| nvarchar	| Yes	|
-| Candidate_Name	| nvarchar	| Yes	|
-| Course	| nvarchar	| Yes	|
-| Cohort_Ranked_In	| nvarchar	| Yes	|
-| Mean_Task	| float	| Yes	|
-| Mean_Rank_Task	| float	| Yes	|
-| Offer_Cutoff	| float	| Yes	|
-| Mean_Task_Low_score_removed	| float	| Yes	|
-| Rank_Task_low_score_removed	| float	| Yes	|
-| Rank_Difference	| float	| Yes	|
-| Station_Yes_Mean_Percentile_Rank	| float	| Yes	|
-| Station_Yes_Quartile_Rank	| nvarchar	| Yes	|
-| Station_2_Mean_Percentile_Rank	| float	| Yes	|
-| Station_2_Quartile_Rank	| nvarchar	| Yes	|
-| Station_3_Mean_Percentile_Rank	| float	| Yes	|
-| Station_3_Quartile_Rank	| nvarchar	| Yes	|
-| Station_4_Mean_Percentile_Rank	| float	| Yes	|
-| Station_4_Quartile_Rank	| nvarchar	| Yes	|
-| Station_5_Mean_Percentile_Rank	| float	| Yes	|
-| Station_5_Quartile_Rank	| nvarchar	| Yes	|
-| Station_6_Mean_Percentile_Rank	| float	| Yes	|
-| Station_6_Quartile_Rank	| nvarchar	| Yes	|
-| Station_7_Mean_Percentile_Rank	| float	| Yes	|
-| Station_7_Quartile_Rank	| nvarchar	| Yes	|
-| Station_8_Mean_Percentile_Rank	| float	| Yes	|
-| Station_8_Quartile_Rank	| nvarchar	| Yes	|
+| Candidate_number	| nvnvarchar	| 255 | Yes	|
+| Candidate_Name	| nvnvarchar	| 255 | Yes	|
+| Course	| nvnvarchar	| 255 | Yes	|
+| Cohort_Ranked_In	| nvnvarchar	| 255 | Yes	|
+| Mean_Task	| nvarchar	| | Yes	|
+| Mean_Rank_Task	| nvarchar	| | Yes	|
+| Offer_Cutoff	| nvarchar	| | Yes	|
+| Mean_Task_Low_score_removed	| nvarchar	| | Yes	|
+| Rank_Task_low_score_removed	| nvarchar	| | Yes	|
+| Rank_Difference	| nvarchar	| | Yes	|
+| Station_Yes_Mean_Percentile_Rank	| nvarchar	| | Yes	|
+| Station_Yes_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_2_Mean_Percentile_Rank	| nvarchar	| | Yes	|
+| Station_2_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_3_Mean_Percentile_Rank	| nvarchar	| | Yes	|
+| Station_3_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_4_Mean_Percentile_Rank	| nvarchar	| | Yes	|
+| Station_4_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_5_Mean_Percentile_Rank	| nvarchar	| | Yes	|
+| Station_5_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_6_Mean_Percentile_Rank	| nvarchar	| | Yes	|
+| Station_6_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_7_Mean_Percentile_Rank	| nvarchar	| | Yes	|
+| Station_7_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
+| Station_8_Mean_Percentile_Rank	| nvarchar	| | Yes	|
+| Station_8_Quartile_Rank	| nvnvarchar	| 255 | Yes	|
 
 ## BMAT_Scores$
 

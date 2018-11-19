@@ -120,8 +120,8 @@ Lists programme descriptions by Banner codes, e.g. "BA-ECON". Full source [here]
 
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? |
 |-----------|----------|--------------|--------------|-------|
-| smrprle_program	| varchar	|  | Yes | Prog Code |
-| smrprle_program_desc	| varchar	|  |  | Programme |
+| smrprle_program	| varchar	| 12 | | Yes | Prog Code |
+| smrprle_program_desc	| varchar	| 150 |  |  | Programme |
 
 ## l_stvdisa
 

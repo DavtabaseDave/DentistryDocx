@@ -111,8 +111,8 @@ Populates the "Reason for Rejection" menu on the Decisions tab. Full source [her
 
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? |
 |-----------|----------|--------------|--------------|-------|
-| rej_code	| tinyint	|  | Yes |  |
-| Reason	| varchar	| |  |  |
+| rej_code	| tinyint	| | | Yes |  |
+| Reason	| varchar	| 75| |  |  |
 
 ## l_smrprle
 

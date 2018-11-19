@@ -69,31 +69,33 @@ local data. Full source [here](https://universityofleeds.visualstudio.com/FAD/FA
 
 Contains mostly Banner derived decision data plus some local management data. Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Ft_Dntl_Decisions.sql&version=GBmaster)
 
-| Attribute | DataType | Allow Nulls? | PKey? | FKey? | Notes |
-|-----------|----------|--------------|-------|-------|-------|
-| skruccr_pidm	| int	| 	| Yes	| Yes	| t_Dntl_Applicants |
-| skruccr_choice_type_no	| varchar	| 	| Yes	| 	|  |
-| skruccr_ssdt_code_crse	| varchar	| 	| 	| 	|  |
-| DEGC_CODE	| varchar	| 	| 	| 	|  |
-| skrutop_program	| varchar	| 	| 	| Yes	| l_smrprle |
-| skruccr_ssdt_code_decn	| varchar	| 	| 	| 	|  |
-| skruccr_decision_date	| datetime	| Yes	| 	| 	|  |
-| skruccr_ssdt_code_reply	| varchar	| Yes	| 	| 	|  |
-| skruccr_ssdt_code_cf_decn	| varchar	| Yes	| 	| 	|  |
-| skruccr_ssdt_code_ap_resp	| varchar	| Yes	| 	| 	|  |
-| skruccr_prop_entry_yr	| smallint	| 	| Yes	| 	|  |
-| skruccr_prop_entry_mth	| smallint	| 	| 	| 	|  |
-| skruccr_conditions	| varchar	| Yes	| 	| 	|  |
-| skruccr_ssdt_code_entry	| varchar	| 	| 	| 	|  |
-| date_off_let_sent	| datetime	| Yes	| 	| 	|  |
-| gurmail_code	| varchar	| 	| 	| 	|  |
-| predicted_grade	| tinyint	| 	| 	| Yes	| l_Predicted_Grade |
-| achieved_grade	| tinyint	| 	| 	| Yes	| l_Achieved_Grade |
-| reason_for_rejection	| tinyint	| 	| 	| Yes	| l_Reason_Rej |
-| Reason_For_Rej_Notes	| varchar	| 	| 	| 	|  |
-| VS	| timestamp	| 	| 	| 	|  |
-| CreatedDate	| smalldatetime	| 	| 	| 	|  |
-| LastUser	| varchar	| 	| 	| 	|  |
+| Attribute | DataType | Data Length | Nullable? | PKey? | FKey? | Notes |
+|-----------|----------|--------------|--------------|-------|-------|-------|
+| skruccr_pidm	| int	| 	| | Yes	| Yes	| t_Dntl_Applicants |
+| skruccr_choice_type_no	| varchar	| 2	| | Yes	| |  |
+| skruccr_ssdt_code_crse	| varchar	| 12	| | | |  |
+| DEGC_CODE	| varchar	| 4	| | | |  |
+| skrutop_program	| varchar	| 12	| | | Yes	| l_smrprle |
+| skruccr_ssdt_code_decn	| varchar	| 3	| | | |  |
+| skruccr_decision_date	| datetime	| 	| Yes	| | |  |
+| skrudec_trans_status	| varchar	| 2	| Yes	| | |  |
+| skruccr_ssdt_code_reply	| varchar	| 3	| Yes	| | |  |
+| skruccr_ssdt_code_cf_decn	| varchar	| 1	| Yes	| | |  |
+| skruccr_ssdt_code_ap_resp	| varchar	| 1	| Yes	| | |  |
+| skruccr_prop_entry_yr	| smallint	| 	| | Yes	| |  |
+| skruccr_prop_entry_mth	| smallint	| 	| | | |  |
+| skruccr_conditions	| varchar	| 6	| Yes	| | |  |
+| skruccr_ssdt_code_entry	| varchar	| Yes	| | | |  |
+| date_off_let_sent	| datetime	| 	| Yes	| | |  |
+| gurmail_code	| varchar	| 20	| | | |  |
+| predicted_grade	| tinyint	| 	| | | Yes	| l_Predicted_Grade |
+| achieved_grade	| tinyint	| 	| | | Yes	| l_Achieved_Grade |
+| reason_for_rejection	| tinyint	| 	| | | Yes	| l_Reason_Rej |
+| Reason_For_Rej_Notes	| varchar	| 200	| | | |  |
+| MMI_Decision	| tinyint	| 	| | | Yes	| l_MMI_Decision |
+| VS	| timestamp	| 	| | | |  |
+| CreatedDate	| smalldatetime	| 	| | | |  |
+| LastUser	| varchar	| 64	| | | |  |
 
 ## A2L_RR
 

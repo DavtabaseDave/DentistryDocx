@@ -14,7 +14,7 @@ Populates the "Achieved Grade" menu on the Decisions tab. Full source [here](htt
 
 This holds the actual documents that can either be customized by the client program or used "as is". Full source [here](https://universityofleeds.visualstudio.com/FAD/FAD%20Team/_git/FAD-SSDT?path=%2FFAD%2Fdbo%2FTables%2Fx_Documents.sql&version=GBmaster)
 
-| Attribute | DataType | Data Length | Allow Nulls? | PKey? | Ref Table |
+| Attribute | DataType | Data Length | Allow Nulls? | PKey? | Notes|
 |-----------|----------|--------------|--------------|-------|-------|
 | fileID	| smallint	| |	| Yes	| 	|
 | filename	| varchar	| 127 |	| 	| 	|

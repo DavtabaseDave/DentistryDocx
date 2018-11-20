@@ -94,7 +94,7 @@ Populates the "Predicted Grade" menu on the Decisions tab. Full source [here](ht
 | Attribute | DataType | Data Length | Allow Nulls? | PKey? |
 |-----------|----------|--------------|--------------|-------|
 | predicted_code	| tinyint	| |  | Yes |
-| predicted_desc	| varchar	| 75 | Yes |  |
+| predicted_desc	| varchar	| 75 | |  |
 
 ## l_Quartile_Rank
 

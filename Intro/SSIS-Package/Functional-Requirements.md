@@ -7,7 +7,7 @@ names object should clearly indicate by a prefix (*"Dent"*) that they are Facult
 - Data being imported from Banner should not "lose" any local data that is part of the same record.
 Consequently "holding" table (with a prefix of "h_") should be used as a temporary store for incoming
 data before it is merged with that actual user tables.
-- To prevent and duplication/confusion, these holding tables should be cleared before the import 
+- To prevent any duplication/confusion, these holding tables should be cleared before the import 
 of data from Banner.
 - To prevent problems at the merging stage, the Banner queries should include descriptions as well
 as codes where the description resides in a lookup table. This applies to such tuples as programme

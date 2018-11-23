@@ -21,7 +21,6 @@ Double clicking on the source queries brings up an editor where the connection, 
 text can be set. This appears thus:
  ![Source _queries.PNG](/.attachments/Source%20_queries-6f663bf7-9c8e-4859-ab29-4daf43fb04f8.PNG)
 
-
 This is repeated for all the source -> destination mappings as required to fulfill the data requirements
 
 ## Data Destination

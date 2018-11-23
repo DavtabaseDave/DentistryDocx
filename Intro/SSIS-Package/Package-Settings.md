@@ -2,7 +2,7 @@
 
 # Package Settings
 
-This sets out the two connection managers and the Package Parameters
+This sets out the two connection managers and the Project Parameters
 
 ## Connection Managers
 

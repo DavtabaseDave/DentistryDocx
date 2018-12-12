@@ -1,5 +1,8 @@
 [[_TOC_]]
 
+**NB: this page must be copied to https://bitbucket.org/lubsit/fad_wiki/wiki/Holding%20Tables after
+any edits so that Dentistry are kept up to date**
+
 # SSIS Import Holding Tables
 
 These are used as temporary stores for Banner data as it is first extract by the SSIS DTSX package.

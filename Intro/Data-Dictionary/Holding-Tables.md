@@ -258,7 +258,7 @@ XLSX import table for BMAT Scores. Full source [here](https://universityofleeds.
 | Overall Score	| float	| | Yes	|
 | Overall Rank	| float	| | Yes	|
 | Absent Flag	| nvarchar	| 255 | Yes	|
-| UCASID	| float	| | Yes	|
+| UCASID	| nvarchar	| 255 | Yes	|
 | Institution	| nvarchar	| 255 | Yes	|
 | Course Code	| nvarchar	| 255 | Yes	|
 | Time Zone	| float	| | Yes	|

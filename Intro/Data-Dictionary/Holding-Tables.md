@@ -241,7 +241,7 @@ XLSX import table for BMAT Scores. Full source [here](https://universityofleeds.
 |-----------|----------|--------------|--------------|--------------|
 | Centre Number	| nvarchar	| 255 | Yes	|
 | Centre Name	| nvarchar	| 255 | Yes	|
-| CandidateID	| float	| | Yes	|
+| CandidateID	| nvarchar	| 255 | Yes	|
 | BannerID	| nvarchar	| 255 | Yes	|
 | Forenames	| nvarchar	| 255 | Yes	|
 | Surname	| nvarchar	| 255 | Yes	|
